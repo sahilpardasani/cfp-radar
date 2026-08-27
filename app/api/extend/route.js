@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
-import { getActiveCFPs, venueContextLine } from "@/lib/cfp";
+import { getActiveCFPs } from "@/lib/cfp";
 import { fetchPaper } from "@/lib/fetchPaper";
 import { chat, parseJSONLoose, llmReady } from "@/lib/llm";
 import { findModel } from "@/lib/models";
 import { apiErrorResponse, guardExpensiveRequest, parseLimitedFormData } from "@/lib/apiSecurity";
 import { UNTRUSTED_CONTENT_RULE, untrustedPromptField } from "@/lib/promptSecurity";
+import { paperPromptExcerpt, venueContextForPaper } from "@/lib/venuePrompt";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
@@ -14,8 +15,9 @@ const SYSTEM = `You are an expert research-development and academic venue adviso
 ${UNTRUSTED_CONTENT_RULE}`;
 
 function promptFor(paperText, extensionIdea, venues) {
-  const full = paperText.length > MAX_PAPER_CHARS ? paperText.slice(0, MAX_PAPER_CHARS) : paperText;
-  return `${untrustedPromptField("CURRENTLY OPEN VENUES", venues.map(venueContextLine).join("\n"), 160_000)}\n\n${untrustedPromptField("SOURCE PAPER TEXT", full, MAX_PAPER_CHARS)}\n\n${untrustedPromptField("USER'S PROPOSED EXTENSION", extensionIdea, 6_000)}\n\nReturn JSON exactly in this shape:\n{\n  "sourcePaperSummary": "2-3 sentences",\n  "alreadyCovered": ["important capability/data/experiment already in the paper"],\n  "noveltyAssessment": "strong | moderate | weak as currently stated",\n  "noveltyRisks": ["where the idea may overlap with the original or be only an incremental rerun"],\n  "strengthenedContribution": "a precise one-paragraph framing of the new paper",\n  "researchQuestions": ["RQ1 ...", "RQ2 ..."],\n  "recommendedExperiments": ["specific experiment, dataset, metric, baseline, or analysis"],\n  "candidateTitle": "possible title",\n  "recommendations": [\n    {\n      "id": "exact venue id",\n      "fitScore": 0-100,\n      "why": "why the extended work fits this conference, workshop, journal, or special issue",\n      "deadlineFeasibility": "comfortable | tight | very tight",\n      "requiredChanges": ["specific work needed before submission"]\n    }\n  ]\n}\nRecommend the top 5 across all venue types. Judge the venue against the strengthened NEW contribution, not merely the source paper.`;
+  const excerpt = paperPromptExcerpt(paperText);
+  const { context, selected, totalCount } = venueContextForPaper(venues, `${paperText.slice(0, 9_000)}\n${extensionIdea}`);
+  return `The application searched all ${totalCount} open venues and selected ${selected.length} candidates for detailed model review.\n\n${untrustedPromptField("CURRENTLY OPEN VENUE CANDIDATES", context, 24_000)}\n\n${untrustedPromptField("REPRESENTATIVE SOURCE PAPER EXCERPT", excerpt, 6_000)}\n\n${untrustedPromptField("USER'S PROPOSED EXTENSION", extensionIdea, 4_000)}\n\nReturn JSON exactly in this shape:\n{\n  "sourcePaperSummary": "2-3 sentences",\n  "alreadyCovered": ["important capability/data/experiment already in the paper"],\n  "noveltyAssessment": "strong | moderate | weak as currently stated",\n  "noveltyRisks": ["where the idea may overlap with the original or be only an incremental rerun"],\n  "strengthenedContribution": "a precise one-paragraph framing of the new paper",\n  "researchQuestions": ["RQ1 ...", "RQ2 ..."],\n  "recommendedExperiments": ["specific experiment, dataset, metric, baseline, or analysis"],\n  "candidateTitle": "possible title",\n  "recommendations": [\n    {\n      "id": "exact venue id",\n      "fitScore": 0-100,\n      "why": "why the extended work fits this conference, workshop, journal, or special issue",\n      "deadlineFeasibility": "comfortable | tight | very tight",\n      "requiredChanges": ["specific work needed before submission"]\n    }\n  ]\n}\nRecommend the top 5 across all venue types. Judge the venue against the strengthened NEW contribution, not merely the source paper.`;
 }
 
 export async function POST(req) {
@@ -50,7 +52,7 @@ export async function POST(req) {
     const content = await chat([
       { role: "system", content: SYSTEM },
       { role: "user", content: promptFor(paperText, extensionIdea, venues) },
-    ], { json: true, temperature: 0.2, maxTokens: 2800, ...modelOpts });
+    ], { json: true, temperature: 0.2, maxTokens: 2000, ...modelOpts });
 
     const parsed = parseJSONLoose(content);
     if (!parsed || !Array.isArray(parsed.recommendations)) return NextResponse.json({ error: "The model returned an unexpected response. Try again." }, { status: 502 });

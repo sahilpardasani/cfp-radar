@@ -7,6 +7,7 @@ import { readResponseBuffer, validateRemoteUrl } from "../lib/safeFetch.js";
 import nextConfig from "../next.config.js";
 import { llmConfig } from "../lib/llm.js";
 import { DEFAULT_MODEL_ID, findModel } from "../lib/models.js";
+import { paperPromptExcerpt, venueContextForPaper } from "../lib/venuePrompt.js";
 
 for (const url of [
   "http://127.0.0.1/private",
@@ -120,8 +121,23 @@ assert.match(cfpRoute, /stale-while-revalidate=86400/);
 const dashboardSource = fs.readFileSync("components/Dashboard.jsx", "utf8");
 assert.match(dashboardSource, /CATALOG_ATTEMPTS = 3/);
 assert.match(dashboardSource, /AbortSignal\.timeout\(12_000\)/);
-const recommendSource = fs.readFileSync("app/api/recommend/route.js", "utf8");
-assert.equal(recommendSource.indexOf('untrustedPromptField("OPEN VENUES"') < recommendSource.indexOf("untrustedPromptField(label"), true);
+const promptExcerpt = paperPromptExcerpt("x".repeat(20_000));
+assert.equal(promptExcerpt.length <= 6_000, true);
+assert.match(promptExcerpt, /BEGINNING OF PAPER/);
+assert.match(promptExcerpt, /MIDDLE OF PAPER/);
+assert.match(promptExcerpt, /END OF PAPER/);
+const promptVenues = Array.from({ length: 40 }, (_, index) => ({
+  id: `venue-${index}`,
+  acronym: `V${index}`,
+  name: `Venue ${index}`,
+  type: index % 2 ? "journal" : "conference",
+  domain: index === 39 ? "machine learning neural networks" : "unrelated topic",
+  deadline: "2027-01-01T00:00:00.000Z",
+}));
+const promptContext = venueContextForPaper(promptVenues, "machine learning neural networks");
+assert.equal(promptContext.selected.length, 18);
+assert.equal(promptContext.totalCount, 40);
+assert.equal(promptContext.selected.some((venue) => venue.id === "venue-39"), true);
 for (const table of [
   "venues", "venue_aliases", "venue_external_ids", "venue_editions", "papers",
   "paper_external_ids", "edition_papers", "paper_authors", "venue_insights", "ingestion_runs",

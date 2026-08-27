@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
 import { chat, parseJSONLoose, llmReady } from "@/lib/llm";
 import { findModel } from "@/lib/models";
-import { getActiveCFPs, venueContextLine } from "@/lib/cfp";
+import { getActiveCFPs } from "@/lib/cfp";
 import { apiErrorResponse, guardExpensiveRequest, parseLimitedFormData } from "@/lib/apiSecurity";
 import { textFromPaperInput } from "@/lib/paperInput";
 import { UNTRUSTED_CONTENT_RULE, untrustedPromptField } from "@/lib/promptSecurity";
+import { paperPromptExcerpt, venueContextForPaper } from "@/lib/venuePrompt";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
@@ -14,8 +15,9 @@ const SYSTEM = `You are a rigorous but constructive senior academic reviewer and
 ${UNTRUSTED_CONTENT_RULE}`;
 
 function buildPrompt(text, venues, target) {
-  const full = text.length > MAX_PAPER_CHARS ? text.slice(0, MAX_PAPER_CHARS) : text;
-  return `${untrustedPromptField("CURRENTLY OPEN VENUES", venues.map(venueContextLine).join("\n"), 160_000)}\n\n${untrustedPromptField("PAPER DRAFT", full, MAX_PAPER_CHARS)}\n\n${untrustedPromptField("AUTHOR TARGET", target || "No specific venue supplied; assess generally and against the live venue list.", 1_000)}\n\nReturn JSON exactly as:
+  const excerpt = paperPromptExcerpt(text);
+  const { context, selected, totalCount } = venueContextForPaper(venues, `${text.slice(0, 11_000)}\n${target}`);
+  return `The application searched all ${totalCount} open venues and selected ${selected.length} candidates for detailed model review.\n\n${untrustedPromptField("CURRENTLY OPEN VENUE CANDIDATES", context, 24_000)}\n\n${untrustedPromptField("REPRESENTATIVE PAPER DRAFT EXCERPT", excerpt, 6_000)}\n\n${untrustedPromptField("AUTHOR TARGET", target || "No specific venue supplied; assess generally and against the live venue list.", 1_000)}\n\nReturn JSON exactly as:
 {"overallAssessment":"...","readinessScore":0,"paperType":"...","coreContribution":"...","strongestAspects":["..."],"acceptanceRisks":[{"severity":"critical | major | moderate | minor","issue":"...","whyItMatters":"...","specificFix":"..."}],"sectionReview":{"titleAbstract":["..."],"introduction":["..."],"relatedWork":["..."],"methodology":["..."],"experiments":["..."],"resultsDiscussion":["..."],"limitationsEthics":["..."],"reproducibility":["..."]},"mustRunExperiments":[{"experiment":"...","purpose":"...","minimumEvidence":"..."}],"writingImprovements":["..."],"positioningAdvice":"...","recommendedVenueLevel":"...","bestFitOpenVenues":[{"id":"exact venue id","fitScore":0,"why":"...","changesBeforeSubmission":["..."]}],"revisionPlan":[{"priority":1,"task":"...","expectedImpact":"..."}],"verdict":"not ready | promising but needs major revision | near submission-ready | submission-ready"}
 Choose at most 3 venues, only from the supplied list. Be specific to this draft.`;
 }
@@ -37,7 +39,7 @@ export async function POST(req) {
     if (!text || text.trim().length < 500) return NextResponse.json({ error: "Could not read enough draft text. Upload a text-based PDF or provide a readable hosted-paper URL." }, { status: 400 });
 
     const { items: venues } = getActiveCFPs(new Date());
-    const content = await chat([{ role: "system", content: SYSTEM }, { role: "user", content: buildPrompt(text, venues, target) }], { json: true, temperature: 0.15, maxTokens: 4200, ...modelOpts });
+    const content = await chat([{ role: "system", content: SYSTEM }, { role: "user", content: buildPrompt(text, venues, target) }], { json: true, temperature: 0.15, maxTokens: 2400, ...modelOpts });
     const parsed = parseJSONLoose(content);
     if (!parsed) return NextResponse.json({ error: "The model returned an unreadable review. Try again." }, { status: 502 });
 

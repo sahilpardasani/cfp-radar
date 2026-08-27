@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
-import { getActiveCFPs, venueContextLine } from "@/lib/cfp";
+import { getActiveCFPs } from "@/lib/cfp";
 import { chat, parseJSONLoose, llmReady } from "@/lib/llm";
 import { findModel } from "@/lib/models";
 import { apiErrorResponse, guardExpensiveRequest, parseLimitedFormData } from "@/lib/apiSecurity";
 import { textFromPaperInput } from "@/lib/paperInput";
 import { UNTRUSTED_CONTENT_RULE, untrustedPromptField } from "@/lib/promptSecurity";
+import { paperPromptExcerpt, venueContextForPaper } from "@/lib/venuePrompt";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
@@ -18,18 +19,17 @@ Also produce a concrete "gap analysis": what the author must change to meet each
 Return STRICT JSON only.
 ${UNTRUSTED_CONTENT_RULE}`;
 
-// Read the FULL paper (not just the abstract). We keep a generous budget so the
-// model sees intro, method, experiments and references. ~60k chars ≈ a full paper
-// and fits the large-context NVIDIA models; the rare oversized paper is trimmed.
+// Extract enough source text to sample the beginning, middle and end. The
+// bounded model excerpt is assembled separately to respect provider TPM limits.
 const MAX_PAPER_CHARS = 60000;
 
 function buildUserPrompt(paperText, venues) {
-  const context = venues.map(venueContextLine).join("\n");
-  const full = paperText.length > MAX_PAPER_CHARS ? paperText.slice(0, MAX_PAPER_CHARS) : paperText;
-  const label = paperText.length > MAX_PAPER_CHARS ? "PAPER TEXT (full text, trimmed to fit)" : "PAPER TEXT (full text)";
-  // Put the shared catalog first so Groq can reuse the identical prompt prefix
-  // across users. The complete paper and venue contents remain unchanged.
-  return `${untrustedPromptField("OPEN VENUES", context, 160_000)}\n\n${untrustedPromptField(label, full, MAX_PAPER_CHARS)}\n\nTask: Recommend the TOP 5 best-fit venues from the complete list above. Consider conferences, workshops, journals, and special issues equally; do not default to conferences. Rank whichever venue types genuinely fit the paper best.
+  const excerpt = paperPromptExcerpt(paperText);
+  const { context, selected, totalCount } = venueContextForPaper(venues, paperText);
+  const label = paperText.length > excerpt.length ? "REPRESENTATIVE PAPER EXCERPT" : "PAPER TEXT";
+  // Put venue evidence first so stable candidates can benefit from provider
+  // prefix caching when similar papers resolve to the same shortlist.
+  return `The application deterministically searched all ${totalCount} currently open venues. The ${selected.length} highest-relevance candidates and their full metadata are below.\n\n${untrustedPromptField("OPEN VENUE CANDIDATES", context, 24_000)}\n\n${untrustedPromptField(label, excerpt, 6_000)}\n\nTask: Recommend the TOP 5 best-fit venues from the candidate list above. Consider conferences, workshops, journals, and special issues equally; do not default to conferences. Rank whichever venue types genuinely fit the paper best.
 Return JSON with this exact shape:
 {
   "paperSummary": "2-3 sentence summary of the paper's topic, method and contribution",
@@ -92,7 +92,7 @@ export async function POST(req) {
         { role: "system", content: SYSTEM },
         { role: "user", content: buildUserPrompt(paperText, venues) },
       ],
-      { json: true, temperature: 0.2, maxTokens: 2000, ...modelOpts }
+      { json: true, temperature: 0.2, maxTokens: 1600, ...modelOpts }
     );
 
     const parsed = parseJSONLoose(content);
