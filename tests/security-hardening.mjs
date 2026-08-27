@@ -113,6 +113,15 @@ assert.match(renderBlueprint, /plan:\s*starter/);
 assert.match(renderBlueprint, /healthCheckPath:\s*\/api\/health/);
 assert.match(renderBlueprint, /qwen\/qwen3\.8-27b/);
 assert.doesNotMatch(renderBlueprint, /GROQ_API_KEY:\s*\S+/, "Render blueprint must not contain a Groq secret");
+
+const cfpRoute = fs.readFileSync("app/api/cfps/route.js", "utf8");
+assert.match(cfpRoute, /s-maxage=300/);
+assert.match(cfpRoute, /stale-while-revalidate=86400/);
+const dashboardSource = fs.readFileSync("components/Dashboard.jsx", "utf8");
+assert.match(dashboardSource, /CATALOG_ATTEMPTS = 3/);
+assert.match(dashboardSource, /AbortSignal\.timeout\(12_000\)/);
+const recommendSource = fs.readFileSync("app/api/recommend/route.js", "utf8");
+assert.equal(recommendSource.indexOf('untrustedPromptField("OPEN VENUES"') < recommendSource.indexOf("untrustedPromptField(label"), true);
 for (const table of [
   "venues", "venue_aliases", "venue_external_ids", "venue_editions", "papers",
   "paper_external_ids", "edition_papers", "paper_authors", "venue_insights", "ingestion_runs",

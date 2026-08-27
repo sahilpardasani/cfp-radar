@@ -27,7 +27,9 @@ function buildUserPrompt(paperText, venues) {
   const context = venues.map(venueContextLine).join("\n");
   const full = paperText.length > MAX_PAPER_CHARS ? paperText.slice(0, MAX_PAPER_CHARS) : paperText;
   const label = paperText.length > MAX_PAPER_CHARS ? "PAPER TEXT (full text, trimmed to fit)" : "PAPER TEXT (full text)";
-  return `${untrustedPromptField(label, full, MAX_PAPER_CHARS)}\n\n${untrustedPromptField("OPEN VENUES", context, 160_000)}\n\nTask: Recommend the TOP 5 best-fit venues from the complete list above. Consider conferences, workshops, journals, and special issues equally; do not default to conferences. Rank whichever venue types genuinely fit the paper best.
+  // Put the shared catalog first so Groq can reuse the identical prompt prefix
+  // across users. The complete paper and venue contents remain unchanged.
+  return `${untrustedPromptField("OPEN VENUES", context, 160_000)}\n\n${untrustedPromptField(label, full, MAX_PAPER_CHARS)}\n\nTask: Recommend the TOP 5 best-fit venues from the complete list above. Consider conferences, workshops, journals, and special issues equally; do not default to conferences. Rank whichever venue types genuinely fit the paper best.
 Return JSON with this exact shape:
 {
   "paperSummary": "2-3 sentence summary of the paper's topic, method and contribution",

@@ -9,6 +9,11 @@ export async function GET() {
   // the UI repeatedly fell back to the old 293-card snapshot.
   const data = getActiveCFPs(new Date());
   return NextResponse.json(data, {
-    headers: { "Cache-Control": "no-store" },
+    // The catalog is a deployment snapshot, not user-specific data. Let the
+    // edge absorb repeated reads while the client continues to remove calls
+    // at their exact deadline using its local clock.
+    headers: {
+      "Cache-Control": "public, max-age=0, s-maxage=300, stale-while-revalidate=86400",
+    },
   });
 }

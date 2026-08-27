@@ -11,6 +11,32 @@ import HybridSearchStatus from "./HybridSearchStatus";
 import { conferenceRankGroupForItem } from "@/lib/conferenceRankings";
 
 const PAGE_SIZE = 24;
+const CATALOG_ATTEMPTS = 3;
+
+function wait(ms) {
+  return new Promise((resolve) => window.setTimeout(resolve, ms));
+}
+
+async function fetchCatalog() {
+  let lastError;
+  for (let attempt = 0; attempt < CATALOG_ATTEMPTS; attempt += 1) {
+    try {
+      const response = await fetch("/api/cfps", { signal: AbortSignal.timeout(12_000) });
+      if (response.ok) return response.json();
+      lastError = new Error(`HTTP ${response.status}`);
+      const retryable = response.status === 404 || response.status === 408 || response.status === 429 || response.status >= 500;
+      if (!retryable) {
+        lastError.retryable = false;
+        throw lastError;
+      }
+    } catch (error) {
+      lastError = error;
+      if (error?.retryable === false) throw error;
+    }
+    if (attempt < CATALOG_ATTEMPTS - 1) await wait(300 * (attempt + 1));
+  }
+  throw lastError || new Error("Catalog request failed");
+}
 
 export default function Dashboard() {
   const [data, setData] = useState(null);
@@ -27,15 +53,14 @@ export default function Dashboard() {
   const now = useDeadlineClock();
 
   useEffect(() => {
+    let cancelled = false;
+    setError(null);
     // The dashboard only ever reads open CFPs. The backend watchlist
     // (data/watchlist.json) is intentionally NOT exposed to the frontend.
-    fetch("/api/cfps")
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
-      })
-      .then(setData)
-      .catch((e) => setError(String(e)));
+    fetchCatalog()
+      .then((nextData) => { if (!cancelled) setData(nextData); })
+      .catch((e) => { if (!cancelled) setError(String(e)); });
+    return () => { cancelled = true; };
   }, [reloadKey]);
 
   useEffect(() => {
