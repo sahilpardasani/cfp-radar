@@ -43,7 +43,9 @@ assert.match(workflow, /data\/venue-history-pending\.json/);
 
 for (const workflowName of fs.readdirSync(".github/workflows").filter((name) => name.endsWith(".yml"))) {
   const source = fs.readFileSync(`.github/workflows/${workflowName}`, "utf8");
-  assert.match(source, /group:\s*cfp-data-pipeline/, `${workflowName} must serialize writes to shared CFP data`);
+  if (/\bgit push\b/.test(source)) {
+    assert.match(source, /group:\s*cfp-data-pipeline/, `${workflowName} must serialize writes to shared CFP data`);
+  }
 }
 
 const baselinePath = path.join(os.tmpdir(), `cfp-radar-baseline-${process.pid}.json`);
