@@ -1,0 +1,251 @@
+{
+  "lastRunAt": "2026-07-25T13:52:10.875Z",
+  "parentsChecked": 81,
+  "added": 0,
+  "updated": 0,
+  "errors": [
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=AAAI%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=AACL-IJCNLP%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ACL%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ACM%20IKDD%20CODS%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ACM%20UbiComp%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ACM%20WebSciX%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ACMMM%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=AI-ZAMAN%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=AI4BCI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=AIAS%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=AIAgents4Qual%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=AIDEA%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=AJCAI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=APPROX-IA%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=AfriLang%20AI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=BCGL%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=BNAIC-BeNeLearn%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=Beijing%20Zhongguancun%20Academy%20ICAIS%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=CAPMW%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=CCBR%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=CCC%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=CCL%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=CITI%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=COLM%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=DAI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=DGfS%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=DGfS%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=EACL%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ECCV%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=EIAI%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=EMNLP%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ENCODE%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ESEIA%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=EUSIPCO%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=FEAR%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=GSCL%20KONVENS%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=HiPEAC%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IAFLL%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IATL%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ICAITD%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ICICT%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ICOMP%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ICPP%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=ICVGIP%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IEEE%20CRESS%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IEEE%20EMBS%20BHI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IEEE%20EMBS%20BSN%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IEEE%20ICACI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IEEE%20IROS%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IEEE%20ISMAR%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IHM%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IIR%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IJCAI-ECAI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IMS%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=INBIXiCOBLET%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=INLG%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IPN%20CIED%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=IWCLUL%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=JDSE%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=JITA%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=JWOC%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=KDD%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=KolKom%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=LIFT2%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=LOG%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=MICCAI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=MLMI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=MLinPL%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=NERC%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=NLDL%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=NLPCC%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=NeurIPS%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=PhraConRep%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=RISEx%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=SIC%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=SMASH%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=SPELLL%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=SQAI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=TAAI%202026%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=WACV%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    },
+    {
+      "error": "Fetch failed for https://html.duckduckgo.com/html/?q=WCMNM%202027%20official%20workshops%20satellite%20events%20call%20for%20papers: The URL hostname could not be resolved."
+    }
+  ]
+}

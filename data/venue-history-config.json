@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "providers": {
+    "dblp": {
+      "enabled": true,
+      "priority": 1,
+      "baseUrl": "https://dblp.org",
+      "sparqlUrl": "https://sparql.dblp.org/sparql"
+    },
+    "openalex": {
+      "enabled": true,
+      "priority": 2,
+      "baseUrl": "https://api.openalex.org",
+      "requiresApiKey": true
+    },
+    "crossref": {
+      "enabled": true,
+      "priority": 3,
+      "baseUrl": "https://api.crossref.org"
+    },
+    "aclAnthology": {
+      "enabled": true,
+      "priority": 1,
+      "baseUrl": "https://aclanthology.org"
+    }
+  },
+  "defaults": {
+    "historyStartYear": 2022,
+    "historyEndYear": 2025,
+    "membershipConfidence": 1,
+    "coverageStatus": "verified"
+  },
+  "venues": [
+    {
+      "id": "ihci",
+      "canonicalName": "International Conference on Intelligent Human-Computer Interaction",
+      "acronym": "IHCI",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://ihci2026.com",
+      "match": {
+        "callIds": ["ihci-2026"],
+        "acronyms": ["IHCI", "IHCI 2026"],
+        "names": [
+          "International Conference on Intelligent Human-Computer Interaction",
+          "International Conference on Intelligent Human Computer Interaction"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/ihci",
+        "springerSeries": "ihci"
+      },
+      "historyStartYear": 2022,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "kdd",
+      "canonicalName": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "acronym": "KDD",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://kdd.org/conferences/",
+      "match": {
+        "callIds": ["kdd-2027-cycle1"],
+        "acronyms": ["KDD"],
+        "names": ["ACM SIGKDD Conference on Knowledge Discovery and Data Mining"]
+      },
+      "externalIds": { "dblpStream": "conf/kdd" },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "iui",
+      "canonicalName": "ACM Conference on Intelligent User Interfaces",
+      "acronym": "IUI",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://iui.acm.org/",
+      "match": {
+        "callIds": ["iui-2027"],
+        "acronyms": ["IUI"],
+        "names": ["ACM Conference on Intelligent User Interfaces"]
+      },
+      "externalIds": { "dblpStream": "conf/iui" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "wsdm",
+      "canonicalName": "ACM International Conference on Web Search and Data Mining",
+      "acronym": "WSDM",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://www.wsdm-conference.org/",
+      "match": {
+        "callIds": ["wsdm-2027"],
+        "acronyms": ["WSDM"],
+        "names": ["ACM International Conference on Web Search and Data Mining"]
+      },
+      "externalIds": { "dblpStream": "conf/wsdm" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "facct",
+      "canonicalName": "ACM Conference on Fairness, Accountability, and Transparency",
+      "acronym": "FAccT",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://facctconference.org/",
+      "match": {
+        "callIds": ["facct-2027"],
+        "acronyms": ["FAccT"],
+        "names": ["ACM Conference on Fairness, Accountability, and Transparency"]
+      },
+      "externalIds": { "dblpStream": "conf/fat" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "icaif",
+      "canonicalName": "ACM International Conference on AI in Finance",
+      "acronym": "ICAIF",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://icaif.org/",
+      "match": {
+        "callIds": ["icaif-2026"],
+        "acronyms": ["ICAIF"],
+        "names": ["ACM International Conference on AI in Finance"]
+      },
+      "externalIds": { "dblpStream": "conf/icaif" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "eacl",
+      "canonicalName": "European Chapter of the Association for Computational Linguistics",
+      "acronym": "EACL",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://eacl.org/",
+      "match": {
+        "callIds": ["eacl-2027"],
+        "acronyms": ["EACL"],
+        "names": ["European Chapter of the Association for Computational Linguistics"]
+      },
+      "externalIds": { "dblpStream": "conf/eacl" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "wacv",
+      "canonicalName": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "acronym": "WACV",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://wacv.thecvf.com/",
+      "match": {
+        "callIds": ["wacv-2027-r2"],
+        "acronyms": ["WACV"],
+        "names": ["IEEE/CVF Winter Conference on Applications of Computer Vision"]
+      },
+      "externalIds": { "dblpStream": "conf/wacv" },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "icwsm",
+      "canonicalName": "AAAI International Conference on Web and Social Media",
+      "acronym": "ICWSM",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://www.icwsm.org/",
+      "match": {
+        "callIds": ["icwsm-2027"],
+        "acronyms": ["ICWSM"],
+        "names": ["AAAI International Conference on Web and Social Media"]
+      },
+      "externalIds": { "dblpStream": "conf/icwsm" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "ai-and-ethics",
+      "canonicalName": "AI and Ethics",
+      "acronym": "AI and Ethics",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer Nature",
+      "officialUrl": "https://link.springer.com/journal/43681",
+      "match": {
+        "callIds": ["j-springer-ai-and-ethics"],
+        "acronyms": ["AI and Ethics"],
+        "names": ["AI and Ethics"]
+      },
+      "externalIds": { "issns": ["2730-5953", "2730-5961"] },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "ai-and-society",
+      "canonicalName": "AI & SOCIETY",
+      "acronym": "AI & SOCIETY",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer Nature",
+      "officialUrl": "https://link.springer.com/journal/146",
+      "match": {
+        "callIds": ["j-springer-ai-and-society"],
+        "acronyms": ["AI & SOCIETY"],
+        "names": ["AI & SOCIETY: Journal of Knowledge, Culture and Communication"]
+      },
+      "externalIds": { "issns": ["0951-5666", "1435-5655"] },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "philosophy-and-technology",
+      "canonicalName": "Philosophy & Technology",
+      "acronym": "Philosophy & Technology",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer Nature",
+      "officialUrl": "https://link.springer.com/journal/13347",
+      "match": {
+        "callIds": ["j-springer-philosophy-and-technology"],
+        "acronyms": ["Philosophy & Technology"],
+        "names": ["Philosophy & Technology"]
+      },
+      "externalIds": { "issns": ["2210-5433", "2210-5441"] },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "finnlp",
+      "canonicalName": "Financial Narrative Processing Workshop",
+      "acronym": "FinNLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://sites.google.com/nlg.csie.ntu.edu.tw/finnlp/",
+      "match": {
+        "callIds": ["or-emnlp-2026-workshop-finnlp"],
+        "openreviewSeries": ["EMNLP/Workshop/FinNLP"]
+      },
+      "externalIds": { "aclAnthologyEvent": "finnlp" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "mrl",
+      "canonicalName": "Multilingual Representation Learning Workshop",
+      "acronym": "MRL",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://sigtyp.github.io/ws2026-mrl.html",
+      "match": {
+        "callIds": ["or-emnlp-2026-workshop-mrl"],
+        "openreviewSeries": ["EMNLP/Workshop/MRL"]
+      },
+      "externalIds": { "aclAnthologyEvent": "mrl" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "dasip",
+      "canonicalName": "Workshop on Design and Architectures for Signal and Image Processing",
+      "acronym": "DASIP",
+      "venueType": "workshop",
+      "status": "active",
+      "officialUrl": "https://dasip-workshop.org/",
+      "match": {
+        "callIds": ["or-hipeac-2027-workshop-dasip"],
+        "openreviewSeries": ["HiPEAC.net/Workshop/DASIP"]
+      },
+      "externalIds": { "dblpStream": "conf/dasip" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    }
+  ]
+}

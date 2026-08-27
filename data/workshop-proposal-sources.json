@@ -1,0 +1,54 @@
+{
+  "description": "Official conference pages checked for calls inviting academics to organize workshops. Add or remove conferences here; the discovery logic does not need to change.",
+  "updatedAt": "2026-07-14",
+  "sources": [
+    {
+      "id": "chi-2027",
+      "conference": "ACM CHI 2027",
+      "domain": "Human-Computer Interaction",
+      "officialUrl": "https://chi2027.acm.org/authors/workshops/",
+      "deadlineLabels": ["Organizer submission deadline"],
+      "submissionPlatform": "PCS"
+    },
+    {
+      "id": "gamifin-2027",
+      "conference": "GamiFIN 2027",
+      "domain": "Gamification / HCI",
+      "officialUrl": "https://gamifinconference.com/call-for-papers-2027/",
+      "deadlineLabels": ["Workshop Proposals", "submission deadline"],
+      "submissionPlatform": "EasyChair"
+    },
+    {
+      "id": "acmse-2027",
+      "conference": "ACMSE 2027",
+      "domain": "Computer Science",
+      "officialUrl": "https://acmse.net/2027/tutorials-call/",
+      "deadlineLabels": ["Deadline for Submission of Tutorials/Workshops"],
+      "submissionPlatform": "EasyChair"
+    },
+    {
+      "id": "icc-12-2027",
+      "conference": "12th Indian Control Conference (ICC-12)",
+      "domain": "Control Systems / AI",
+      "officialUrl": "https://controlsociety.org/icc/workshops/",
+      "deadlineLabels": ["Workshop proposals deadline"],
+      "submissionPlatform": "PaperCept"
+    },
+    {
+      "id": "iui-2027",
+      "conference": "ACM IUI 2027",
+      "domain": "Intelligent User Interfaces",
+      "officialUrl": "https://iui.acm.org/2027/call-for-workshops/",
+      "deadlineLabels": ["Workshop proposal deadline"],
+      "submissionPlatform": "PCS"
+    },
+    {
+      "id": "neurips-2027",
+      "conference": "NeurIPS 2027",
+      "domain": "Machine Learning",
+      "officialUrl": null,
+      "searchQuery": "NeurIPS 2027 official call for workshop proposals",
+      "deadlineLabels": ["Workshop proposal deadline", "Proposal deadline"]
+    }
+  ]
+}

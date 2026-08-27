@@ -1,0 +1,70 @@
+{
+  "name": "cfp-radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A production-ready, auto-updating research venue discovery and paper-fit platform.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0",
+    "lint": "eslint .",
+    "scrape": "node scripts/scrape.mjs",
+    "verify": "node scripts/verify-deadlines.mjs",
+    "legitimacy": "node scripts/legitimacy.mjs",
+    "watchlist": "node scripts/watchlist.mjs",
+    "sync:rankings": "node scripts/sync-rankings.mjs",
+    "test:rankings": "node tests/conference-rankings.mjs",
+    "discover:web": "node scripts/discover-web.mjs",
+    "test:discovery": "node tests/discovery-deadlines.mjs",
+    "test:openreview": "node tests/openreview-importer.mjs",
+    "test:openreview-runtime": "node tests/openreview-runtime.mjs",
+    "sync:openreview": "OPENREVIEW_BROWSER_ENRICH=1 node scripts/openreview-browser-agent.mjs",
+    "test:openreview-browser": "node tests/openreview-browser-filter.mjs",
+    "test:openreview-homepage-text": "node tests/openreview-homepage-text.mjs",
+    "sync:workshops": "node scripts/discover-workshops.mjs",
+    "test:workshops": "node tests/workshop-discovery.mjs",
+    "sync:workshop-proposals": "node scripts/discover-workshop-proposals.mjs",
+    "test:workshop-proposals": "node tests/workshop-proposals.mjs",
+    "sync:book-calls": "node scripts/discover-book-calls.mjs",
+    "test:book-calls": "node tests/book-calls.mjs",
+    "sync:reviewer-calls": "node scripts/discover-reviewer-calls.mjs",
+    "sync:venue-history": "node scripts/sync-venue-history.mjs",
+    "expand:venue-history": "node scripts/expand-venue-history-config.mjs",
+    "snapshot:conference-ids": "node scripts/snapshot-conference-ids.mjs",
+    "test:reviewer-calls": "node tests/reviewer-calls.mjs",
+    "audit:refresh": "node scripts/audit-call-refresh.mjs",
+    "test:pipeline": "node tests/pipeline-cadence.mjs",
+    "test:links": "node tests/cfp-links.mjs",
+    "prune:closed": "node scripts/prune-closed-calls.mjs",
+    "test:lifecycle": "node tests/call-lifecycle.mjs",
+    "test:admission": "node tests/external-admission.mjs",
+    "test:dedupe": "node tests/dedupe-calls.mjs",
+    "test:search": "node tests/hybrid-search.mjs",
+    "test:venue-history": "node tests/venue-history.mjs",
+    "test:security": "node tests/security-hardening.mjs",
+    "test": "npm run test:rankings && npm run test:discovery && npm run test:openreview && npm run test:openreview-runtime && npm run test:openreview-browser && npm run test:openreview-homepage-text && npm run test:workshops && npm run test:workshop-proposals && npm run test:book-calls && npm run test:reviewer-calls && npm run test:pipeline && npm run test:links && npm run test:lifecycle && npm run test:admission && npm run test:dedupe && npm run test:search && npm run test:venue-history && npm run test:security"
+  },
+  "dependencies": {
+    "motion": "12.43.0",
+    "next": "15.5.22",
+    "pdf-parse": "1.1.1",
+    "pg": "8.16.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "overrides": {
+    "postcss": "8.5.26",
+    "nanoid": "3.3.18",
+    "js-yaml": "4.3.2",
+    "sharp": "0.35.3",
+    "brace-expansion": "5.0.9"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20 <21"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "eslint-config-next": "15.5.22"
+  }
+}

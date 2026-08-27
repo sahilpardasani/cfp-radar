@@ -1,0 +1,411 @@
+{
+  "description": "Parent conferences derived from current open-call families. The agent discovers workshops only from official conference/satellite-event pages and individual official workshop sites.",
+  "updatedAt": "2026-07-13",
+  "parents": [
+    {
+      "name": "AAAI 2027",
+      "year": 2027,
+      "officialUrl": "https://aaai.org/conference/aaai/aaai-27/"
+    },
+    {
+      "name": "AACL-IJCNLP 2026",
+      "year": 2026,
+      "officialUrl": "https://2026.aaclnet.org/"
+    },
+    {
+      "name": "ACL 2026",
+      "year": 2026,
+      "officialUrl": "https://2026.aclweb.org/"
+    },
+    {
+      "name": "ACM IKDD CODS 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "ACM UbiComp 2026",
+      "year": 2026,
+      "officialUrl": "https://www.ubicomp.org/ubicomp-iswc-2026/"
+    },
+    {
+      "name": "ACM WebSciX 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "ACMMM 2026",
+      "year": 2026,
+      "officialUrl": "https://2026.acmmm.org/"
+    },
+    {
+      "name": "AI-ZAMAN 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "AI4BCI 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "AIAS 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "AIAgents4Qual 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "AIDEA 2027",
+      "year": 2027,
+      "officialUrl": null
+    },
+    {
+      "name": "AJCAI 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "APPROX-IA 2027",
+      "year": 2027,
+      "officialUrl": null
+    },
+    {
+      "name": "AfriLang AI 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "BCGL 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "BNAIC-BeNeLearn 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "Beijing Zhongguancun Academy ICAIS 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "CAPMW 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "CCBR 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "CCC 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "CCL 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "CITI 2027",
+      "year": 2027,
+      "officialUrl": null
+    },
+    {
+      "name": "COLM 2026",
+      "year": 2026,
+      "officialUrl": "https://colmweb.org/"
+    },
+    {
+      "name": "DAI 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "DGfS 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "DGfS 2027",
+      "year": 2027,
+      "officialUrl": null
+    },
+    {
+      "name": "EACL 2027",
+      "year": 2027,
+      "officialUrl": "https://2027.eacl.org/"
+    },
+    {
+      "name": "ECCV 2026",
+      "year": 2026,
+      "officialUrl": "https://eccv.ecva.net/Conferences/2026/Workshops"
+    },
+    {
+      "name": "EIAI 2027",
+      "year": 2027,
+      "officialUrl": null
+    },
+    {
+      "name": "EMNLP 2026",
+      "year": 2026,
+      "officialUrl": "https://2026.emnlp.org/calls/workshops/"
+    },
+    {
+      "name": "ENCODE 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "ESEIA 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "EUSIPCO 2026",
+      "year": 2026,
+      "officialUrl": "https://eusipco2026.org/"
+    },
+    {
+      "name": "FEAR 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "GSCL KONVENS 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "HiPEAC 2027",
+      "year": 2027,
+      "officialUrl": null
+    },
+    {
+      "name": "IAFLL 2027",
+      "year": 2027,
+      "officialUrl": null
+    },
+    {
+      "name": "IATL 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "ICAITD 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "ICICT 2027",
+      "year": 2027,
+      "officialUrl": null
+    },
+    {
+      "name": "ICOMP 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "ICPP 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "ICVGIP 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "IEEE CRESS 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "IEEE EMBS BHI 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "IEEE EMBS BSN 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "IEEE ICACI 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "IEEE IROS 2026",
+      "year": 2026,
+      "officialUrl": "https://www.iros2026.org/"
+    },
+    {
+      "name": "IEEE ISMAR 2026",
+      "year": 2026,
+      "officialUrl": "https://ismar2026.org/"
+    },
+    {
+      "name": "IHM 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "IIR 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "IJCAI-ECAI 2026",
+      "year": 2026,
+      "officialUrl": "https://2026.ijcai.org/"
+    },
+    {
+      "name": "IMS 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "INBIXiCOBLET 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "INLG 2026",
+      "year": 2026,
+      "officialUrl": "https://inlg2026.github.io/"
+    },
+    {
+      "name": "IPN CIED 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "IWCLUL 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "JDSE 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "JITA 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "JWOC 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "KDD 2027",
+      "year": 2027,
+      "officialUrl": "https://kdd2027.kdd.org/"
+    },
+    {
+      "name": "KolKom 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "LIFT2 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "LOG 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "MICCAI 2026",
+      "year": 2026,
+      "officialUrl": "https://conferences.miccai.org/2026/en/workshops.asp"
+    },
+    {
+      "name": "MLMI 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "MLinPL 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "NERC 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "NLDL 2027",
+      "year": 2027,
+      "officialUrl": null
+    },
+    {
+      "name": "NLPCC 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "NeurIPS 2026",
+      "year": 2026,
+      "officialUrl": "https://neurips.cc/Conferences/2026"
+    },
+    {
+      "name": "PhraConRep 2027",
+      "year": 2027,
+      "officialUrl": null
+    },
+    {
+      "name": "RISEx 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "SIC 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "SMASH 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "SPELLL 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "SQAI 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "TAAI 2026",
+      "year": 2026,
+      "officialUrl": null
+    },
+    {
+      "name": "WACV 2027",
+      "year": 2027,
+      "officialUrl": "https://wacv.thecvf.com/"
+    },
+    {
+      "name": "WCMNM 2027",
+      "year": 2027,
+      "officialUrl": null
+    }
+  ]
+}

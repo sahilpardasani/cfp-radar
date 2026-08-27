@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "opportunityTypes": [
+    { "key": "workshop-proposal", "label": "Host a Workshop" },
+    { "key": "book-proposal", "label": "Book Proposals" },
+    { "key": "chapter-proposal", "label": "Chapter Proposals" },
+    { "key": "reviewer-call", "label": "Calls for Reviewers" }
+  ],
+  "venueTypes": [
+    { "key": "conference", "label": "Conferences", "singular": "Conference" },
+    { "key": "workshop", "label": "Workshops", "singular": "Workshop" },
+    { "key": "journal", "label": "Journals", "singular": "Journal" },
+    { "key": "special-issue", "label": "Special Issues", "singular": "Special Issue" }
+  ],
+  "sourceLabels": {
+    "openreview": "OpenReview",
+    "cmt": "MS CMT",
+    "paperplaza": "PaperPlaza",
+    "pcs": "PCS",
+    "easychair": "EasyChair",
+    "university": "University-hosted",
+    "curated": "Curated",
+    "official-parent-workshop-agent": "Official workshop page",
+    "other": "Other"
+  },
+  "rankingSystems": {
+    "conference": { "label": "CORE", "prefix": "CORE " },
+    "workshop": { "label": "Workshop", "prefix": "" },
+    "journal": { "label": "ScimagoJR", "prefix": "" },
+    "special-issue": { "label": "ScimagoJR", "prefix": "" }
+  },
+  "rankingFilters": {
+    "conference": [
+      { "key": "all", "label": "Conference rank: All" },
+      { "key": "A*", "label": "Conference rank: A*" },
+      { "key": "A", "label": "Conference rank: A" },
+      { "key": "B", "label": "Conference rank: B" },
+      { "key": "C", "label": "Conference rank: C" },
+      { "key": "unranked", "label": "Conference rank: Unranked / Other" }
+    ]
+  },
+  "linkPolicy": {
+    "labels": {
+      "conference": "View conference CFP →",
+      "workshop": "View workshop CFP →",
+      "workshop-directory": "View workshop directory →",
+      "journal": "Journal submission info →",
+      "special-issue": "View special issue call →"
+    },
+    "workshopProposalPathPatterns": [
+      "callforworkshops",
+      "call-for-workshops",
+      "call_for_workshops",
+      "workshop-proposal",
+      "workshop_proposal"
+    ]
+  }
+}

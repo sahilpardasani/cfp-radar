@@ -1,0 +1,155 @@
+name: CFP pipeline (scrape + verify + vet)
+
+# The full data pipeline, run automatically EVERY 2 DAYS:
+#   1. scrape       — discover new CFPs, vet each candidate before admission, prune expired ones
+#   2. verify       — re-check each deadline against its official CFP page
+#   3. legitimacy   — confirm proceedings history + ranking/indexing, screen red flags
+#   4. history      — fetch verified previous work for newly admitted/missing exact venues
+# then commit the refreshed data/cfps.json once. Also runnable on demand.
+#
+# Crossref/OpenAlex/OpenReview layers need no key. The optional LLM layers use
+# GROQ_API_KEY (add it as a repository secret to enable them).
+on:
+  schedule:
+    - cron: "17 4 */2 * *" # every two days at 04:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cfp-data-pipeline
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    env:
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'groq' }}
+      LLM_MODEL: ${{ vars.LLM_MODEL || 'qwen/qwen3.8-27b' }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Audit dependency advisories
+        run: npm audit
+
+      - name: Test discovery parsers
+        run: |
+          npm run test:discovery
+          npm run test:openreview
+          npm run test:links
+          npm run test:workshop-proposals
+          npm run test:book-calls
+          npm run test:reviewer-calls
+          npm run test:pipeline
+          npm run test:lifecycle
+          npm run test:admission
+          npm run test:dedupe
+          npm run test:rankings
+          npm run test:venue-history
+
+      - name: Snapshot conference IDs before discovery
+        run: npm run snapshot:conference-ids -- --output="$RUNNER_TEMP/cfp-radar-conferences-before.json"
+
+      - name: 0) Archive calls whose exact deadline has passed
+        run: npm run prune:closed
+
+      - name: 1) Synchronize active OpenReview calls
+        run: npm run scrape
+
+      - name: 1a) Synchronize configured conference rankings
+        run: npm run sync:rankings
+
+      - name: 1b) Discover official conference workshops and challenges
+        env:
+          WORKSHOP_DISCOVERY_MAX_PARENTS: 500
+          WORKSHOP_DISCOVERY_CONCURRENCY: 6
+          DISCOVERY_FETCH_TIMEOUT_MS: 15000
+        run: npm run sync:workshops
+
+      - name: 1c) Check the backend watchlist for newly-open venues
+        env:
+          WATCHLIST_CONCURRENCY: 10
+        run: npm run watchlist
+
+      - name: 1d) Check official calls for workshop organizers
+        run: npm run sync:workshop-proposals
+
+      - name: 1e) Search CMT, EasyChair, HotCRP, custom CFP pages and verified WikiCFP leads
+        env:
+          WATCHLIST_BATCH_SIZE: 1200
+          MAX_EXTERNAL_CANDIDATES: 100
+          DISCOVERY_CONCURRENCY: 10
+          DISCOVERY_FETCH_TIMEOUT_MS: 12000
+        run: npm run discover:web
+
+      - name: 1f) Discover verified scholarly book and chapter proposal calls
+        env:
+          BOOK_DISCOVERY_CONCURRENCY: 5
+          BOOK_DISCOVERY_RESULTS_PER_QUERY: 6
+          DISCOVERY_FETCH_TIMEOUT_MS: 15000
+        run: npm run sync:book-calls
+
+      - name: 1g) Discover verified calls recruiting academic reviewers
+        env:
+          REVIEWER_DISCOVERY_CONCURRENCY: 6
+          DISCOVERY_FETCH_TIMEOUT_MS: 15000
+        run: npm run sync:reviewer-calls
+
+      - name: 2) Verify deadlines against official pages
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+        run: npm run verify
+
+      - name: 3) Refresh legitimacy evidence for already-admitted venues
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+        run: npm run legitimacy
+
+      - name: Confirm every call family was checked in this run
+        env:
+          MAX_PIPELINE_REFRESH_AGE_MINUTES: 480
+        run: npm run audit:refresh
+
+      - name: 4) Re-prune calls that closed during this run
+        run: npm run prune:closed
+
+      - name: 5) Resolve exact history identities for newly added conferences
+        run: npm run expand:venue-history -- --reuse-journals
+
+      - name: 6) Fetch history for new or missing verified venues
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DATABASE_SSL: ${{ vars.DATABASE_SSL || '1' }}
+          DATABASE_CA_CERT: ${{ secrets.DATABASE_CA_CERT }}
+        run: npm run sync:venue-history -- --new-conferences-from="$RUNNER_TEMP/cfp-radar-conferences-before.json" --missing
+
+      - name: Verify incremental history state
+        run: |
+          npm run test:venue-history
+          npm run test:security
+
+      - name: Commit refreshed data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "cfp-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          if ! git diff --quiet data/; then
+            git add data/cfps.json data/openreview-last-good.json data/watchlist.json data/discovery-state.json data/discovery-rejections.json data/workshop-discovery-state.json data/workshop-sources.json data/workshop-proposals.json data/book-calls.json data/book-call-rejections.json data/book-call-candidates.json data/reviewer-calls.json data/reviewer-call-rejections.json data/closed-calls.json data/venue-history-catalog.json data/venue-history.json data/venue-history-coverage.json data/venue-history-pending.json data/venue-history-records
+            git commit -m "chore: CFP pipeline refresh ($(date -u +%Y-%m-%d))"
+            git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"
+          else
+            echo "No changes."
+          fi

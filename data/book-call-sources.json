@@ -1,0 +1,258 @@
+{
+  "description": "Trusted scholarly presses searched for CS, data science, AI/ML, and interdisciplinary book/chapter proposal calls. Add publishers and seed calls here without changing discovery logic.",
+  "updatedAt": "2026-07-17",
+  "globalTopics": ["artificial intelligence", "machine learning", "computer science", "data science", "digital humanities", "robotics", "software engineering", "cybersecurity", "human-computer interaction"],
+  "publishers": [
+    {
+      "id": "exeter",
+      "publisher": "University of Exeter Press",
+      "region": "UK",
+      "officialDomains": ["exeterpress.co.uk"],
+      "memberships": ["AUPresses"],
+      "peerReviewVerified": true,
+      "scopeKeywords": ["Artificial Humanities", "artificial intelligence", "digital futures"],
+      "proposalUrls": ["https://www.exeterpress.co.uk/pages/author-information"],
+      "seedCalls": [
+        {
+          "id": "exeter-artificial-humanities",
+          "name": "Artificial Humanities",
+          "type": "book-proposal",
+          "domain": "AI & Digital Humanities",
+          "seriesUrl": "https://www.exeterpress.co.uk/collections/artificial-humanities",
+          "callUrl": "https://www.exeterpress.co.uk/pages/author-information",
+          "rolling": true,
+          "description": "A new interdisciplinary series applying humanistic methods to understand and shape artificial intelligence."
+        }
+      ]
+    },
+    { "id": "mit", "publisher": "MIT Press", "region": "US R1", "officialDomains": ["mitpress.mit.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["computer science", "artificial intelligence", "data", "technology"], "proposalUrls": ["https://mitpress.mit.edu/prospective-authors/"], "seedCalls": [{ "id": "mit-computing-ai", "name": "MIT Press Computing & AI Book Proposals", "type": "book-proposal", "domain": "Computer Science & AI", "callUrl": "https://mitpress.mit.edu/prospective-authors/", "seriesUrl": "https://mitpress.mit.edu/about/", "rolling": true, "description": "Rolling inquiries for MIT Press book projects, including computer science, artificial intelligence, data, and technology." }] },
+    { "id": "stanford", "publisher": "Stanford University Press", "region": "US R1", "officialDomains": ["sup.org", "stanford.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital culture", "technology", "data"] },
+    { "id": "harvard", "publisher": "Harvard University Press", "region": "US R1", "officialDomains": ["hup.harvard.edu", "harvard.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["technology", "computing", "digital"] },
+    { "id": "yale", "publisher": "Yale University Press", "region": "US R1", "officialDomains": ["yalebooks.yale.edu", "yale.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["technology", "digital humanities"] },
+    { "id": "princeton", "publisher": "Princeton University Press", "region": "US R1", "officialDomains": ["press.princeton.edu", "princeton.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["computer science", "data science", "artificial intelligence"] },
+    { "id": "columbia", "publisher": "Columbia University Press", "region": "US R1", "officialDomains": ["cup.columbia.edu", "columbia.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["technology", "digital", "artificial intelligence"] },
+    { "id": "cornell", "publisher": "Cornell University Press", "region": "US R1", "officialDomains": ["cornellpress.cornell.edu", "cornell.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["technology", "information", "digital"] },
+    { "id": "duke", "publisher": "Duke University Press", "region": "US R1", "officialDomains": ["dukeupress.edu", "duke.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "critical data", "technology"] },
+    { "id": "chicago", "publisher": "University of Chicago Press", "region": "US R1", "officialDomains": ["press.uchicago.edu", "uchicago.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["computer science", "technology", "data"] },
+    { "id": "california", "publisher": "University of California Press", "region": "US R1", "officialDomains": ["ucpress.edu", "universityofcalifornia.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital", "technology", "data"] },
+    { "id": "michigan", "publisher": "University of Michigan Press", "region": "US R1", "officialDomains": ["press.umich.edu", "umich.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "artificial intelligence", "information"] },
+    { "id": "minnesota", "publisher": "University of Minnesota Press", "region": "US R1", "officialDomains": ["upress.umn.edu", "umn.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital media", "technology", "algorithm"] },
+    { "id": "johns-hopkins", "publisher": "Johns Hopkins University Press", "region": "US R1", "officialDomains": ["press.jhu.edu", "jhu.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["technology", "data", "health informatics"] },
+    { "id": "penn", "publisher": "University of Pennsylvania Press", "region": "US R1", "officialDomains": ["pennpress.org", "upenn.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital culture", "technology"] },
+    { "id": "penn-state", "publisher": "Penn State University Press", "region": "US R1", "officialDomains": ["psupress.org", "psu.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "technology", "media"] },
+    { "id": "nyu", "publisher": "New York University Press", "region": "US R1", "officialDomains": ["nyupress.org", "nyu.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital media", "technology", "algorithm"] },
+    { "id": "rutgers", "publisher": "Rutgers University Press", "region": "US R1", "officialDomains": ["rutgersuniversitypress.org", "rutgers.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["technology", "digital", "media"] },
+    { "id": "unc", "publisher": "University of North Carolina Press", "region": "US R1", "officialDomains": ["uncpress.org", "unc.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "technology"] },
+    { "id": "texas", "publisher": "University of Texas Press", "region": "US R1", "officialDomains": ["utpress.utexas.edu", "utexas.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital media", "technology"] },
+    { "id": "washington", "publisher": "University of Washington Press", "region": "US R1", "officialDomains": ["uwapress.uw.edu", "washington.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["technology", "digital", "information"] },
+    { "id": "illinois", "publisher": "University of Illinois Press", "region": "US R1", "officialDomains": ["press.uillinois.edu", "illinois.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital", "technology", "media"] },
+    { "id": "indiana", "publisher": "Indiana University Press", "region": "US R1", "officialDomains": ["iupress.org", "iu.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "technology"] },
+    { "id": "purdue", "publisher": "Purdue University Press", "region": "US R1", "officialDomains": ["press.purdue.edu", "purdue.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["technology", "information", "data"] },
+    { "id": "carnegie-mellon", "publisher": "Carnegie Mellon University Press", "region": "US R1", "officialDomains": ["cmu.edu"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["computer science", "technology", "digital"] },
+    { "id": "oxford", "publisher": "Oxford University Press", "region": "UK", "officialDomains": ["academic.oup.com", "global.oup.com", "oup.com"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["computer science", "artificial intelligence", "data science"] },
+    { "id": "cambridge", "publisher": "Cambridge University Press", "region": "UK", "officialDomains": ["cambridge.org"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["computer science", "machine learning", "data science", "statistics"], "seedCalls": [{ "id": "cambridge-computer-science", "name": "Cambridge Computer Science Book Proposals", "type": "book-proposal", "domain": "Computer Science & Data", "callUrl": "https://www.cambridge.org/authorhub/publish-with-cambridge/academic-books/find-an-editor", "seriesUrl": "https://www.cambridge.org/authorhub/publish-with-cambridge/academic", "rolling": true, "description": "Rolling academic book proposals in computer science, statistics, engineering, and related fields.", "verifiedEvidence": { "reviewedAt": "2026-07-17", "proposalRouteVerified": true, "subjectFitVerified": true, "allowTransientFetchFallback": true } }] },
+    {
+      "id": "ucl",
+      "publisher": "UCL Press",
+      "region": "UK",
+      "officialDomains": ["uclpress.co.uk", "ucl.ac.uk"],
+      "memberships": ["AEUP"],
+      "peerReviewVerified": true,
+      "scopeKeywords": ["computer science", "digital humanities", "artificial intelligence", "machine learning"],
+      "proposalUrls": ["https://uclpress.co.uk/publish-with-us/submitting-your-book-proposal/"],
+      "seedCalls": [
+        {
+          "id": "ucl-digital-ai-books",
+          "name": "UCL Press Digital Humanities & AI Book Proposals",
+          "type": "book-proposal",
+          "domain": "AI & Digital Humanities",
+          "callUrl": "https://uclpress.co.uk/publish-with-us/submitting-your-book-proposal/",
+          "seriesUrl": "https://uclpress.co.uk/keyword/digital-humanities/",
+          "rolling": true,
+          "description": "Rolling proposals for rigorously peer-reviewed UCL Press monographs, edited collections, short monographs, and textbooks, including AI and digital-humanities work.",
+          "verifiedEvidence": {
+            "reviewedAt": "2026-07-17",
+            "proposalRouteVerified": true,
+            "subjectFitVerified": true,
+            "allowTransientFetchFallback": true
+          }
+        }
+      ]
+    },
+    { "id": "manchester", "publisher": "Manchester University Press", "region": "UK", "officialDomains": ["manchesteruniversitypress.co.uk"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "technology", "media"] },
+    { "id": "edinburgh", "publisher": "Edinburgh University Press", "region": "UK", "officialDomains": ["edinburghuniversitypress.com"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "technology", "media"] },
+    { "id": "bristol", "publisher": "Bristol University Press", "region": "UK", "officialDomains": ["bristoluniversitypress.co.uk"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital society", "data", "technology"] },
+    { "id": "liverpool", "publisher": "Liverpool University Press", "region": "UK", "officialDomains": ["liverpooluniversitypress.co.uk"], "memberships": ["AUPresses"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "technology"] },
+    {
+      "id": "london",
+      "publisher": "University of London Press",
+      "region": "UK",
+      "officialDomains": ["uolpress.co.uk", "london.ac.uk"],
+      "memberships": ["AUPresses"],
+      "peerReviewVerified": true,
+      "scopeKeywords": ["digital humanities", "artificial intelligence", "computational humanities", "digital cultural heritage"],
+      "proposalUrls": ["https://uolpress.co.uk/publish-with-us/"],
+      "seedCalls": [
+        {
+          "id": "london-digital-humanities-books",
+          "name": "University of London Press Digital Humanities Book Proposals",
+          "type": "book-proposal",
+          "domain": "AI & Digital Humanities",
+          "callUrl": "https://uolpress.co.uk/publish-with-us/",
+          "seriesUrl": "https://uolpress.co.uk/uolp-book-category/digital-humanities/",
+          "rolling": true,
+          "description": "Rolling proposals for peer-reviewed University of London Press books in digital humanities and related interdisciplinary areas, including critical and cultural AI.",
+          "verifiedEvidence": {
+            "reviewedAt": "2026-07-17",
+            "proposalRouteVerified": true,
+            "subjectFitVerified": true,
+            "allowTransientFetchFallback": true
+          }
+        }
+      ]
+    },
+    { "id": "westminster", "publisher": "University of Westminster Press", "region": "UK", "officialDomains": ["uwestminsterpress.co.uk", "westminster.ac.uk"], "memberships": ["AEUP"], "peerReviewVerified": true, "scopeKeywords": ["digital media", "critical data", "technology"] },
+    { "id": "amsterdam", "publisher": "Amsterdam University Press", "region": "Europe", "officialDomains": ["aup.nl"], "memberships": ["AUPresses", "AEUP"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "artificial intelligence", "media"], "proposalUrls": ["https://www.aup.nl/en/publish"] },
+    { "id": "leuven", "publisher": "Leuven University Press", "region": "Europe", "officialDomains": ["lup.be", "kuleuven.be"], "memberships": ["AEUP"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "technology"] },
+    { "id": "ceu", "publisher": "Central European University Press", "region": "Europe", "officialDomains": ["ceupress.com", "ceu.edu"], "memberships": ["AUPresses", "AEUP"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "technology", "data"] },
+    { "id": "helsinki", "publisher": "Helsinki University Press", "region": "Europe", "officialDomains": ["hup.fi", "helsinki.fi"], "memberships": ["AEUP"], "peerReviewVerified": true, "scopeKeywords": ["data science", "digital humanities", "artificial intelligence"] },
+    { "id": "stockholm", "publisher": "Stockholm University Press", "region": "Europe", "officialDomains": ["stockholmuniversitypress.se", "su.se"], "memberships": ["AEUP"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "data", "technology"] },
+    { "id": "copenhagen", "publisher": "University of Copenhagen Press", "region": "Europe", "officialDomains": ["museumtusculanum.dk", "ku.dk"], "memberships": ["AEUP"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "technology"] },
+    { "id": "groningen", "publisher": "University of Groningen Press", "region": "Europe", "officialDomains": ["ugp.rug.nl", "rug.nl"], "memberships": ["AEUP"], "peerReviewVerified": true, "scopeKeywords": ["data science", "digital humanities", "technology"] },
+    { "id": "open-book", "publisher": "Open Book Publishers", "region": "UK/Europe", "officialDomains": ["openbookpublishers.com"], "memberships": ["AEUP"], "peerReviewVerified": true, "scopeKeywords": ["digital humanities", "computer science", "technology"] },
+    {
+      "id": "springer",
+      "publisher": "Springer Nature / Palgrave Macmillan",
+      "region": "Global",
+      "officialDomains": ["springer.com", "springernature.com", "palgrave.com"],
+      "majorAcademicPublisher": true,
+      "peerReviewVerified": true,
+      "scopeKeywords": ["computer science", "artificial intelligence", "data science", "machine learning", "technology"],
+      "proposalUrls": ["https://www.springernature.com/gp/authors/publish-a-book"],
+      "seedCalls": [
+        {
+          "id": "springer-computer-science-books",
+          "name": "Springer Nature Computer Science Book Proposals",
+          "type": "book-proposal",
+          "domain": "Computer Science, Data & AI",
+          "callUrl": "https://www.springernature.com/gp/authors/publish-a-book",
+          "seriesUrl": "https://www.springernature.com/gp/researchers/campaigns/book-series/computer-science",
+          "rolling": true,
+          "description": "Rolling book ideas and proposals for Springer Nature computer-science series, including artificial intelligence, data, software, and interdisciplinary computing.",
+          "verifiedEvidence": {
+            "reviewedAt": "2026-07-17",
+            "proposalRouteVerified": true,
+            "subjectFitVerified": true,
+            "allowTransientFetchFallback": true
+          }
+        }
+      ]
+    },
+    { "id": "routledge", "publisher": "Routledge / Taylor & Francis", "region": "Global", "officialDomains": ["routledge.com", "taylorfrancis.com"], "majorAcademicPublisher": true, "peerReviewVerified": true, "scopeKeywords": ["artificial intelligence", "data science", "digital humanities"] },
+    { "id": "sage", "publisher": "SAGE Publishing", "region": "Global", "officialDomains": ["sagepub.com"], "majorAcademicPublisher": true, "peerReviewVerified": true, "scopeKeywords": ["data science", "digital methods", "technology"] },
+    {
+      "id": "emerald",
+      "publisher": "Emerald Publishing",
+      "region": "Global",
+      "officialDomains": ["emeraldgrouppublishing.com", "emerald.com"],
+      "majorAcademicPublisher": true,
+      "peerReviewVerified": true,
+      "scopeKeywords": ["information systems", "artificial intelligence", "data", "digital transformation", "generative AI"],
+      "seedCalls": [
+        { "id": "emerald-ai-teacher-preparation", "name": "AI’s Role in Enhancing Teacher Preparation", "type": "chapter-proposal", "domain": "AI & Education", "callUrl": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-ais-role-enhancing-teacher-preparation", "description": "Chapter proposals on AI tools, literacy, ethics, governance, and teacher preparation." },
+        { "id": "emerald-environmental-accounting", "name": "Advances in Environmental Accounting and Management", "type": "chapter-proposal", "domain": "AI, Data & Sustainability", "callUrl": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-advances-environmental-accounting-and-management", "description": "Chapters on digitalisation, AI, technological infrastructures, and data-driven environmental accountability." },
+        { "id": "emerald-industry-5", "name": "Transitioning to Industry 5.0", "type": "chapter-proposal", "domain": "AI, IoT & Digital Transformation", "callUrl": "https://emeraldgrouppublishing.com/calls-for-books/transitioning-industry-50-driving-digital-transformation-a-sustainable-and", "description": "Chapters connecting AI, IoT, blockchain, smart infrastructure, and sustainable digital transformation." },
+        { "id": "emerald-science-teaching", "name": "The Science of Teaching Science", "type": "chapter-proposal", "domain": "Generative AI & Education", "callUrl": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-science-teaching-science-what-works-what-lasts-what-matters", "description": "Research chapters on emerging technologies, generative AI, mobile systems, and science learning." }
+      ]
+    },
+    {
+      "id": "igi-global",
+      "publisher": "IGI Global Scientific Publishing",
+      "region": "Global",
+      "officialDomains": ["igi-global.com"],
+      "majorAcademicPublisher": true,
+      "memberships": ["COPE"],
+      "peerReviewVerified": true,
+      "scopeKeywords": ["computer science", "artificial intelligence", "data science", "information systems", "technology"],
+      "proposalUrls": ["https://www.igi-global.com/publish/submit-a-proposal/book-proposal/"],
+      "seedCalls": [
+        {
+          "id": "igi-global-scientific-books",
+          "name": "IGI Global Scientific Publishing Book Proposals",
+          "type": "book-proposal",
+          "domain": "Computer Science, Data & AI",
+          "callUrl": "https://www.igi-global.com/publish/submit-a-proposal/book-proposal/",
+          "seriesUrl": "https://www.igi-global.com/publish/",
+          "rolling": true,
+          "description": "Rolling proposals for authored and edited research books across scientific, technical, computing, data, business, education, and interdisciplinary fields.",
+          "verifiedEvidence": {
+            "reviewedAt": "2026-07-17",
+            "proposalRouteVerified": true,
+            "subjectFitVerified": true,
+            "allowTransientFetchFallback": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "mdpi-books",
+      "publisher": "MDPI Books",
+      "region": "Global",
+      "officialDomains": ["mdpi.com"],
+      "majorAcademicPublisher": true,
+      "peerReviewVerified": true,
+      "scopeKeywords": ["artificial intelligence", "computer science", "data science", "engineering", "technology"],
+      "proposalUrls": ["https://www.mdpi.com/books/publish-with-us"],
+      "seedCalls": [
+        {
+          "id": "mdpi-stem-books",
+          "name": "MDPI Books STEM & AI Book Proposals",
+          "type": "book-proposal",
+          "domain": "STEM, Computer Science & AI",
+          "callUrl": "https://www.mdpi.com/books/publish-with-us",
+          "seriesUrl": "https://www.mdpi.com/about/announcements/9378",
+          "rolling": true,
+          "description": "Rolling open-access book proposals across STEM and interdisciplinary subjects, including engineering, computer science, data, and artificial intelligence.",
+          "verifiedEvidence": {
+            "reviewedAt": "2026-07-17",
+            "proposalRouteVerified": true,
+            "subjectFitVerified": true,
+            "allowTransientFetchFallback": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "elsevier",
+      "publisher": "Elsevier",
+      "region": "Global",
+      "officialDomains": ["elsevier.com", "elsevier.support"],
+      "majorAcademicPublisher": true,
+      "peerReviewVerified": true,
+      "scopeKeywords": ["computer science", "artificial intelligence", "data science", "computing", "technology"],
+      "proposalUrls": ["https://www.elsevier.com/en-gb/publishing/publish-a-book"],
+      "seedCalls": [
+        {
+          "id": "elsevier-computing-books",
+          "name": "Elsevier Computing, Data & AI Book Proposals",
+          "type": "book-proposal",
+          "domain": "Computing, Data & AI",
+          "callUrl": "https://www.elsevier.com/en-gb/publishing/publish-a-book",
+          "seriesUrl": "https://www.elsevier.com/en-gb/publishing/publish-a-book",
+          "rolling": true,
+          "description": "Rolling Science & Technology book proposals in computing and related fields, including AI, data science, software, and interdisciplinary applications.",
+          "verifiedEvidence": {
+            "reviewedAt": "2026-07-17",
+            "proposalRouteVerified": true,
+            "subjectFitVerified": true,
+            "allowTransientFetchFallback": true
+          }
+        }
+      ]
+    },
+    { "id": "de-gruyter", "publisher": "De Gruyter Brill", "region": "Europe/Global", "officialDomains": ["degruyter.com", "brill.com"], "majorAcademicPublisher": true, "peerReviewVerified": true, "scopeKeywords": ["computer science", "digital humanities", "artificial intelligence"] },
+    { "id": "ios", "publisher": "IOS Press", "region": "Europe/Global", "officialDomains": ["iospress.com"], "majorAcademicPublisher": true, "peerReviewVerified": true, "scopeKeywords": ["artificial intelligence", "computer science", "data science"] },
+    { "id": "acm-books", "publisher": "ACM Books", "region": "Global", "officialDomains": ["acm.org"], "majorAcademicPublisher": true, "peerReviewVerified": true, "scopeKeywords": ["computer science", "artificial intelligence", "software engineering"] },
+    { "id": "ieee-wiley", "publisher": "IEEE / Wiley", "region": "Global", "officialDomains": ["ieee.org", "wiley.com"], "majorAcademicPublisher": true, "peerReviewVerified": true, "scopeKeywords": ["computer science", "artificial intelligence", "data science"] }
+  ]
+}

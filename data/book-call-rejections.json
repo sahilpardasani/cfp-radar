@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-07-25T14:15:45.723Z",
+  "items": [
+    {
+      "publisher": "Amsterdam University Press",
+      "url": "https://www.aup.nl/en/publish",
+      "reasons": [
+        "no-explicit-book-proposal-route",
+        "outside-cs-ai-data-scope"
+      ],
+      "checkedAt": "2026-07-25T14:15:45.723Z"
+    }
+  ]
+}

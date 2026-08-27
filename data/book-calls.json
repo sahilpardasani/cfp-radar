@@ -1,0 +1,665 @@
+{
+  "source": "verified official scholarly publishers",
+  "updatedAt": "2026-07-25T14:15:45.723Z",
+  "checkedPublishers": 53,
+  "items": [
+    {
+      "id": "exeter-book-proposal-artificial-humanities",
+      "name": "Artificial Humanities",
+      "acronym": "exeter",
+      "type": "book-proposal",
+      "publisher": "University of Exeter Press",
+      "domain": "AI & Digital Humanities",
+      "topics": [
+        "Artificial Humanities",
+        "artificial intelligence",
+        "digital futures"
+      ],
+      "deadline": null,
+      "rolling": true,
+      "callUrl": "https://www.exeterpress.co.uk/pages/author-information",
+      "cfpUrl": "https://www.exeterpress.co.uk/pages/author-information",
+      "url": "https://www.exeterpress.co.uk/pages/author-information",
+      "seriesUrl": "https://www.exeterpress.co.uk/collections/artificial-humanities",
+      "description": "A new interdisciplinary series applying humanistic methods to understand and shape artificial intelligence.",
+      "source": "official-publisher",
+      "sourceConfigId": "exeter",
+      "verifiedAt": "2026-07-25T14:16:08.077Z",
+      "deadlineEvidence": null,
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "www.exeterpress.co.uk",
+        "memberships": [
+          "AUPresses"
+        ],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy",
+            "digital humanities|artificial humanities|critical ai|algorithmic|digital media|platform studies"
+          ],
+          "configured": [
+            "Artificial Humanities",
+            "artificial intelligence",
+            "digital futures"
+          ]
+        },
+        "checkedAt": "2026-07-25T14:16:08.077Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "mit-book-proposal-mit-press-computing-ai-book-proposals",
+      "name": "MIT Press Computing & AI Book Proposals",
+      "acronym": "mit",
+      "type": "book-proposal",
+      "publisher": "MIT Press",
+      "domain": "Computer Science & AI",
+      "topics": [
+        "computer science",
+        "artificial intelligence",
+        "data",
+        "technology"
+      ],
+      "deadline": null,
+      "rolling": true,
+      "callUrl": "https://mitpress.mit.edu/prospective-authors/",
+      "cfpUrl": "https://mitpress.mit.edu/prospective-authors/",
+      "url": "https://mitpress.mit.edu/prospective-authors/",
+      "seriesUrl": "https://mitpress.mit.edu/about/",
+      "description": "Rolling inquiries for MIT Press book projects, including computer science, artificial intelligence, data, and technology.",
+      "source": "official-publisher",
+      "sourceConfigId": "mit",
+      "verifiedAt": "2026-07-25T14:16:07.352Z",
+      "deadlineEvidence": null,
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "mitpress.mit.edu",
+        "memberships": [
+          "AUPresses"
+        ],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
+            "computer science|computing|software engineering|programming language|information systems?",
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
+          ],
+          "configured": [
+            "computer science",
+            "artificial intelligence",
+            "data",
+            "technology"
+          ]
+        },
+        "checkedAt": "2026-07-25T14:16:07.352Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "cambridge-book-proposal-cambridge-computer-science-book-proposals",
+      "name": "Cambridge Computer Science Book Proposals",
+      "acronym": "cambridge",
+      "type": "book-proposal",
+      "publisher": "Cambridge University Press",
+      "domain": "Computer Science & Data",
+      "topics": [
+        "computer science",
+        "machine learning",
+        "data science",
+        "statistics"
+      ],
+      "deadline": null,
+      "rolling": true,
+      "callUrl": "https://www.cambridge.org/authorhub/publish-with-cambridge/academic-books/find-an-editor",
+      "cfpUrl": "https://www.cambridge.org/authorhub/publish-with-cambridge/academic-books/find-an-editor",
+      "url": "https://www.cambridge.org/authorhub/publish-with-cambridge/academic-books/find-an-editor",
+      "seriesUrl": "https://www.cambridge.org/authorhub/publish-with-cambridge/academic",
+      "description": "Rolling academic book proposals in computer science, statistics, engineering, and related fields.",
+      "source": "official-publisher",
+      "sourceConfigId": "cambridge",
+      "verifiedAt": "2026-07-25T14:19:16.417Z",
+      "deadlineEvidence": null,
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "www.cambridge.org",
+        "memberships": [
+          "AUPresses"
+        ],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [],
+          "configured": [
+            "computer science",
+            "machine learning",
+            "data science",
+            "statistics"
+          ],
+          "verifiedFromConfiguredOfficialEvidence": true
+        },
+        "checkedAt": "2026-07-25T14:19:16.417Z",
+        "verificationMode": "operator-reviewed-official-evidence-fallback",
+        "transientFetchFailure": "Fetch failed for https://www.cambridge.org/authorhub/publish-with-cambridge/academic-books/find-an-editor: HTTP 403"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "ucl-book-proposal-ucl-press-digital-humanities-ai-book-proposals",
+      "name": "UCL Press Digital Humanities & AI Book Proposals",
+      "acronym": "ucl",
+      "type": "book-proposal",
+      "publisher": "UCL Press",
+      "domain": "AI & Digital Humanities",
+      "topics": [
+        "computer science",
+        "digital humanities",
+        "artificial intelligence",
+        "machine learning"
+      ],
+      "deadline": null,
+      "rolling": true,
+      "callUrl": "https://uclpress.co.uk/publish-with-us/submitting-your-book-proposal/",
+      "cfpUrl": "https://uclpress.co.uk/publish-with-us/submitting-your-book-proposal/",
+      "url": "https://uclpress.co.uk/publish-with-us/submitting-your-book-proposal/",
+      "seriesUrl": "https://uclpress.co.uk/keyword/digital-humanities/",
+      "description": "Rolling proposals for rigorously peer-reviewed UCL Press monographs, edited collections, short monographs, and textbooks, including AI and digital-humanities work.",
+      "source": "official-publisher",
+      "sourceConfigId": "ucl",
+      "verifiedAt": "2026-07-25T14:19:38.524Z",
+      "deadlineEvidence": null,
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "uclpress.co.uk",
+        "memberships": [
+          "AEUP"
+        ],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [],
+          "configured": [
+            "computer science",
+            "digital humanities",
+            "artificial intelligence",
+            "machine learning"
+          ],
+          "verifiedFromConfiguredOfficialEvidence": true
+        },
+        "checkedAt": "2026-07-25T14:19:38.524Z",
+        "verificationMode": "operator-reviewed-official-evidence-fallback",
+        "transientFetchFailure": "Fetch failed for https://uclpress.co.uk/publish-with-us/submitting-your-book-proposal/: HTTP 403"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "london-book-proposal-university-of-london-press-digital-humanities-book-proposals",
+      "name": "University of London Press Digital Humanities Book Proposals",
+      "acronym": "london",
+      "type": "book-proposal",
+      "publisher": "University of London Press",
+      "domain": "AI & Digital Humanities",
+      "topics": [
+        "digital humanities",
+        "artificial intelligence",
+        "computational humanities",
+        "digital cultural heritage"
+      ],
+      "deadline": null,
+      "rolling": true,
+      "callUrl": "https://uolpress.co.uk/publish-with-us/",
+      "cfpUrl": "https://uolpress.co.uk/publish-with-us/",
+      "url": "https://uolpress.co.uk/publish-with-us/",
+      "seriesUrl": "https://uolpress.co.uk/uolp-book-category/digital-humanities/",
+      "description": "Rolling proposals for peer-reviewed University of London Press books in digital humanities and related interdisciplinary areas, including critical and cultural AI.",
+      "source": "official-publisher",
+      "sourceConfigId": "london",
+      "verifiedAt": "2026-07-25T14:20:20.799Z",
+      "deadlineEvidence": null,
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "uolpress.co.uk",
+        "memberships": [
+          "AUPresses"
+        ],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy",
+            "digital humanities|artificial humanities|critical ai|algorithmic|digital media|platform studies"
+          ],
+          "configured": [
+            "digital humanities",
+            "digital cultural heritage"
+          ]
+        },
+        "checkedAt": "2026-07-25T14:20:20.799Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "springer-book-proposal-springer-nature-computer-science-book-proposals",
+      "name": "Springer Nature Computer Science Book Proposals",
+      "acronym": "springer",
+      "type": "book-proposal",
+      "publisher": "Springer Nature / Palgrave Macmillan",
+      "domain": "Computer Science, Data & AI",
+      "topics": [
+        "computer science",
+        "artificial intelligence",
+        "data science",
+        "machine learning",
+        "technology"
+      ],
+      "deadline": null,
+      "rolling": true,
+      "callUrl": "https://www.springernature.com/gp/authors/publish-a-book",
+      "cfpUrl": "https://www.springernature.com/gp/authors/publish-a-book",
+      "url": "https://www.springernature.com/gp/authors/publish-a-book",
+      "seriesUrl": "https://www.springernature.com/gp/researchers/campaigns/book-series/computer-science",
+      "description": "Rolling book ideas and proposals for Springer Nature computer-science series, including artificial intelligence, data, software, and interdisciplinary computing.",
+      "source": "official-publisher",
+      "sourceConfigId": "springer",
+      "verifiedAt": "2026-07-25T14:21:45.936Z",
+      "deadlineEvidence": null,
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "www.springernature.com",
+        "memberships": [],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
+            "computer science|computing|software engineering|programming language|information systems?",
+            "data science|data mining|database|big data|knowledge graph|information retrieval",
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
+          ],
+          "configured": [
+            "computer science",
+            "artificial intelligence",
+            "machine learning",
+            "technology"
+          ]
+        },
+        "checkedAt": "2026-07-25T14:21:45.936Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "emerald-chapter-proposal-ai-s-role-in-enhancing-teacher-preparation",
+      "name": "AI’s Role in Enhancing Teacher Preparation",
+      "acronym": "emerald",
+      "type": "chapter-proposal",
+      "publisher": "Emerald Publishing",
+      "domain": "AI & Education",
+      "topics": [
+        "information systems",
+        "artificial intelligence",
+        "data",
+        "digital transformation",
+        "generative AI"
+      ],
+      "deadline": "2026-09-30T23:59:00.000Z",
+      "rolling": false,
+      "callUrl": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-ais-role-enhancing-teacher-preparation",
+      "cfpUrl": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-ais-role-enhancing-teacher-preparation",
+      "url": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-ais-role-enhancing-teacher-preparation",
+      "seriesUrl": null,
+      "description": "Chapter proposals on AI tools, literacy, ethics, governance, and teacher preparation.",
+      "source": "official-publisher",
+      "sourceConfigId": "emerald",
+      "verifiedAt": "2026-07-25T14:21:45.541Z",
+      "deadlineEvidence": "Chapters: July 6, 2026 Chapter Proposals Due: September 30, 2026",
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "www.emeraldgrouppublishing.com",
+        "memberships": [],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
+            "data science|data mining|database|big data|knowledge graph|information retrieval",
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy",
+            "digital humanities|artificial humanities|critical ai|algorithmic|digital media|platform studies"
+          ],
+          "configured": [
+            "artificial intelligence",
+            "data"
+          ]
+        },
+        "checkedAt": "2026-07-25T14:21:45.541Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "emerald-chapter-proposal-advances-in-environmental-accounting-and-management",
+      "name": "Advances in Environmental Accounting and Management",
+      "acronym": "emerald",
+      "type": "chapter-proposal",
+      "publisher": "Emerald Publishing",
+      "domain": "AI, Data & Sustainability",
+      "topics": [
+        "information systems",
+        "artificial intelligence",
+        "data",
+        "digital transformation",
+        "generative AI"
+      ],
+      "deadline": "2026-11-30T23:59:00.000Z",
+      "rolling": false,
+      "callUrl": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-advances-environmental-accounting-and-management",
+      "cfpUrl": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-advances-environmental-accounting-and-management",
+      "url": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-advances-environmental-accounting-and-management",
+      "seriesUrl": null,
+      "description": "Chapters on digitalisation, AI, technological infrastructures, and data-driven environmental accountability.",
+      "source": "official-publisher",
+      "sourceConfigId": "emerald",
+      "verifiedAt": "2026-07-25T14:21:45.622Z",
+      "deadlineEvidence": "Closes: 30 Nov 2026",
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "www.emeraldgrouppublishing.com",
+        "memberships": [],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
+            "data science|data mining|database|big data|knowledge graph|information retrieval",
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
+          ],
+          "configured": [
+            "artificial intelligence",
+            "data"
+          ]
+        },
+        "checkedAt": "2026-07-25T14:21:45.622Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "emerald-chapter-proposal-transitioning-to-industry-5-0",
+      "name": "Transitioning to Industry 5.0",
+      "acronym": "emerald",
+      "type": "chapter-proposal",
+      "publisher": "Emerald Publishing",
+      "domain": "AI, IoT & Digital Transformation",
+      "topics": [
+        "information systems",
+        "artificial intelligence",
+        "data",
+        "digital transformation",
+        "generative AI"
+      ],
+      "deadline": "2026-09-30T23:59:00.000Z",
+      "rolling": false,
+      "callUrl": "https://emeraldgrouppublishing.com/calls-for-books/transitioning-industry-50-driving-digital-transformation-a-sustainable-and",
+      "cfpUrl": "https://emeraldgrouppublishing.com/calls-for-books/transitioning-industry-50-driving-digital-transformation-a-sustainable-and",
+      "url": "https://emeraldgrouppublishing.com/calls-for-books/transitioning-industry-50-driving-digital-transformation-a-sustainable-and",
+      "seriesUrl": null,
+      "description": "Chapters connecting AI, IoT, blockchain, smart infrastructure, and sustainable digital transformation.",
+      "source": "official-publisher",
+      "sourceConfigId": "emerald",
+      "verifiedAt": "2026-07-25T14:21:46.817Z",
+      "deadlineEvidence": "Chapter Submission Deadline: 30th September 2026",
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "emeraldgrouppublishing.com",
+        "memberships": [],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
+            "data science|data mining|database|big data|knowledge graph|information retrieval",
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
+          ],
+          "configured": [
+            "artificial intelligence",
+            "data",
+            "digital transformation"
+          ]
+        },
+        "checkedAt": "2026-07-25T14:21:46.817Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "emerald-chapter-proposal-the-science-of-teaching-science",
+      "name": "The Science of Teaching Science",
+      "acronym": "emerald",
+      "type": "chapter-proposal",
+      "publisher": "Emerald Publishing",
+      "domain": "Generative AI & Education",
+      "topics": [
+        "information systems",
+        "artificial intelligence",
+        "data",
+        "digital transformation",
+        "generative AI"
+      ],
+      "deadline": "2026-08-30T23:59:00.000Z",
+      "rolling": false,
+      "callUrl": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-science-teaching-science-what-works-what-lasts-what-matters",
+      "cfpUrl": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-science-teaching-science-what-works-what-lasts-what-matters",
+      "url": "https://www.emeraldgrouppublishing.com/calls-for-books/call-chapters-science-teaching-science-what-works-what-lasts-what-matters",
+      "seriesUrl": null,
+      "description": "Research chapters on emerging technologies, generative AI, mobile systems, and science learning.",
+      "source": "official-publisher",
+      "sourceConfigId": "emerald",
+      "verifiedAt": "2026-07-25T14:21:46.262Z",
+      "deadlineEvidence": "Abstract Submission Deadline: August 30, 2026",
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "www.emeraldgrouppublishing.com",
+        "memberships": [],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
+            "data science|data mining|database|big data|knowledge graph|information retrieval",
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
+          ],
+          "configured": [
+            "artificial intelligence",
+            "data",
+            "generative AI"
+          ]
+        },
+        "checkedAt": "2026-07-25T14:21:46.262Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "igi-global-book-proposal-igi-global-scientific-publishing-book-proposals",
+      "name": "IGI Global Scientific Publishing Book Proposals",
+      "acronym": "igi-global",
+      "type": "book-proposal",
+      "publisher": "IGI Global Scientific Publishing",
+      "domain": "Computer Science, Data & AI",
+      "topics": [
+        "computer science",
+        "artificial intelligence",
+        "data science",
+        "information systems",
+        "technology"
+      ],
+      "deadline": null,
+      "rolling": true,
+      "callUrl": "https://www.igi-global.com/publish/submit-a-proposal/book-proposal/",
+      "cfpUrl": "https://www.igi-global.com/publish/submit-a-proposal/book-proposal/",
+      "url": "https://www.igi-global.com/publish/submit-a-proposal/book-proposal/",
+      "seriesUrl": "https://www.igi-global.com/publish/",
+      "description": "Rolling proposals for authored and edited research books across scientific, technical, computing, data, business, education, and interdisciplinary fields.",
+      "source": "official-publisher",
+      "sourceConfigId": "igi-global",
+      "verifiedAt": "2026-07-25T14:21:44.769Z",
+      "deadlineEvidence": null,
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "www.igi-global.com",
+        "memberships": [
+          "COPE"
+        ],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
+          ],
+          "configured": [
+            "computer science",
+            "artificial intelligence",
+            "data science",
+            "information systems",
+            "technology"
+          ],
+          "verifiedFromConfiguredOfficialEvidence": true
+        },
+        "checkedAt": "2026-07-25T14:21:44.769Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "mdpi-books-book-proposal-mdpi-books-stem-ai-book-proposals",
+      "name": "MDPI Books STEM & AI Book Proposals",
+      "acronym": "mdpi-books",
+      "type": "book-proposal",
+      "publisher": "MDPI Books",
+      "domain": "STEM, Computer Science & AI",
+      "topics": [
+        "artificial intelligence",
+        "computer science",
+        "data science",
+        "engineering",
+        "technology"
+      ],
+      "deadline": null,
+      "rolling": true,
+      "callUrl": "https://www.mdpi.com/books/publish-with-us",
+      "cfpUrl": "https://www.mdpi.com/books/publish-with-us",
+      "url": "https://www.mdpi.com/books/publish-with-us",
+      "seriesUrl": "https://www.mdpi.com/about/announcements/9378",
+      "description": "Rolling open-access book proposals across STEM and interdisciplinary subjects, including engineering, computer science, data, and artificial intelligence.",
+      "source": "official-publisher",
+      "sourceConfigId": "mdpi-books",
+      "verifiedAt": "2026-07-25T14:21:45.171Z",
+      "deadlineEvidence": null,
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "www.mdpi.com",
+        "memberships": [],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
+            "computer science|computing|software engineering|programming language|information systems?",
+            "data science|data mining|database|big data|knowledge graph|information retrieval",
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
+          ],
+          "configured": [
+            "computer science",
+            "engineering",
+            "technology"
+          ]
+        },
+        "checkedAt": "2026-07-25T14:21:45.171Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
+      "id": "elsevier-book-proposal-elsevier-computing-data-ai-book-proposals",
+      "name": "Elsevier Computing, Data & AI Book Proposals",
+      "acronym": "elsevier",
+      "type": "book-proposal",
+      "publisher": "Elsevier",
+      "domain": "Computing, Data & AI",
+      "topics": [
+        "computer science",
+        "artificial intelligence",
+        "data science",
+        "computing",
+        "technology"
+      ],
+      "deadline": null,
+      "rolling": true,
+      "callUrl": "https://www.elsevier.com/en-gb/publishing/publish-a-book",
+      "cfpUrl": "https://www.elsevier.com/en-gb/publishing/publish-a-book",
+      "url": "https://www.elsevier.com/en-gb/publishing/publish-a-book",
+      "seriesUrl": "https://www.elsevier.com/en-gb/publishing/publish-a-book",
+      "description": "Rolling Science & Technology book proposals in computing and related fields, including AI, data science, software, and interdisciplinary applications.",
+      "source": "official-publisher",
+      "sourceConfigId": "elsevier",
+      "verifiedAt": "2026-07-25T14:22:26.982Z",
+      "deadlineEvidence": null,
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "www.elsevier.com",
+        "memberships": [],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
+            "computer science|computing|software engineering|programming language|information systems?",
+            "data science|data mining|database|big data|knowledge graph|information retrieval",
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
+          ],
+          "configured": [
+            "computing",
+            "technology"
+          ]
+        },
+        "checkedAt": "2026-07-25T14:22:26.982Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    }
+  ]
+}

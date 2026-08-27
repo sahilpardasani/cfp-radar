@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-02T22:11:05.550Z",
+  "newConferenceIds": [],
+  "synchronizedVenueIds": [],
+  "pending": [
+    {
+      "callId": "or-sic-2026",
+      "name": "SIC 2026 Conference",
+      "acronym": "SIC",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-ccs-2026-css",
+      "name": "CCS 2026 CSS",
+      "acronym": "CCS",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-nju-2026-intro2ai-spring",
+      "name": "NJU 2026 Intro2AI Spring",
+      "acronym": "NJU",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-encode-2026",
+      "name": "ENCODE 2026 Conference",
+      "acronym": "ENCODE",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-afrilang-ai-2026",
+      "name": "AfriLang AI 2026 Conference",
+      "acronym": "AfriLang",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-nerc-2026",
+      "name": "NERC 2026 Conference",
+      "acronym": "NERC",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-spelll-2026",
+      "name": "SPELLL 2026 Conference",
+      "acronym": "SPELLL",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-unicorn-summit-2026-south-america",
+      "name": "Unicorn Summit 2026 South America",
+      "acronym": "Unicorn",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-jdse-2026",
+      "name": "JDSE 2026 Conference",
+      "acronym": "JDSE",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-citi-2027",
+      "name": "CITI 2027 Conference",
+      "acronym": "CITI",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-jwoc-2026",
+      "name": "JWOC 2026 Conference",
+      "acronym": "JWOC",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-bcgl-2026",
+      "name": "BCGL 2026 Conference",
+      "acronym": "BCGL",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-deepmath-2026",
+      "name": "DeepMath 2026",
+      "acronym": "DeepMath",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-risex-2026",
+      "name": "RISEx 2026 Conference",
+      "acronym": "RISEx",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-capmw-2026",
+      "name": "CAPMW 2026 Conference",
+      "acronym": "CAPMW",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-jita-2026",
+      "name": "JITA 2026 Conference",
+      "acronym": "JITA",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-beijing-zhongguancun-academy-icais-2026",
+      "name": "Beijing Zhongguancun Academy ICAIS 2026 Conference",
+      "acronym": "Beijing",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-sois-2026",
+      "name": "SOIS 2026",
+      "acronym": "SOIS",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-dgfs-2026-poster-session",
+      "name": "DGfS 2026 Conference Poster Session",
+      "acronym": "DGfS",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-ai-zaman-2026",
+      "name": "AI-ZAMAN 2026 Conference",
+      "acronym": "AI-ZAMAN",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-universit-t-konstanz-2026-mulitmod-kn",
+      "name": "Universität Konstanz 2026 Mulitmod KN",
+      "acronym": "Universit",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-lift2-2026",
+      "name": "LIFT2 2026 Conference",
+      "acronym": "LIFT2",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-purdue-university-ai4edgebook-2026",
+      "name": "Purdue University AI4EdgeBook 2026",
+      "acronym": "Purdue",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-pku-2026-ai-techday",
+      "name": "PKU 2026 AI TechDay",
+      "acronym": "PKU",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-kolkom-2026",
+      "name": "KolKom 2026 Conference",
+      "acronym": "KolKom",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-phraconrep-2027",
+      "name": "PhraConRep 2027 Conference",
+      "acronym": "PhraConRep",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-ims-2026-fsml",
+      "name": "IMS 2026 FSML",
+      "acronym": "IMS",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-smf-2025",
+      "name": "SMF 2025 Conference",
+      "acronym": "SMF",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-icict-2027",
+      "name": "ICICT 2027 Conference",
+      "acronym": "ICICT",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    },
+    {
+      "callId": "or-iafll-2027",
+      "name": "IAFLL 2027 Conference",
+      "acronym": "IAFLL",
+      "detectedAsNew": false,
+      "reason": "no-exact-authoritative-history-identity"
+    }
+  ]
+}

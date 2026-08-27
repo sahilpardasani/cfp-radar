@@ -1,0 +1,4221 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-02T22:11:05.221Z",
+  "source": "exact-authority-history-catalog",
+  "policy": {
+    "journalTiers": [
+      "Q1",
+      "Q2"
+    ],
+    "exactJournalIdentity": "normalized title + configured publisher family + Crossref ISSN",
+    "curatedIdentity": "exact DBLP stream or ACL Anthology event"
+  },
+  "counts": {
+    "curated": 19,
+    "verifiedGeneratedConferences": 0,
+    "retainedGeneratedConferences": 0,
+    "rejectedConferenceCandidates": 1,
+    "journalCandidates": 118,
+    "verifiedJournals": 101,
+    "rejectedJournals": 17
+  },
+  "venues": [
+    {
+      "id": "aamas",
+      "canonicalName": "International Conference on Autonomous Agents and Multiagent Systems",
+      "acronym": "AAMAS",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://www.ifaamas.org/",
+      "match": {
+        "callIds": [
+          "aamas-2027"
+        ],
+        "acronyms": [
+          "AAMAS"
+        ],
+        "names": [
+          "International Conference on Autonomous Agents and Multiagent Systems"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/ifaamas"
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "bnaic-benelearn",
+      "canonicalName": "BNAIC/BeNeLearn Conference on Artificial Intelligence and Machine Learning",
+      "acronym": "BNAIC-BeNeLearn",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://www.maastrichtuniversity.nl/bnaic2026",
+      "match": {
+        "callIds": [
+          "or-bnaic-benelearn-2026"
+        ],
+        "openreviewSeries": [
+          "BNAIC-BeNeLearn/Conference"
+        ],
+        "acronyms": [
+          "BNAIC-BeNeLearn"
+        ],
+        "names": [
+          "BNAIC-BeNeLearn Conference",
+          "Belgium-Netherlands Conference on Artificial Intelligence"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/bnaic"
+      },
+      "historyStartYear": 2018,
+      "historyEndYear": 2021
+    },
+    {
+      "id": "chi",
+      "canonicalName": "ACM CHI Conference on Human Factors in Computing Systems",
+      "acronym": "CHI",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://chi.acm.org/",
+      "match": {
+        "callIds": [
+          "chi-2027"
+        ],
+        "acronyms": [
+          "CHI"
+        ],
+        "names": [
+          "ACM CHI Conference on Human Factors in Computing Systems",
+          "International Conference on Human Factors in Computing Systems"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/chi"
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "dai",
+      "canonicalName": "International Conference on Distributed Artificial Intelligence",
+      "acronym": "DAI",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://www.adai.ai/",
+      "match": {
+        "callIds": [
+          "dai-2026"
+        ],
+        "acronyms": [
+          "DAI"
+        ],
+        "names": [
+          "International Conference on Distributed Artificial Intelligence"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/dai2"
+      },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "icassp",
+      "canonicalName": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "acronym": "ICASSP",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://2027.ieeeicassp.org/",
+      "match": {
+        "callIds": [
+          "icassp-2027"
+        ],
+        "acronyms": [
+          "ICASSP"
+        ],
+        "names": [
+          "IEEE International Conference on Acoustics, Speech and Signal Processing"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/icassp"
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "ieee-bsn",
+      "canonicalName": "IEEE International Conference on Body Sensor Networks",
+      "acronym": "BSN",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://bsn.embs.org/2026/",
+      "match": {
+        "callIds": [
+          "or-ieee-embs-bsn-2026"
+        ],
+        "acronyms": [
+          "BSN"
+        ],
+        "names": [
+          "IEEE EMBS BSN",
+          "IEEE International Conference on Body Sensor Networks"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/bsn"
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "inlg",
+      "canonicalName": "International Natural Language Generation Conference",
+      "acronym": "INLG",
+      "venueType": "conference",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://inlgmeeting.github.io/",
+      "match": {
+        "callIds": [
+          "or-inlg-2026"
+        ],
+        "openreviewSeries": [
+          "aclweb.org/INLG/Conference_ARR_Commitment"
+        ],
+        "names": [
+          "International Natural Language Generation Conference",
+          "INLG Conference"
+        ]
+      },
+      "externalIds": {
+        "aclAnthologyEvent": "inlg"
+      },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "neurips",
+      "canonicalName": "Conference on Neural Information Processing Systems",
+      "acronym": "NeurIPS",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://neurips.cc/",
+      "match": {
+        "callIds": [
+          "or-neurips-2026"
+        ],
+        "acronyms": [
+          "NeurIPS"
+        ],
+        "names": [
+          "NeurIPS",
+          "Conference on Neural Information Processing Systems"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/nips"
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "nldl",
+      "canonicalName": "Northern Lights Deep Learning Conference",
+      "acronym": "NLDL",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://www.nldl.org/",
+      "match": {
+        "callIds": [
+          "or-nldl-2027"
+        ],
+        "openreviewSeries": [
+          "NLDL.org/Conference"
+        ],
+        "acronyms": [
+          "NLDL"
+        ],
+        "names": [
+          "Northern Lights Deep Learning Conference",
+          "NLDL Conference"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/nldl"
+      },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "sigmod",
+      "canonicalName": "ACM SIGMOD International Conference on Management of Data",
+      "acronym": "SIGMOD",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://sigmod.org/",
+      "match": {
+        "callIds": [
+          "sigmod-2027-r4"
+        ],
+        "acronyms": [
+          "SIGMOD"
+        ],
+        "names": [
+          "ACM SIGMOD International Conference on Management of Data"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/sigmod"
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "taai",
+      "canonicalName": "International Conference on Technologies and Applications of Artificial Intelligence",
+      "acronym": "TAAI",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://taai2026.github.io/",
+      "match": {
+        "callIds": [
+          "or-taai-2026"
+        ],
+        "openreviewSeries": [
+          "TAAI.org/Conference"
+        ],
+        "acronyms": [
+          "TAAI"
+        ],
+        "names": [
+          "International Conference on Technologies and Applications of Artificial Intelligence",
+          "TAAI Conference"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/taai"
+      },
+      "historyStartYear": 2023,
+      "historyEndYear": 2024
+    },
+    {
+      "id": "acm-csur",
+      "canonicalName": "ACM Computing Surveys",
+      "acronym": "ACM CSUR",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "ACM",
+      "officialUrl": "https://dl.acm.org/journal/csur",
+      "match": {
+        "callIds": [
+          "acm-csur"
+        ],
+        "names": [
+          "ACM Computing Surveys",
+          "ACM Computing Surveys"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0360-0300",
+          "1557-7341"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Association for Computing Machinery",
+        "registeredDois": 3765,
+        "url": "https://api.crossref.org/journals/0360-0300"
+      }
+    },
+    {
+      "id": "eswa-elsevier",
+      "canonicalName": "Expert Systems with Applications",
+      "acronym": "ESWA (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/expert-systems-with-applications",
+      "match": {
+        "callIds": [
+          "eswa-elsevier"
+        ],
+        "names": [
+          "Expert Systems with Applications",
+          "Expert Systems with Applications"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0957-4174",
+          "1873-6793"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 31676,
+        "url": "https://api.crossref.org/journals/0957-4174"
+      }
+    },
+    {
+      "id": "ijcv-springer",
+      "canonicalName": "International Journal of Computer Vision",
+      "acronym": "IJCV (Springer)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer",
+      "officialUrl": "https://www.springer.com/journal/11263",
+      "match": {
+        "callIds": [
+          "ijcv-springer"
+        ],
+        "names": [
+          "International Journal of Computer Vision",
+          "International Journal of Computer Vision"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0920-5691",
+          "1573-1405"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Springer-Verlag",
+        "registeredDois": 3940,
+        "url": "https://api.crossref.org/journals/0920-5691"
+      }
+    },
+    {
+      "id": "j-acm-tist",
+      "canonicalName": "ACM Transactions on Intelligent Systems and Technology",
+      "acronym": "ACM TIST",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "ACM",
+      "officialUrl": "https://dl.acm.org/journal/tist",
+      "match": {
+        "callIds": [
+          "j-acm-tist"
+        ],
+        "names": [
+          "ACM Transactions on Intelligent Systems and Technology",
+          "ACM Transactions on Intelligent Systems and Technology"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2157-6904",
+          "2157-6912"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Association for Computing Machinery",
+        "registeredDois": 1515,
+        "url": "https://api.crossref.org/journals/2157-6904"
+      }
+    },
+    {
+      "id": "j-acm-tkdd",
+      "canonicalName": "ACM Transactions on Knowledge Discovery from Data",
+      "acronym": "ACM TKDD",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "ACM",
+      "officialUrl": "https://dl.acm.org/journal/tkdd",
+      "match": {
+        "callIds": [
+          "j-acm-tkdd"
+        ],
+        "names": [
+          "ACM Transactions on Knowledge Discovery from Data",
+          "ACM Transactions on Knowledge Discovery from Data"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1556-4681",
+          "1556-472X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Association for Computing Machinery",
+        "registeredDois": 1477,
+        "url": "https://api.crossref.org/journals/1556-4681"
+      }
+    },
+    {
+      "id": "j-acm-tois",
+      "canonicalName": "ACM Transactions on Information Systems",
+      "acronym": "ACM TOIS",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "ACM",
+      "officialUrl": "https://dl.acm.org/journal/tois",
+      "match": {
+        "callIds": [
+          "j-acm-tois"
+        ],
+        "names": [
+          "ACM Transactions on Information Systems",
+          "ACM Transactions on Information Systems"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1046-8188",
+          "1558-2868"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Association for Computing Machinery",
+        "registeredDois": 1631,
+        "url": "https://api.crossref.org/journals/1046-8188"
+      }
+    },
+    {
+      "id": "j-acm-trs",
+      "canonicalName": "ACM Transactions on Recommender Systems",
+      "acronym": "ACM TORS",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "ACM",
+      "officialUrl": "https://dl.acm.org/journal/tors",
+      "match": {
+        "callIds": [
+          "j-acm-trs"
+        ],
+        "names": [
+          "ACM Transactions on Recommender Systems",
+          "ACM Transactions on Recommender Systems"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2770-6699"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Association for Computing Machinery",
+        "registeredDois": 212,
+        "url": "https://api.crossref.org/journals/2770-6699"
+      }
+    },
+    {
+      "id": "j-elsevier-ai-open",
+      "canonicalName": "AI Open",
+      "acronym": "AI Open (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/ai-open",
+      "match": {
+        "callIds": [
+          "j-elsevier-ai-open"
+        ],
+        "names": [
+          "AI Open",
+          "AI Open"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2666-6510"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 125,
+        "url": "https://api.crossref.org/journals/2666-6510"
+      }
+    },
+    {
+      "id": "j-elsevier-artificial-intelligence",
+      "canonicalName": "Artificial Intelligence",
+      "acronym": "AIJ (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/artificial-intelligence",
+      "match": {
+        "callIds": [
+          "j-elsevier-artificial-intelligence"
+        ],
+        "names": [
+          "Artificial Intelligence (AIJ)",
+          "Artificial Intelligence"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0004-3702"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 4831,
+        "url": "https://api.crossref.org/journals/0004-3702"
+      }
+    },
+    {
+      "id": "j-elsevier-artificial-intelligence-in-agriculture",
+      "canonicalName": "Artificial Intelligence in Agriculture",
+      "acronym": "AIA (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/artificial-intelligence-in-agriculture",
+      "match": {
+        "callIds": [
+          "j-elsevier-artificial-intelligence-in-agriculture"
+        ],
+        "names": [
+          "Artificial Intelligence in Agriculture",
+          "Artificial Intelligence in Agriculture"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2589-7217"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 329,
+        "url": "https://api.crossref.org/journals/2589-7217"
+      }
+    },
+    {
+      "id": "j-elsevier-artificial-intelligence-in-geosciences",
+      "canonicalName": "Artificial Intelligence in Geosciences",
+      "acronym": "AIG (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/artificial-intelligence-in-geosciences",
+      "match": {
+        "callIds": [
+          "j-elsevier-artificial-intelligence-in-geosciences"
+        ],
+        "names": [
+          "Artificial Intelligence in Geosciences",
+          "Artificial Intelligence in Geosciences"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2666-5441"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 215,
+        "url": "https://api.crossref.org/journals/2666-5441"
+      }
+    },
+    {
+      "id": "j-elsevier-artificial-intelligence-in-medicine",
+      "canonicalName": "Artificial Intelligence in Medicine",
+      "acronym": "AIM (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine",
+      "match": {
+        "callIds": [
+          "j-elsevier-artificial-intelligence-in-medicine"
+        ],
+        "names": [
+          "Artificial Intelligence in Medicine",
+          "Artificial Intelligence in Medicine"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0933-3657"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 3169,
+        "url": "https://api.crossref.org/journals/0933-3657"
+      }
+    },
+    {
+      "id": "j-elsevier-artificial-intelligence-in-the-life-sciences",
+      "canonicalName": "Artificial Intelligence in the Life Sciences",
+      "acronym": "AILS (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/artificial-intelligence-in-the-life-sciences",
+      "match": {
+        "callIds": [
+          "j-elsevier-artificial-intelligence-in-the-life-sciences"
+        ],
+        "names": [
+          "Artificial Intelligence in the Life Sciences",
+          "Artificial Intelligence in the Life Sciences"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2667-3185"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 159,
+        "url": "https://api.crossref.org/journals/2667-3185"
+      }
+    },
+    {
+      "id": "j-elsevier-asoc",
+      "canonicalName": "Applied Soft Computing",
+      "acronym": "ASOC (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/applied-soft-computing",
+      "match": {
+        "callIds": [
+          "j-elsevier-asoc"
+        ],
+        "names": [
+          "Applied Soft Computing (Elsevier)",
+          "Applied Soft Computing"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1568-4946"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 14386,
+        "url": "https://api.crossref.org/journals/1568-4946"
+      }
+    },
+    {
+      "id": "j-elsevier-biomimetic-intelligence-and-robotics",
+      "canonicalName": "Biomimetic Intelligence and Robotics",
+      "acronym": "BIR (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/biomimetic-intelligence-and-robotics",
+      "match": {
+        "callIds": [
+          "j-elsevier-biomimetic-intelligence-and-robotics"
+        ],
+        "names": [
+          "Biomimetic Intelligence and Robotics",
+          "Biomimetic Intelligence and Robotics"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2667-3797"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 230,
+        "url": "https://api.crossref.org/journals/2667-3797"
+      }
+    },
+    {
+      "id": "j-elsevier-computer-science-review",
+      "canonicalName": "Computer Science Review",
+      "acronym": "Computer Science Review (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/computer-science-review",
+      "match": {
+        "callIds": [
+          "j-elsevier-computer-science-review"
+        ],
+        "names": [
+          "Computer Science Review",
+          "Computer Science Review"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1574-0137"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 791,
+        "url": "https://api.crossref.org/journals/1574-0137"
+      }
+    },
+    {
+      "id": "j-elsevier-computers-and-education-artificial-intelligence",
+      "canonicalName": "Computers and Education Artificial Intelligence",
+      "acronym": "CEAI (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence",
+      "match": {
+        "callIds": [
+          "j-elsevier-computers-and-education-artificial-intelligence"
+        ],
+        "names": [
+          "Computers and Education: Artificial Intelligence",
+          "Computers and Education Artificial Intelligence"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2666-920X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 648,
+        "url": "https://api.crossref.org/journals/2666-920X"
+      }
+    },
+    {
+      "id": "j-elsevier-electronic-commerce-research-and-applications",
+      "canonicalName": "Electronic Commerce Research and Applications",
+      "acronym": "ECRA (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/electronic-commerce-research-and-applications",
+      "match": {
+        "callIds": [
+          "j-elsevier-electronic-commerce-research-and-applications"
+        ],
+        "names": [
+          "Electronic Commerce Research and Applications",
+          "Electronic Commerce Research and Applications"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1567-4223"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 1672,
+        "url": "https://api.crossref.org/journals/1567-4223"
+      }
+    },
+    {
+      "id": "j-elsevier-engineering-applications-of-artificial-intelligence",
+      "canonicalName": "Engineering Applications of Artificial Intelligence",
+      "acronym": "EAAI (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence",
+      "match": {
+        "callIds": [
+          "j-elsevier-engineering-applications-of-artificial-intelligence"
+        ],
+        "names": [
+          "Engineering Applications of Artificial Intelligence",
+          "Engineering Applications of Artificial Intelligence"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0952-1976"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 14302,
+        "url": "https://api.crossref.org/journals/0952-1976"
+      }
+    },
+    {
+      "id": "j-elsevier-future-generation-computer-systems",
+      "canonicalName": "Future Generation Computer Systems",
+      "acronym": "FGCS (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/future-generation-computer-systems",
+      "match": {
+        "callIds": [
+          "j-elsevier-future-generation-computer-systems"
+        ],
+        "names": [
+          "Future Generation Computer Systems",
+          "Future Generation Computer Systems"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0167-739X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 8936,
+        "url": "https://api.crossref.org/journals/0167-739X"
+      }
+    },
+    {
+      "id": "j-elsevier-high-confidence-computing",
+      "canonicalName": "High-Confidence Computing",
+      "acronym": "High-Confidence Computing (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/high-confidence-computing",
+      "match": {
+        "callIds": [
+          "j-elsevier-high-confidence-computing"
+        ],
+        "names": [
+          "High-Confidence Computing",
+          "High-Confidence Computing"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2667-2952"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 248,
+        "url": "https://api.crossref.org/journals/2667-2952"
+      }
+    },
+    {
+      "id": "j-elsevier-infofusion",
+      "canonicalName": "Information Fusion",
+      "acronym": "Information Fusion",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/information-fusion",
+      "match": {
+        "callIds": [
+          "j-elsevier-infofusion"
+        ],
+        "names": [
+          "Information Fusion (Elsevier)",
+          "Information Fusion"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1566-2535"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 4462,
+        "url": "https://api.crossref.org/journals/1566-2535"
+      }
+    },
+    {
+      "id": "j-elsevier-information-sciences",
+      "canonicalName": "Information Sciences",
+      "acronym": "Information Sciences (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/information-sciences",
+      "match": {
+        "callIds": [
+          "j-elsevier-information-sciences"
+        ],
+        "names": [
+          "Information Sciences",
+          "Information Sciences"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0020-0255"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 19589,
+        "url": "https://api.crossref.org/journals/0020-0255"
+      }
+    },
+    {
+      "id": "j-elsevier-information-systems",
+      "canonicalName": "Information Systems",
+      "acronym": "Information Systems (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/information-systems",
+      "match": {
+        "callIds": [
+          "j-elsevier-information-systems"
+        ],
+        "names": [
+          "Information Systems",
+          "Information Systems"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0306-4379",
+          "1873-6076"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 3096,
+        "url": "https://api.crossref.org/journals/0306-4379"
+      }
+    },
+    {
+      "id": "j-elsevier-intelligent-medicine",
+      "canonicalName": "Intelligent Medicine",
+      "acronym": "Intelligent Medicine (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/intelligent-medicine",
+      "match": {
+        "callIds": [
+          "j-elsevier-intelligent-medicine"
+        ],
+        "names": [
+          "Intelligent Medicine",
+          "Intelligent Medicine"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2667-1026"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 216,
+        "url": "https://api.crossref.org/journals/2667-1026"
+      }
+    },
+    {
+      "id": "j-elsevier-intelligent-systems-with-applications",
+      "canonicalName": "Intelligent Systems with Applications",
+      "acronym": "ISA (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/intelligent-systems-with-applications",
+      "match": {
+        "callIds": [
+          "j-elsevier-intelligent-systems-with-applications"
+        ],
+        "names": [
+          "Intelligent Systems with Applications",
+          "Intelligent Systems with Applications"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2667-3053"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 649,
+        "url": "https://api.crossref.org/journals/2667-3053"
+      }
+    },
+    {
+      "id": "j-elsevier-international-journal-of-artificial-intelligence-in-education",
+      "canonicalName": "International Journal of Artificial Intelligence in Education",
+      "acronym": "IJAIE (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/international-journal-of-artificial-intelligence-in-education",
+      "match": {
+        "callIds": [
+          "j-elsevier-international-journal-of-artificial-intelligence-in-education"
+        ],
+        "names": [
+          "International Journal of Artificial Intelligence in Education",
+          "International Journal of Artificial Intelligence in Education"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1560-4292",
+          "1560-4306"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 692,
+        "url": "https://api.crossref.org/journals/1560-4292"
+      }
+    },
+    {
+      "id": "j-elsevier-international-journal-of-cognitive-computing-in-engineering",
+      "canonicalName": "International Journal of Cognitive Computing in Engineering",
+      "acronym": "IJCCE (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/international-journal-of-cognitive-computing-in-engineering",
+      "match": {
+        "callIds": [
+          "j-elsevier-international-journal-of-cognitive-computing-in-engineering"
+        ],
+        "names": [
+          "International Journal of Cognitive Computing in Engineering",
+          "International Journal of Cognitive Computing in Engineering"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2666-3074"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 230,
+        "url": "https://api.crossref.org/journals/2666-3074"
+      }
+    },
+    {
+      "id": "j-elsevier-international-journal-of-critical-infrastructure-protection",
+      "canonicalName": "International Journal of Critical Infrastructure Protection",
+      "acronym": "IJCIP (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection",
+      "match": {
+        "callIds": [
+          "j-elsevier-international-journal-of-critical-infrastructure-protection"
+        ],
+        "names": [
+          "International Journal of Critical Infrastructure Protection",
+          "International Journal of Critical Infrastructure Protection"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1874-5482"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 674,
+        "url": "https://api.crossref.org/journals/1874-5482"
+      }
+    },
+    {
+      "id": "j-elsevier-international-journal-of-intelligent-networks",
+      "canonicalName": "International Journal of Intelligent Networks",
+      "acronym": "IJIN (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/international-journal-of-intelligent-networks",
+      "match": {
+        "callIds": [
+          "j-elsevier-international-journal-of-intelligent-networks"
+        ],
+        "names": [
+          "International Journal of Intelligent Networks",
+          "International Journal of Intelligent Networks"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2666-6030"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 181,
+        "url": "https://api.crossref.org/journals/2666-6030"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-computational-mathematics-and-data-science",
+      "canonicalName": "Journal of Computational Mathematics and Data Science",
+      "acronym": "JCMDS (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/journal-of-computational-mathematics-and-data-science",
+      "match": {
+        "callIds": [
+          "j-elsevier-journal-of-computational-mathematics-and-data-science"
+        ],
+        "names": [
+          "Journal of Computational Mathematics and Data Science",
+          "Journal of Computational Mathematics and Data Science"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2772-4158"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 96,
+        "url": "https://api.crossref.org/journals/2772-4158"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-computational-science",
+      "canonicalName": "Journal of Computational Science",
+      "acronym": "JCS (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/journal-of-computational-science",
+      "match": {
+        "callIds": [
+          "j-elsevier-journal-of-computational-science"
+        ],
+        "names": [
+          "Journal of Computational Science",
+          "Journal of Computational Science"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1877-7503"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 2414,
+        "url": "https://api.crossref.org/journals/1877-7503"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-information-security-and-applications",
+      "canonicalName": "Journal of Information Security and Applications",
+      "acronym": "JISA (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/journal-of-information-security-and-applications",
+      "match": {
+        "callIds": [
+          "j-elsevier-journal-of-information-security-and-applications"
+        ],
+        "names": [
+          "Journal of Information Security and Applications",
+          "Journal of Information Security and Applications"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2214-2126"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 2063,
+        "url": "https://api.crossref.org/journals/2214-2126"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-parallel-and-distributed-computing",
+      "canonicalName": "Journal of Parallel and Distributed Computing",
+      "acronym": "JPDC (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing",
+      "match": {
+        "callIds": [
+          "j-elsevier-journal-of-parallel-and-distributed-computing"
+        ],
+        "names": [
+          "Journal of Parallel and Distributed Computing",
+          "Journal of Parallel and Distributed Computing"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0743-7315",
+          "1096-0848"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 5416,
+        "url": "https://api.crossref.org/journals/0743-7315"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-systems-and-software",
+      "canonicalName": "Journal of Systems and Software",
+      "acronym": "JSS (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/journal-of-systems-and-software",
+      "match": {
+        "callIds": [
+          "j-elsevier-journal-of-systems-and-software"
+        ],
+        "names": [
+          "Journal of Systems and Software",
+          "Journal of Systems and Software"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0164-1212"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 6900,
+        "url": "https://api.crossref.org/journals/0164-1212"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-systems-architecture",
+      "canonicalName": "Journal of Systems Architecture",
+      "acronym": "JSA (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/journal-of-systems-architecture",
+      "match": {
+        "callIds": [
+          "j-elsevier-journal-of-systems-architecture"
+        ],
+        "names": [
+          "Journal of Systems Architecture",
+          "Journal of Systems Architecture"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1383-7621"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 3285,
+        "url": "https://api.crossref.org/journals/1383-7621"
+      }
+    },
+    {
+      "id": "j-elsevier-knowledge-based-systems",
+      "canonicalName": "Knowledge-Based Systems",
+      "acronym": "Knowledge-Based Systems (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/knowledge-based-systems",
+      "match": {
+        "callIds": [
+          "j-elsevier-knowledge-based-systems"
+        ],
+        "names": [
+          "Knowledge-Based Systems",
+          "Knowledge-Based Systems"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0950-7051"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 13582,
+        "url": "https://api.crossref.org/journals/0950-7051"
+      }
+    },
+    {
+      "id": "j-elsevier-neural-networks",
+      "canonicalName": "Neural Networks",
+      "acronym": "Neural Networks (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/neural-networks",
+      "match": {
+        "callIds": [
+          "j-elsevier-neural-networks"
+        ],
+        "names": [
+          "Neural Networks",
+          "Neural Networks"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0893-6080"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 10152,
+        "url": "https://api.crossref.org/journals/0893-6080"
+      }
+    },
+    {
+      "id": "j-elsevier-patternrecognition",
+      "canonicalName": "Pattern Recognition",
+      "acronym": "PR (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/pattern-recognition",
+      "match": {
+        "callIds": [
+          "j-elsevier-patternrecognition"
+        ],
+        "names": [
+          "Pattern Recognition (Elsevier)",
+          "Pattern Recognition"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0031-3203"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 15693,
+        "url": "https://api.crossref.org/journals/0031-3203"
+      }
+    },
+    {
+      "id": "j-elsevier-pervasive-and-mobile-computing",
+      "canonicalName": "Pervasive and Mobile Computing",
+      "acronym": "PMC (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/pervasive-and-mobile-computing",
+      "match": {
+        "callIds": [
+          "j-elsevier-pervasive-and-mobile-computing"
+        ],
+        "names": [
+          "Pervasive and Mobile Computing",
+          "Pervasive and Mobile Computing"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1574-1192"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 1656,
+        "url": "https://api.crossref.org/journals/1574-1192"
+      }
+    },
+    {
+      "id": "j-elsevier-systems-and-soft-computing",
+      "canonicalName": "Systems and Soft Computing",
+      "acronym": "Systems and Soft Computing (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/systems-and-soft-computing",
+      "match": {
+        "callIds": [
+          "j-elsevier-systems-and-soft-computing"
+        ],
+        "names": [
+          "Systems and Soft Computing",
+          "Systems and Soft Computing"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2772-9419"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 543,
+        "url": "https://api.crossref.org/journals/2772-9419"
+      }
+    },
+    {
+      "id": "j-elsevier-telematics-and-informatics-reports",
+      "canonicalName": "Telematics and Informatics Reports",
+      "acronym": "TIR (Elsevier)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Elsevier",
+      "officialUrl": "https://www.sciencedirect.com/journal/telematics-and-informatics-reports",
+      "match": {
+        "callIds": [
+          "j-elsevier-telematics-and-informatics-reports"
+        ],
+        "names": [
+          "Telematics and Informatics Reports",
+          "Telematics and Informatics Reports"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2772-5030"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Elsevier",
+        "registeredDois": 338,
+        "url": "https://api.crossref.org/journals/2772-5030"
+      }
+    },
+    {
+      "id": "j-ieee-access",
+      "canonicalName": "IEEE Access",
+      "acronym": "IEEE Access",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://ieeeaccess.ieee.org/",
+      "match": {
+        "callIds": [
+          "j-ieee-access"
+        ],
+        "names": [
+          "IEEE Access",
+          "IEEE Access"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2169-3536"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 110697,
+        "url": "https://api.crossref.org/journals/2169-3536"
+      }
+    },
+    {
+      "id": "j-ieee-jbhi",
+      "canonicalName": "IEEE Journal of Biomedical and Health Informatics",
+      "acronym": "IEEE JBHI",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://www.embs.org/jbhi/",
+      "match": {
+        "callIds": [
+          "j-ieee-jbhi"
+        ],
+        "names": [
+          "IEEE Journal of Biomedical and Health Informatics",
+          "IEEE Journal of Biomedical and Health Informatics"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2168-2194",
+          "2168-2208"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 6549,
+        "url": "https://api.crossref.org/journals/2168-2194"
+      }
+    },
+    {
+      "id": "j-ieee-taffc",
+      "canonicalName": "IEEE Transactions on Affective Computing",
+      "acronym": "IEEE TAFFC",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://www.computer.org/csdl/journal/ta",
+      "match": {
+        "callIds": [
+          "j-ieee-taffc"
+        ],
+        "names": [
+          "IEEE Transactions on Affective Computing",
+          "IEEE Transactions on Affective Computing"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1949-3045",
+          "2371-9850"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 1697,
+        "url": "https://api.crossref.org/journals/1949-3045"
+      }
+    },
+    {
+      "id": "j-ieee-tai",
+      "canonicalName": "IEEE Transactions on Artificial Intelligence",
+      "acronym": "IEEE TAI",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence",
+      "match": {
+        "callIds": [
+          "j-ieee-tai"
+        ],
+        "names": [
+          "IEEE Transactions on Artificial Intelligence",
+          "IEEE Transactions on Artificial Intelligence"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2691-4581"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 1757,
+        "url": "https://api.crossref.org/journals/2691-4581"
+      }
+    },
+    {
+      "id": "j-ieee-tbd",
+      "canonicalName": "IEEE Transactions on Big Data",
+      "acronym": "IEEE TBD",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://www.computer.org/csdl/journal/bd",
+      "match": {
+        "callIds": [
+          "j-ieee-tbd"
+        ],
+        "names": [
+          "IEEE Transactions on Big Data",
+          "IEEE Transactions on Big Data"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2332-7790"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 1110,
+        "url": "https://api.crossref.org/journals/2332-7790"
+      }
+    },
+    {
+      "id": "j-ieee-tcss",
+      "canonicalName": "IEEE Transactions on Computational Social Systems",
+      "acronym": "IEEE TCSS",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://ieeesmc.org/publications/transactions-on-computational-social-systems/",
+      "match": {
+        "callIds": [
+          "j-ieee-tcss"
+        ],
+        "names": [
+          "IEEE Transactions on Computational Social Systems",
+          "IEEE Transactions on Computational Social Systems"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2329-924X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 2943,
+        "url": "https://api.crossref.org/journals/2329-924X"
+      }
+    },
+    {
+      "id": "j-ieee-tcyb",
+      "canonicalName": "IEEE Transactions on Cybernetics",
+      "acronym": "IEEE T-Cybernetics",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://www.ieeesmc.org/publications/",
+      "match": {
+        "callIds": [
+          "j-ieee-tcyb"
+        ],
+        "names": [
+          "IEEE Transactions on Cybernetics",
+          "IEEE Transactions on Cybernetics"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2168-2267",
+          "2168-2275"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 7221,
+        "url": "https://api.crossref.org/journals/2168-2267"
+      }
+    },
+    {
+      "id": "j-ieee-tip",
+      "canonicalName": "IEEE Transactions on Image Processing",
+      "acronym": "IEEE TIP",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing",
+      "match": {
+        "callIds": [
+          "j-ieee-tip"
+        ],
+        "names": [
+          "IEEE Transactions on Image Processing",
+          "IEEE Transactions on Image Processing"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1057-7149",
+          "1941-0042"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 13168,
+        "url": "https://api.crossref.org/journals/1057-7149"
+      }
+    },
+    {
+      "id": "j-ieee-tkde",
+      "canonicalName": "IEEE Transactions on Knowledge and Data Engineering",
+      "acronym": "IEEE TKDE",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://www.computer.org/csdl/journal/tk",
+      "match": {
+        "callIds": [
+          "j-ieee-tkde"
+        ],
+        "names": [
+          "IEEE Transactions on Knowledge and Data Engineering",
+          "IEEE Transactions on Knowledge and Data Engineering"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1041-4347",
+          "1558-2191",
+          "2326-3865"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 7954,
+        "url": "https://api.crossref.org/journals/1041-4347"
+      }
+    },
+    {
+      "id": "j-ieee-tnnls",
+      "canonicalName": "IEEE Transactions on Neural Networks and Learning Systems",
+      "acronym": "IEEE TNNLS",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems",
+      "match": {
+        "callIds": [
+          "j-ieee-tnnls"
+        ],
+        "names": [
+          "IEEE Transactions on Neural Networks and Learning Systems",
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2162-237X",
+          "2162-2388"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 8948,
+        "url": "https://api.crossref.org/journals/2162-237X"
+      }
+    },
+    {
+      "id": "j-ieee-tsc",
+      "canonicalName": "IEEE Transactions on Services Computing",
+      "acronym": "IEEE TSC",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://www.computer.org/csdl/journal/sc",
+      "match": {
+        "callIds": [
+          "j-ieee-tsc"
+        ],
+        "names": [
+          "IEEE Transactions on Services Computing",
+          "IEEE Transactions on Services Computing"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1939-1374",
+          "2372-0204"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 2426,
+        "url": "https://api.crossref.org/journals/1939-1374"
+      }
+    },
+    {
+      "id": "j-ieee-tse",
+      "canonicalName": "IEEE Transactions on Software Engineering",
+      "acronym": "IEEE TSE",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://www.computer.org/csdl/journal/ts",
+      "match": {
+        "callIds": [
+          "j-ieee-tse"
+        ],
+        "names": [
+          "IEEE Transactions on Software Engineering",
+          "IEEE Transactions on Software Engineering"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0098-5589",
+          "1939-3520",
+          "2326-3881"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 5953,
+        "url": "https://api.crossref.org/journals/0098-5589"
+      }
+    },
+    {
+      "id": "j-mdpi-applsci",
+      "canonicalName": "Applied Sciences",
+      "acronym": "MDPI Appl. Sci.",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/applsci",
+      "match": {
+        "callIds": [
+          "j-mdpi-applsci"
+        ],
+        "names": [
+          "Applied Sciences (MDPI)",
+          "Applied Sciences"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2076-3417"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 91016,
+        "url": "https://api.crossref.org/journals/2076-3417"
+      }
+    },
+    {
+      "id": "j-mdpi-asi",
+      "canonicalName": "Applied System Innovation",
+      "acronym": "Applied System Innovation (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/asi",
+      "match": {
+        "callIds": [
+          "j-mdpi-asi"
+        ],
+        "names": [
+          "Applied System Innovation",
+          "Applied System Innovation"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2571-5577"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 973,
+        "url": "https://api.crossref.org/journals/2571-5577"
+      }
+    },
+    {
+      "id": "j-mdpi-bdcc",
+      "canonicalName": "Big Data and Cognitive Computing",
+      "acronym": "MDPI BDCC",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/BDCC",
+      "match": {
+        "callIds": [
+          "j-mdpi-bdcc"
+        ],
+        "names": [
+          "Big Data and Cognitive Computing (MDPI)",
+          "Big Data and Cognitive Computing"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2504-2289"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 1340,
+        "url": "https://api.crossref.org/journals/2504-2289"
+      }
+    },
+    {
+      "id": "j-mdpi-biomedinformatics",
+      "canonicalName": "BioMedInformatics",
+      "acronym": "BioMedInformatics (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/biomedinformatics",
+      "match": {
+        "callIds": [
+          "j-mdpi-biomedinformatics"
+        ],
+        "names": [
+          "BioMedInformatics",
+          "BioMedInformatics"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2673-7426"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 386,
+        "url": "https://api.crossref.org/journals/2673-7426"
+      }
+    },
+    {
+      "id": "j-mdpi-computers",
+      "canonicalName": "Computers",
+      "acronym": "Computers (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/computers",
+      "match": {
+        "callIds": [
+          "j-mdpi-computers"
+        ],
+        "names": [
+          "Computers",
+          "Computers"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2073-431X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 2388,
+        "url": "https://api.crossref.org/journals/2073-431X"
+      }
+    },
+    {
+      "id": "j-mdpi-electronics",
+      "canonicalName": "Electronics",
+      "acronym": "MDPI Electronics",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/electronics",
+      "match": {
+        "callIds": [
+          "j-mdpi-electronics"
+        ],
+        "names": [
+          "Electronics (MDPI)",
+          "Electronics"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2079-9292"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 30437,
+        "url": "https://api.crossref.org/journals/2079-9292"
+      }
+    },
+    {
+      "id": "j-mdpi-forecasting",
+      "canonicalName": "Forecasting",
+      "acronym": "Forecasting (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/forecasting",
+      "match": {
+        "callIds": [
+          "j-mdpi-forecasting"
+        ],
+        "names": [
+          "Forecasting",
+          "Forecasting"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2571-9394"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 394,
+        "url": "https://api.crossref.org/journals/2571-9394"
+      }
+    },
+    {
+      "id": "j-mdpi-futureinternet",
+      "canonicalName": "Future Internet",
+      "acronym": "Future Internet (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/futureinternet",
+      "match": {
+        "callIds": [
+          "j-mdpi-futureinternet"
+        ],
+        "names": [
+          "Future Internet",
+          "Future Internet"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1999-5903"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 3580,
+        "url": "https://api.crossref.org/journals/1999-5903"
+      }
+    },
+    {
+      "id": "j-mdpi-ijgi",
+      "canonicalName": "ISPRS International Journal of Geo-Information",
+      "acronym": "ISPRS International Journal of Geo-Information (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/ijgi",
+      "match": {
+        "callIds": [
+          "j-mdpi-ijgi"
+        ],
+        "names": [
+          "ISPRS International Journal of Geo-Information",
+          "ISPRS International Journal of Geo-Information"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2220-9964"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 6076,
+        "url": "https://api.crossref.org/journals/2220-9964"
+      }
+    },
+    {
+      "id": "j-mdpi-informatics",
+      "canonicalName": "Informatics",
+      "acronym": "Informatics (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/informatics",
+      "match": {
+        "callIds": [
+          "j-mdpi-informatics"
+        ],
+        "names": [
+          "Informatics",
+          "Informatics"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2227-9709"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 880,
+        "url": "https://api.crossref.org/journals/2227-9709"
+      }
+    },
+    {
+      "id": "j-mdpi-iot",
+      "canonicalName": "IoT",
+      "acronym": "IoT (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/iot",
+      "match": {
+        "callIds": [
+          "j-mdpi-iot"
+        ],
+        "names": [
+          "IoT",
+          "IoT"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2624-831X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 304,
+        "url": "https://api.crossref.org/journals/2624-831X"
+      }
+    },
+    {
+      "id": "j-mdpi-jcp",
+      "canonicalName": "Journal of Cybersecurity and Privacy",
+      "acronym": "Journal of Cybersecurity and Privacy (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/jcp",
+      "match": {
+        "callIds": [
+          "j-mdpi-jcp"
+        ],
+        "names": [
+          "Journal of Cybersecurity and Privacy",
+          "Journal of Cybersecurity and Privacy"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2624-800X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 415,
+        "url": "https://api.crossref.org/journals/2624-800X"
+      }
+    },
+    {
+      "id": "j-mdpi-jimaging",
+      "canonicalName": "Journal of Imaging",
+      "acronym": "Journal of Imaging (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/jimaging",
+      "match": {
+        "callIds": [
+          "j-mdpi-jimaging"
+        ],
+        "names": [
+          "Journal of Imaging",
+          "Journal of Imaging"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2313-433X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 2525,
+        "url": "https://api.crossref.org/journals/2313-433X"
+      }
+    },
+    {
+      "id": "j-mdpi-jsan",
+      "canonicalName": "Journal of Sensor and Actuator Networks",
+      "acronym": "Journal of Sensor and Actuator Networks (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/jsan",
+      "match": {
+        "callIds": [
+          "j-mdpi-jsan"
+        ],
+        "names": [
+          "Journal of Sensor and Actuator Networks",
+          "Journal of Sensor and Actuator Networks"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2224-2708"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 809,
+        "url": "https://api.crossref.org/journals/2224-2708"
+      }
+    },
+    {
+      "id": "j-mdpi-jtaer",
+      "canonicalName": "Journal of theoretical and applied electronic commerce research",
+      "acronym": "Journal of Theoretical and Applied Electronic Commerce Research (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/jtaer",
+      "match": {
+        "callIds": [
+          "j-mdpi-jtaer"
+        ],
+        "names": [
+          "Journal of Theoretical and Applied Electronic Commerce Research",
+          "Journal of theoretical and applied electronic commerce research"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0718-1876"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 1526,
+        "url": "https://api.crossref.org/journals/0718-1876"
+      }
+    },
+    {
+      "id": "j-mdpi-make",
+      "canonicalName": "Machine Learning and Knowledge Extraction",
+      "acronym": "MDPI MAKE",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/make",
+      "match": {
+        "callIds": [
+          "j-mdpi-make"
+        ],
+        "names": [
+          "Machine Learning and Knowledge Extraction (MAKE)",
+          "Machine Learning and Knowledge Extraction"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2504-4990"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 832,
+        "url": "https://api.crossref.org/journals/2504-4990"
+      }
+    },
+    {
+      "id": "j-mdpi-mathematics",
+      "canonicalName": "Mathematics",
+      "acronym": "MDPI Mathematics",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/mathematics",
+      "match": {
+        "callIds": [
+          "j-mdpi-mathematics"
+        ],
+        "names": [
+          "Mathematics (MDPI)",
+          "Mathematics"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2227-7390"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 28056,
+        "url": "https://api.crossref.org/journals/2227-7390"
+      }
+    },
+    {
+      "id": "j-mdpi-mti",
+      "canonicalName": "Multimodal Technologies and Interaction",
+      "acronym": "Multimodal Technologies and Interaction (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/mti",
+      "match": {
+        "callIds": [
+          "j-mdpi-mti"
+        ],
+        "names": [
+          "Multimodal Technologies and Interaction",
+          "Multimodal Technologies and Interaction"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2414-4088"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 908,
+        "url": "https://api.crossref.org/journals/2414-4088"
+      }
+    },
+    {
+      "id": "j-mdpi-network",
+      "canonicalName": "Network",
+      "acronym": "Network (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/network",
+      "match": {
+        "callIds": [
+          "j-mdpi-network"
+        ],
+        "names": [
+          "Network",
+          "Network"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2673-8732"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 224,
+        "url": "https://api.crossref.org/journals/2673-8732"
+      }
+    },
+    {
+      "id": "j-mdpi-robotics",
+      "canonicalName": "Robotics",
+      "acronym": "Robotics (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/robotics",
+      "match": {
+        "callIds": [
+          "j-mdpi-robotics"
+        ],
+        "names": [
+          "Robotics",
+          "Robotics"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2218-6581"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 1396,
+        "url": "https://api.crossref.org/journals/2218-6581"
+      }
+    },
+    {
+      "id": "j-mdpi-sensors",
+      "canonicalName": "Sensors",
+      "acronym": "MDPI Sensors",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/sensors",
+      "match": {
+        "callIds": [
+          "j-mdpi-sensors"
+        ],
+        "names": [
+          "Sensors (MDPI)",
+          "Sensors"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1424-8220"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 79592,
+        "url": "https://api.crossref.org/journals/1424-8220"
+      }
+    },
+    {
+      "id": "j-mdpi-smartcities",
+      "canonicalName": "Smart Cities",
+      "acronym": "Smart Cities (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/smartcities",
+      "match": {
+        "callIds": [
+          "j-mdpi-smartcities"
+        ],
+        "names": [
+          "Smart Cities",
+          "Smart Cities"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2624-6511"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 930,
+        "url": "https://api.crossref.org/journals/2624-6511"
+      }
+    },
+    {
+      "id": "j-mdpi-systems",
+      "canonicalName": "Systems",
+      "acronym": "Systems (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/systems",
+      "match": {
+        "callIds": [
+          "j-mdpi-systems"
+        ],
+        "names": [
+          "Systems",
+          "Systems"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2079-8954"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 3856,
+        "url": "https://api.crossref.org/journals/2079-8954"
+      }
+    },
+    {
+      "id": "j-mdpi-technologies",
+      "canonicalName": "Technologies",
+      "acronym": "Technologies (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/technologies",
+      "match": {
+        "callIds": [
+          "j-mdpi-technologies"
+        ],
+        "names": [
+          "Technologies",
+          "Technologies"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2227-7080"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 2198,
+        "url": "https://api.crossref.org/journals/2227-7080"
+      }
+    },
+    {
+      "id": "j-mdpi-virtualworlds",
+      "canonicalName": "Virtual Worlds",
+      "acronym": "Virtual Worlds (MDPI)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "MDPI",
+      "officialUrl": "https://www.mdpi.com/journal/virtualworlds",
+      "match": {
+        "callIds": [
+          "j-mdpi-virtualworlds"
+        ],
+        "names": [
+          "Virtual Worlds",
+          "Virtual Worlds"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2813-2084"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "MDPI AG",
+        "registeredDois": 157,
+        "url": "https://api.crossref.org/journals/2813-2084"
+      }
+    },
+    {
+      "id": "j-nature-machine-intelligence",
+      "canonicalName": "Nature Machine Intelligence",
+      "acronym": "Nat. Mach. Intell.",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer Nature",
+      "officialUrl": "https://www.nature.com/natmachintell/",
+      "match": {
+        "callIds": [
+          "j-nature-machine-intelligence"
+        ],
+        "names": [
+          "Nature Machine Intelligence",
+          "Nature Machine Intelligence"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2522-5839"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Springer Science and Business Media LLC",
+        "registeredDois": 1273,
+        "url": "https://api.crossref.org/journals/2522-5839"
+      }
+    },
+    {
+      "id": "j-springer-air",
+      "canonicalName": "Artificial Intelligence Review",
+      "acronym": "AI Review (Springer)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer",
+      "officialUrl": "https://link.springer.com/journal/10462",
+      "match": {
+        "callIds": [
+          "j-springer-air"
+        ],
+        "names": [
+          "Artificial Intelligence Review (Springer)",
+          "Artificial Intelligence Review"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0269-2821",
+          "1573-7462"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Springer-Verlag",
+        "registeredDois": 3144,
+        "url": "https://api.crossref.org/journals/0269-2821"
+      }
+    },
+    {
+      "id": "j-springer-applied-intelligence",
+      "canonicalName": "Applied Intelligence",
+      "acronym": "Applied Intelligence",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer",
+      "officialUrl": "https://link.springer.com/journal/10489",
+      "match": {
+        "callIds": [
+          "j-springer-applied-intelligence"
+        ],
+        "names": [
+          "Applied Intelligence (Springer)",
+          "Applied Intelligence"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0924-669X",
+          "1573-7497"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Springer-Verlag",
+        "registeredDois": 7820,
+        "url": "https://api.crossref.org/journals/0924-669X"
+      }
+    },
+    {
+      "id": "j-springer-dmkd",
+      "canonicalName": "Data Mining and Knowledge Discovery",
+      "acronym": "DMKD (Springer)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer",
+      "officialUrl": "https://link.springer.com/journal/10618",
+      "match": {
+        "callIds": [
+          "j-springer-dmkd"
+        ],
+        "names": [
+          "Data Mining and Knowledge Discovery (Springer)",
+          "Data Mining and Knowledge Discovery"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1384-5810",
+          "1573-756X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Springer-Verlag",
+        "registeredDois": 1384,
+        "url": "https://api.crossref.org/journals/1384-5810"
+      }
+    },
+    {
+      "id": "j-springer-ijmlc",
+      "canonicalName": "International Journal of Machine Learning and Cybernetics",
+      "acronym": "IJMLC (Springer)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer",
+      "officialUrl": "https://link.springer.com/journal/13042",
+      "match": {
+        "callIds": [
+          "j-springer-ijmlc"
+        ],
+        "names": [
+          "International Journal of Machine Learning and Cybernetics (Springer)",
+          "International Journal of Machine Learning and Cybernetics"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1868-8071",
+          "1868-808X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Springer-Verlag",
+        "registeredDois": 3208,
+        "url": "https://api.crossref.org/journals/1868-8071"
+      }
+    },
+    {
+      "id": "j-springer-mlj",
+      "canonicalName": "Machine Learning",
+      "acronym": "MLJ (Springer)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer",
+      "officialUrl": "https://link.springer.com/journal/10994",
+      "match": {
+        "callIds": [
+          "j-springer-mlj"
+        ],
+        "names": [
+          "Machine Learning (Springer)",
+          "Machine Learning"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0885-6125",
+          "1573-0565"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Springer-Verlag",
+        "registeredDois": 3307,
+        "url": "https://api.crossref.org/journals/0885-6125"
+      }
+    },
+    {
+      "id": "j-tf-connection-science",
+      "canonicalName": "Connection Science",
+      "acronym": "Connection Science (T&F)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Taylor & Francis",
+      "officialUrl": "https://www.tandfonline.com/journals/ccos20",
+      "match": {
+        "callIds": [
+          "j-tf-connection-science"
+        ],
+        "names": [
+          "Connection Science",
+          "Connection Science"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0954-0091",
+          "1360-0494"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Informa UK (Taylor & Francis)",
+        "registeredDois": 1115,
+        "url": "https://api.crossref.org/journals/0954-0091"
+      }
+    },
+    {
+      "id": "j-tf-ijcm",
+      "canonicalName": "International Journal of Computer Mathematics",
+      "acronym": "IJCM (T&F)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Taylor & Francis",
+      "officialUrl": "https://www.tandfonline.com/journals/gcom20",
+      "match": {
+        "callIds": [
+          "j-tf-ijcm"
+        ],
+        "names": [
+          "International Journal of Computer Mathematics",
+          "International Journal of Computer Mathematics"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0020-7160",
+          "1029-0265"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Informa UK (Taylor & Francis)",
+        "registeredDois": 5935,
+        "url": "https://api.crossref.org/journals/0020-7160"
+      }
+    },
+    {
+      "id": "j-tf-ijgs",
+      "canonicalName": "International Journal of General Systems",
+      "acronym": "IJGS (T&F)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Taylor & Francis",
+      "officialUrl": "https://www.tandfonline.com/journals/ggen20",
+      "match": {
+        "callIds": [
+          "j-tf-ijgs"
+        ],
+        "names": [
+          "International Journal of General Systems",
+          "International Journal of General Systems"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0308-1079",
+          "1563-5104"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Informa UK (Taylor & Francis)",
+        "registeredDois": 2275,
+        "url": "https://api.crossref.org/journals/0308-1079"
+      }
+    },
+    {
+      "id": "j-tf-ijss",
+      "canonicalName": "International Journal of Systems Science",
+      "acronym": "IJSS (T&F)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Taylor & Francis",
+      "officialUrl": "https://www.tandfonline.com/journals/tsys20",
+      "match": {
+        "callIds": [
+          "j-tf-ijss"
+        ],
+        "names": [
+          "International Journal of Systems Science",
+          "International Journal of Systems Science"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0020-7721",
+          "1464-5319"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Informa UK (Taylor & Francis)",
+        "registeredDois": 9404,
+        "url": "https://api.crossref.org/journals/0020-7721"
+      }
+    },
+    {
+      "id": "j-wiley-ai-magazine",
+      "canonicalName": "AI Magazine",
+      "acronym": "AI Magazine (AAAI/Wiley)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Wiley",
+      "officialUrl": "https://www.wiley.com/en-us/journal-finder/ai-magazine/AAAI/",
+      "match": {
+        "callIds": [
+          "j-wiley-ai-magazine"
+        ],
+        "names": [
+          "AI Magazine",
+          "AI Magazine"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0738-4602",
+          "2371-9621"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Wiley (John Wiley & Sons)",
+        "registeredDois": 1157,
+        "url": "https://api.crossref.org/journals/0738-4602"
+      }
+    },
+    {
+      "id": "j-wiley-aisy",
+      "canonicalName": "Advanced Intelligent Systems",
+      "acronym": "Adv. Intelligent Systems (Wiley)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Wiley",
+      "officialUrl": "https://www.wiley.com/en-us/journal-finder/advanced-intelligent-systems/AISY/",
+      "match": {
+        "callIds": [
+          "j-wiley-aisy"
+        ],
+        "names": [
+          "Advanced Intelligent Systems",
+          "Advanced Intelligent Systems"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "2640-4567"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Wiley (John Wiley & Sons)",
+        "registeredDois": 2529,
+        "url": "https://api.crossref.org/journals/2640-4567"
+      }
+    },
+    {
+      "id": "j-wiley-cgf",
+      "canonicalName": "Computer Graphics Forum",
+      "acronym": "CGF (Wiley)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Wiley",
+      "officialUrl": "https://onlinelibrary.wiley.com/journal/14678659",
+      "match": {
+        "callIds": [
+          "j-wiley-cgf"
+        ],
+        "names": [
+          "Computer Graphics Forum",
+          "Computer Graphics Forum"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0167-7055",
+          "1467-8659"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Wiley (Blackwell Publishing)",
+        "registeredDois": 7292,
+        "url": "https://api.crossref.org/journals/0167-7055"
+      }
+    },
+    {
+      "id": "j-wiley-computational-intelligence",
+      "canonicalName": "Computational Intelligence",
+      "acronym": "Comp. Intelligence (Wiley)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Wiley",
+      "officialUrl": "https://onlinelibrary.wiley.com/journal/14678640",
+      "match": {
+        "callIds": [
+          "j-wiley-computational-intelligence"
+        ],
+        "names": [
+          "Computational Intelligence",
+          "Computational Intelligence"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0824-7935",
+          "1467-8640"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Wiley (Blackwell Publishing)",
+        "registeredDois": 1975,
+        "url": "https://api.crossref.org/journals/0824-7935"
+      }
+    },
+    {
+      "id": "j-wiley-ima",
+      "canonicalName": "International Journal of Imaging Systems and Technology",
+      "acronym": "IJIST (Wiley)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Wiley",
+      "officialUrl": "https://www.wiley.com/en-us/journal-finder/international-journal-of-imaging-systems-and-technology/IMA/",
+      "match": {
+        "callIds": [
+          "j-wiley-ima"
+        ],
+        "names": [
+          "International Journal of Imaging Systems and Technology",
+          "International Journal of Imaging Systems and Technology"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0899-9457",
+          "1098-1098"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Wiley (John Wiley & Sons)",
+        "registeredDois": 2760,
+        "url": "https://api.crossref.org/journals/0899-9457"
+      }
+    },
+    {
+      "id": "j-wiley-isj",
+      "canonicalName": "Information Systems Journal",
+      "acronym": "ISJ (Wiley)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Wiley",
+      "officialUrl": "https://www.wiley.com/en-us/journal-finder/information-systems-journal/ISJ/",
+      "match": {
+        "callIds": [
+          "j-wiley-isj"
+        ],
+        "names": [
+          "Information Systems Journal",
+          "Information Systems Journal"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1350-1917",
+          "1365-2575"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Wiley (Blackwell Publishing)",
+        "registeredDois": 1381,
+        "url": "https://api.crossref.org/journals/1350-1917"
+      }
+    },
+    {
+      "id": "j-wiley-jcal",
+      "canonicalName": "Journal of Computer Assisted Learning",
+      "acronym": "JCAL (Wiley)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Wiley",
+      "officialUrl": "https://www.wiley.com/en-us/journal-finder/journal-of-computer-assisted-learning/JCAL/",
+      "match": {
+        "callIds": [
+          "j-wiley-jcal"
+        ],
+        "names": [
+          "Journal of Computer Assisted Learning",
+          "Journal of Computer Assisted Learning"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0266-4909",
+          "1365-2729"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Wiley (Blackwell Publishing)",
+        "registeredDois": 2805,
+        "url": "https://api.crossref.org/journals/0266-4909"
+      }
+    },
+    {
+      "id": "j-wiley-nem",
+      "canonicalName": "International Journal of Network Management",
+      "acronym": "IJNM (Wiley)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Wiley",
+      "officialUrl": "https://www.wiley.com/en-us/journal-finder/international-journal-of-network-management/NEM/",
+      "match": {
+        "callIds": [
+          "j-wiley-nem"
+        ],
+        "names": [
+          "International Journal of Network Management",
+          "International Journal of Network Management"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "1055-7148",
+          "1099-1190"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Wiley (John Wiley & Sons)",
+        "registeredDois": 1654,
+        "url": "https://api.crossref.org/journals/1055-7148"
+      }
+    },
+    {
+      "id": "j-wiley-spe",
+      "canonicalName": "Software Practice and Experience",
+      "acronym": "SPE (Wiley)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Wiley",
+      "officialUrl": "https://onlinelibrary.wiley.com/journal/1097024x",
+      "match": {
+        "callIds": [
+          "j-wiley-spe"
+        ],
+        "names": [
+          "Software: Practice and Experience",
+          "Software Practice and Experience"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0038-0644",
+          "1097-024X"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Wiley (John Wiley & Sons)",
+        "registeredDois": 5535,
+        "url": "https://api.crossref.org/journals/0038-0644"
+      }
+    },
+    {
+      "id": "j-wiley-stvr",
+      "canonicalName": "Software Testing Verification and Reliability",
+      "acronym": "STVR (Wiley)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Wiley",
+      "officialUrl": "https://www.wiley.com/en-us/journal-finder/software-testing%2C-verification-and-reliability/STVR/",
+      "match": {
+        "callIds": [
+          "j-wiley-stvr"
+        ],
+        "names": [
+          "Software Testing, Verification and Reliability",
+          "Software Testing Verification and Reliability"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0960-0833",
+          "1099-1689"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Wiley (John Wiley & Sons)",
+        "registeredDois": 1142,
+        "url": "https://api.crossref.org/journals/0960-0833"
+      }
+    },
+    {
+      "id": "nca-springer",
+      "canonicalName": "Neural Computing and Applications",
+      "acronym": "NCA (Springer)",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "Springer",
+      "officialUrl": "https://link.springer.com/journal/521",
+      "match": {
+        "callIds": [
+          "nca-springer"
+        ],
+        "names": [
+          "Neural Computing and Applications",
+          "Neural Computing and Applications"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0941-0643",
+          "1433-3058"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Springer-Verlag",
+        "registeredDois": 12511,
+        "url": "https://api.crossref.org/journals/0941-0643"
+      }
+    },
+    {
+      "id": "tpami",
+      "canonicalName": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "acronym": "IEEE TPAMI",
+      "venueType": "journal",
+      "historyProvider": "crossref-journal",
+      "status": "active",
+      "publisher": "IEEE",
+      "officialUrl": "https://www.computer.org/csdl/journal/tp",
+      "match": {
+        "callIds": [
+          "tpami"
+        ],
+        "names": [
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        ]
+      },
+      "externalIds": {
+        "issns": [
+          "0162-8828",
+          "1939-3539",
+          "2160-9292"
+        ]
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "maxPapersPerYear": 120,
+      "coverageMode": "representative",
+      "registryVerification": {
+        "source": "Crossref exact title, publisher, and ISSN",
+        "registryPublisher": "Institute of Electrical and Electronics Engineers",
+        "registeredDois": 12254,
+        "url": "https://api.crossref.org/journals/0162-8828"
+      }
+    },
+    {
+      "id": "arabicnlp",
+      "canonicalName": "Arabic Natural Language Processing Conference",
+      "acronym": "ArabicNLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://sigarab.org/",
+      "match": {
+        "callIds": [
+          "emnlp-2026-ws-arabicnlp"
+        ],
+        "names": [
+          "ArabicNLP — Fourth Arabic Natural Language Processing Conference (@ EMNLP)"
+        ]
+      },
+      "externalIds": {
+        "aclAnthologyEvent": "arabicnlp"
+      },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "babylm",
+      "canonicalName": "BabyLM Challenge",
+      "acronym": "BabyLM",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://babylm.github.io/",
+      "match": {
+        "callIds": [
+          "or-emnlp-2026-workshop-babylm"
+        ],
+        "openreviewSeries": [
+          "EMNLP/Workshop/BabyLM_ARR_Commitment"
+        ]
+      },
+      "externalIds": {
+        "aclAnthologyEvent": "babylm"
+      },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "blackboxnlp",
+      "canonicalName": "BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+      "acronym": "BlackboxNLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://blackboxnlp.github.io/",
+      "match": {
+        "callIds": [
+          "or-emnlp-2026-workshop-blackboxnlp"
+        ],
+        "openreviewSeries": [
+          "EMNLP/Workshop/BlackboxNLP_ARR_Commitment"
+        ]
+      },
+      "externalIds": {
+        "aclAnthologyEvent": "blackboxnlp"
+      },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "gebnlp",
+      "canonicalName": "Workshop on Gender Bias in Natural Language Processing",
+      "acronym": "GeBNLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://genderbiasnlp.talp.cat/",
+      "match": {
+        "callIds": [
+          "or-aacl-ijcnlp-2026-workshop-gebnlp"
+        ],
+        "openreviewSeries": [
+          "aclweb.org/AACL-IJCNLP/Workshop/GeBNLP_Direct_Submission"
+        ]
+      },
+      "externalIds": {
+        "aclAnthologyEvent": "gebnlp"
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "nllp",
+      "canonicalName": "Natural Legal Language Processing Workshop",
+      "acronym": "NLLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://nllpw.org/",
+      "match": {
+        "callIds": [
+          "emnlp26-nllp"
+        ],
+        "openreviewSeries": [
+          "EMNLP/Workshop/NLLP"
+        ]
+      },
+      "externalIds": {
+        "aclAnthologyEvent": "nllp"
+      },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "uncertainlp",
+      "canonicalName": "Workshop on Uncertainty-Aware NLP",
+      "acronym": "UncertaiNLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://uncertainlp.github.io/",
+      "match": {
+        "callIds": [
+          "emnlp26-uncertainlp"
+        ],
+        "openreviewSeries": [
+          "EMNLP/Workshop/UncertaiNLP"
+        ]
+      },
+      "externalIds": {
+        "aclAnthologyEvent": "uncertainlp"
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "wmt",
+      "canonicalName": "Conference on Machine Translation",
+      "acronym": "WMT",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://www.statmt.org/wmt26/",
+      "match": {
+        "callIds": [
+          "emnlp26-wmt"
+        ],
+        "names": [
+          "Eleventh Conference on Machine Translation"
+        ]
+      },
+      "externalIds": {
+        "aclAnthologyEvent": "wmt"
+      },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "woah",
+      "canonicalName": "Workshop on Online Abuse and Harms",
+      "acronym": "WOAH",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://www.workshopononlineabuse.com/",
+      "match": {
+        "callIds": [
+          "emnlp-2026-ws-woah"
+        ],
+        "names": [
+          "WOAH — 10th Workshop on Online Abuse and Harms (@ EMNLP)"
+        ]
+      },
+      "externalIds": {
+        "aclAnthologyEvent": "woah"
+      },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    }
+  ],
+  "rejections": [
+    {
+      "callId": "or-ccs-2026-css",
+      "name": "CCS 2026 CSS",
+      "reason": "no-unique-exact-ranked-dblp-match"
+    },
+    {
+      "callId": "j-mdpi-ai",
+      "name": "AI (MDPI)",
+      "publisher": "MDPI",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": [
+        {
+          "title": "Journal of Airline and Airport Management",
+          "publisher": "Omnia Publisher SL",
+          "issns": [
+            "2014-4865",
+            "2014-4806"
+          ]
+        },
+        {
+          "title": "Aisyah Journal of English Language Teaching (AIJELT)",
+          "publisher": "STIKES Aisyah Pringsewu Lampung",
+          "issns": [
+            "3046-7802"
+          ]
+        },
+        {
+          "title": "AICB",
+          "publisher": "JScholar Publishers",
+          "issns": []
+        }
+      ]
+    },
+    {
+      "callId": "j-wiley-ahci",
+      "name": "Advances in Human-Computer Interaction",
+      "publisher": "Wiley",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": [
+        {
+          "title": "Advances in Human-Computer Interaction",
+          "publisher": "Hindawi Limited",
+          "issns": [
+            "1687-5893",
+            "1687-5907"
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "j-wiley-caai-cit",
+      "name": "CAAI Transactions on Intelligence Technology",
+      "publisher": "Wiley",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": [
+        {
+          "title": "CAAI Transactions on Intelligence Technology",
+          "publisher": "Institution of Engineering and Technology (IET)",
+          "issns": [
+            "2468-2322",
+            "2468-2322",
+            "2468-6557"
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "j-wiley-ccs",
+      "name": "Cognitive Computation and Systems",
+      "publisher": "Wiley",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": [
+        {
+          "title": "Cognitive Computation and Systems",
+          "publisher": "Institution of Engineering and Technology (IET)",
+          "issns": [
+            "2517-7567",
+            "2517-7567"
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "j-wiley-etri",
+      "name": "ETRI Journal",
+      "publisher": "Wiley",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": [
+        {
+          "title": "ETRI Journal",
+          "publisher": "Electronics and Telecommunications Research Institute",
+          "issns": [
+            "1225-6463",
+            "2233-7326"
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "j-wiley-iet-cim",
+      "name": "IET Collaborative Intelligent Manufacturing",
+      "publisher": "Wiley",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": [
+        {
+          "title": "IET Collaborative Intelligent Manufacturing",
+          "publisher": "Institution of Engineering and Technology (IET)",
+          "issns": [
+            "2516-8398",
+            "2516-8398"
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "j-tf-jetai",
+      "name": "Journal of Experimental & Theoretical Artificial Intelligence (JETAI)",
+      "publisher": "Taylor & Francis",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": []
+    },
+    {
+      "callId": "j-wiley-expert-systems",
+      "name": "Expert Systems: The Journal of Knowledge Engineering",
+      "publisher": "Wiley",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": []
+    },
+    {
+      "callId": "j-wiley-wires-dmkd",
+      "name": "WIREs Data Mining and Knowledge Discovery",
+      "publisher": "Wiley",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": []
+    },
+    {
+      "callId": "j-wiley-ijis",
+      "name": "International Journal of Intelligent Systems",
+      "publisher": "Wiley",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": [
+        {
+          "title": "International Journal of Intelligent Systems",
+          "publisher": "Hindawi Limited",
+          "issns": [
+            "0884-8173",
+            "1098-111X"
+          ]
+        },
+        {
+          "title": "International Journal of Intelligent Unmanned Systems",
+          "publisher": "Emerald (MCB UP)",
+          "issns": [
+            "2049-6427",
+            "2049-6435"
+          ]
+        },
+        {
+          "title": "International Journal of Intelligent Information Systems",
+          "publisher": "Science Publishing Group",
+          "issns": [
+            "2328-7675",
+            "2328-7683"
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "j-elsevier-virtual-reality-intelligent-hardware",
+      "name": "Virtual Reality & Intelligent Hardware",
+      "publisher": "Elsevier",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": []
+    },
+    {
+      "callId": "j-elsevier-computers-and-geosciences",
+      "name": "Computers & Geosciences",
+      "publisher": "Elsevier",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": []
+    },
+    {
+      "callId": "j-elsevier-computers-and-security",
+      "name": "Computers & Security",
+      "publisher": "Elsevier",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": []
+    },
+    {
+      "callId": "j-elsevier-computer-standards-and-interfaces",
+      "name": "Computer Standards & Interfaces",
+      "publisher": "Elsevier",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": []
+    },
+    {
+      "callId": "j-elsevier-information-processing-and-management",
+      "name": "Information Processing & Management",
+      "publisher": "Elsevier",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": []
+    },
+    {
+      "callId": "j-mdpi-digital",
+      "name": "Digital",
+      "publisher": "MDPI",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": [
+        {
+          "title": "DigItalia",
+          "publisher": "DigItalia - Rivista del digitale nei Beni Culturali",
+          "issns": [
+            "1972-621X",
+            "1972-621X"
+          ]
+        },
+        {
+          "title": "Terra Digitalis",
+          "publisher": "Universidad Nacional Autonoma de Mexico",
+          "issns": [
+            "2594-0694",
+            "2594-0694"
+          ]
+        },
+        {
+          "title": "Digitalization",
+          "publisher": "Krasnoyarsk Regional Youth Public Organization 'Union of Young Scientists of Krasnoyarsk'",
+          "issns": [
+            "2712-8733"
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "j-mdpi-information",
+      "name": "Information",
+      "publisher": "MDPI",
+      "reason": "no-exact-title-publisher-issn-match",
+      "registryCandidates": [
+        {
+          "title": "Informationsbrief Ausländerrecht",
+          "publisher": "Walter de Gruyter GmbH",
+          "issns": [
+            "0174-2108",
+            "2366-195X"
+          ]
+        },
+        {
+          "title": "Chemischer Informationsdienst",
+          "publisher": "Wiley (John Wiley & Sons)",
+          "issns": [
+            "0009-2975",
+            "2199-2924"
+          ]
+        },
+        {
+          "title": "Scientia Sinica Informationis",
+          "publisher": "Science in China Press",
+          "issns": [
+            "1674-7267"
+          ]
+        }
+      ]
+    }
+  ]
+}

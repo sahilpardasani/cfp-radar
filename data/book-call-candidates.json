@@ -1,0 +1,39 @@
+{
+  "updatedAt": "2026-07-17T15:03:34.366Z",
+  "description": "Leads shown for human review. These are not admitted as trusted dashboard calls.",
+  "items": [
+    {
+      "id": "review-cpdp-bloomsbury-ai-privacy",
+      "name": "Data Protection, Privacy and Artificial Intelligence",
+      "publisher": "Proposed Bloomsbury volume / CPDP",
+      "type": "chapter-proposal",
+      "reviewStatus": "needs-review",
+      "deadline": "2026-07-26T23:59:00.000Z",
+      "callUrl": "https://www.cpdpconferences.org/call-for-chapters-2026",
+      "reviewReasons": ["Detailed active call with blind peer review, but the call is hosted by CPDP rather than on a Bloomsbury-owned confirmation page."],
+      "domain": "AI, Privacy & Data Protection"
+    },
+    {
+      "id": "review-springer-multitask-learning",
+      "name": "Multi-Task Learning in Engineering",
+      "publisher": "Proposed Springer Nature volume",
+      "type": "chapter-proposal",
+      "reviewStatus": "needs-review",
+      "deadline": "2026-10-01T23:59:00.000Z",
+      "callUrl": "https://ais2026.icas.events/call-for-chapters-edited-volume-multi-task-learning-in-engineering/",
+      "reviewReasons": ["Names an established Springer series and an existing prior volume, but the active call is not hosted on Springer’s domain."],
+      "domain": "Deep Learning & Engineering"
+    },
+    {
+      "id": "rejected-wiseleaf-health-ai",
+      "name": "Smart Healthcare Revolution: AI Strategies for Superior Global Health",
+      "publisher": "WiseLeaf Scientific Ventures",
+      "type": "chapter-proposal",
+      "reviewStatus": "rejected",
+      "deadline": "2026-06-06T23:59:00.000Z",
+      "callUrl": "https://wiseleafscientific.com/pages/call-for-chapters.html",
+      "reviewReasons": ["Deadline passed.", "WhatsApp submission and publication-certificate language trigger the anti-predatory gate.", "Not an approved major scholarly publisher or university press."],
+      "domain": "Medical AI"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "description": "Config-only policy for broad venue-history coverage. Curated venues require an exact authoritative series ID. Journal discovery admits only Q1/Q2 cards that exactly match a Crossref title and an allowed publisher identity.",
+  "conferences": {
+    "enabled": true,
+    "ranks": ["A*", "A", "B", "C"],
+    "historyStartYear": 2024,
+    "historyEndYear": 2025,
+    "minimumNameTokenScore": 0.6
+  },
+  "journals": {
+    "enabled": true,
+    "tiers": ["Q1", "Q2"],
+    "historyStartYear": 2024,
+    "historyEndYear": 2025,
+    "maxPapersPerYear": 120,
+    "minimumRegisteredDois": 10,
+    "publisherPatterns": {
+      "ACM": ["association for computing machinery", "acm"],
+      "Elsevier": ["elsevier"],
+      "IEEE": ["institute of electrical and electronics engineers", "ieee"],
+      "MDPI": ["mdpi"],
+      "Springer": ["springer"],
+      "Springer Nature": ["springer", "nature portfolio"],
+      "Taylor & Francis": ["informa", "taylor and francis"],
+      "Wiley": ["wiley"]
+    }
+  },
+  "curatedVenues": [
+    {
+      "id": "neurips",
+      "canonicalName": "Conference on Neural Information Processing Systems",
+      "acronym": "NeurIPS",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://neurips.cc/",
+      "match": {
+        "callIds": ["or-neurips-2026"],
+        "acronyms": ["NeurIPS"],
+        "names": ["NeurIPS", "Conference on Neural Information Processing Systems"]
+      },
+      "externalIds": { "dblpStream": "conf/nips" },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "chi",
+      "canonicalName": "ACM CHI Conference on Human Factors in Computing Systems",
+      "acronym": "CHI",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://chi.acm.org/",
+      "match": {
+        "callIds": ["chi-2027"],
+        "acronyms": ["CHI"],
+        "names": ["ACM CHI Conference on Human Factors in Computing Systems", "International Conference on Human Factors in Computing Systems"]
+      },
+      "externalIds": { "dblpStream": "conf/chi" },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "sigmod",
+      "canonicalName": "ACM SIGMOD International Conference on Management of Data",
+      "acronym": "SIGMOD",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://sigmod.org/",
+      "match": {
+        "callIds": ["sigmod-2027-r4"],
+        "acronyms": ["SIGMOD"],
+        "names": ["ACM SIGMOD International Conference on Management of Data"]
+      },
+      "externalIds": { "dblpStream": "conf/sigmod" },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "aamas",
+      "canonicalName": "International Conference on Autonomous Agents and Multiagent Systems",
+      "acronym": "AAMAS",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://www.ifaamas.org/",
+      "match": {
+        "callIds": ["aamas-2027"],
+        "acronyms": ["AAMAS"],
+        "names": ["International Conference on Autonomous Agents and Multiagent Systems"]
+      },
+      "externalIds": { "dblpStream": "conf/ifaamas" },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "icassp",
+      "canonicalName": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "acronym": "ICASSP",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://2027.ieeeicassp.org/",
+      "match": {
+        "callIds": ["icassp-2027"],
+        "acronyms": ["ICASSP"],
+        "names": ["IEEE International Conference on Acoustics, Speech and Signal Processing"]
+      },
+      "externalIds": { "dblpStream": "conf/icassp" },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "dai",
+      "canonicalName": "International Conference on Distributed Artificial Intelligence",
+      "acronym": "DAI",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://www.adai.ai/",
+      "match": {
+        "callIds": ["dai-2026"],
+        "acronyms": ["DAI"],
+        "names": ["International Conference on Distributed Artificial Intelligence"]
+      },
+      "externalIds": { "dblpStream": "conf/dai2" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "inlg",
+      "canonicalName": "International Natural Language Generation Conference",
+      "acronym": "INLG",
+      "venueType": "conference",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://inlgmeeting.github.io/",
+      "match": {
+        "callIds": ["or-inlg-2026"],
+        "openreviewSeries": ["aclweb.org/INLG/Conference_ARR_Commitment"],
+        "names": ["International Natural Language Generation Conference", "INLG Conference"]
+      },
+      "externalIds": { "aclAnthologyEvent": "inlg" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "arabicnlp",
+      "canonicalName": "Arabic Natural Language Processing Conference",
+      "acronym": "ArabicNLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://sigarab.org/",
+      "match": {
+        "callIds": ["emnlp-2026-ws-arabicnlp"],
+        "names": ["ArabicNLP — Fourth Arabic Natural Language Processing Conference (@ EMNLP)"]
+      },
+      "externalIds": { "aclAnthologyEvent": "arabicnlp" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "woah",
+      "canonicalName": "Workshop on Online Abuse and Harms",
+      "acronym": "WOAH",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://www.workshopononlineabuse.com/",
+      "match": {
+        "callIds": ["emnlp-2026-ws-woah"],
+        "names": ["WOAH — 10th Workshop on Online Abuse and Harms (@ EMNLP)"]
+      },
+      "externalIds": { "aclAnthologyEvent": "woah" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "wmt",
+      "canonicalName": "Conference on Machine Translation",
+      "acronym": "WMT",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://www.statmt.org/wmt26/",
+      "match": {
+        "callIds": ["emnlp26-wmt"],
+        "names": ["Eleventh Conference on Machine Translation"]
+      },
+      "externalIds": { "aclAnthologyEvent": "wmt" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "nllp",
+      "canonicalName": "Natural Legal Language Processing Workshop",
+      "acronym": "NLLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://nllpw.org/",
+      "match": {
+        "callIds": ["emnlp26-nllp"],
+        "openreviewSeries": ["EMNLP/Workshop/NLLP"]
+      },
+      "externalIds": { "aclAnthologyEvent": "nllp" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "blackboxnlp",
+      "canonicalName": "BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+      "acronym": "BlackboxNLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://blackboxnlp.github.io/",
+      "match": {
+        "callIds": ["or-emnlp-2026-workshop-blackboxnlp"],
+        "openreviewSeries": ["EMNLP/Workshop/BlackboxNLP_ARR_Commitment"]
+      },
+      "externalIds": { "aclAnthologyEvent": "blackboxnlp" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "uncertainlp",
+      "canonicalName": "Workshop on Uncertainty-Aware NLP",
+      "acronym": "UncertaiNLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://uncertainlp.github.io/",
+      "match": {
+        "callIds": ["emnlp26-uncertainlp"],
+        "openreviewSeries": ["EMNLP/Workshop/UncertaiNLP"]
+      },
+      "externalIds": { "aclAnthologyEvent": "uncertainlp" },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "babylm",
+      "canonicalName": "BabyLM Challenge",
+      "acronym": "BabyLM",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://babylm.github.io/",
+      "match": {
+        "callIds": ["or-emnlp-2026-workshop-babylm"],
+        "openreviewSeries": ["EMNLP/Workshop/BabyLM_ARR_Commitment"]
+      },
+      "externalIds": { "aclAnthologyEvent": "babylm" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "gebnlp",
+      "canonicalName": "Workshop on Gender Bias in Natural Language Processing",
+      "acronym": "GeBNLP",
+      "venueType": "workshop",
+      "historyProvider": "acl-anthology",
+      "status": "active",
+      "officialUrl": "https://genderbiasnlp.talp.cat/",
+      "match": {
+        "callIds": ["or-aacl-ijcnlp-2026-workshop-gebnlp"],
+        "openreviewSeries": ["aclweb.org/AACL-IJCNLP/Workshop/GeBNLP_Direct_Submission"]
+      },
+      "externalIds": { "aclAnthologyEvent": "gebnlp" },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "nldl",
+      "canonicalName": "Northern Lights Deep Learning Conference",
+      "acronym": "NLDL",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://www.nldl.org/",
+      "match": {
+        "callIds": ["or-nldl-2027"],
+        "openreviewSeries": ["NLDL.org/Conference"],
+        "acronyms": ["NLDL"],
+        "names": ["Northern Lights Deep Learning Conference", "NLDL Conference"]
+      },
+      "externalIds": { "dblpStream": "conf/nldl" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2025
+    },
+    {
+      "id": "taai",
+      "canonicalName": "International Conference on Technologies and Applications of Artificial Intelligence",
+      "acronym": "TAAI",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://taai2026.github.io/",
+      "match": {
+        "callIds": ["or-taai-2026"],
+        "openreviewSeries": ["TAAI.org/Conference"],
+        "acronyms": ["TAAI"],
+        "names": ["International Conference on Technologies and Applications of Artificial Intelligence", "TAAI Conference"]
+      },
+      "externalIds": { "dblpStream": "conf/taai" },
+      "historyStartYear": 2023,
+      "historyEndYear": 2024
+    },
+    {
+      "id": "bnaic-benelearn",
+      "canonicalName": "BNAIC/BeNeLearn Conference on Artificial Intelligence and Machine Learning",
+      "acronym": "BNAIC-BeNeLearn",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://www.maastrichtuniversity.nl/bnaic2026",
+      "match": {
+        "callIds": ["or-bnaic-benelearn-2026"],
+        "openreviewSeries": ["BNAIC-BeNeLearn/Conference"],
+        "acronyms": ["BNAIC-BeNeLearn"],
+        "names": ["BNAIC-BeNeLearn Conference", "Belgium-Netherlands Conference on Artificial Intelligence"]
+      },
+      "externalIds": { "dblpStream": "conf/bnaic" },
+      "historyStartYear": 2018,
+      "historyEndYear": 2021
+    },
+    {
+      "id": "ieee-bsn",
+      "canonicalName": "IEEE International Conference on Body Sensor Networks",
+      "acronym": "BSN",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://bsn.embs.org/2026/",
+      "match": {
+        "callIds": ["or-ieee-embs-bsn-2026"],
+        "acronyms": ["BSN"],
+        "names": ["IEEE EMBS BSN", "IEEE International Conference on Body Sensor Networks"]
+      },
+      "externalIds": { "dblpStream": "conf/bsn" },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025
+    }
+  ]
+}

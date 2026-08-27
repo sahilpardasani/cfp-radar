@@ -1,0 +1,70 @@
+{
+  "updatedAt": "2026-07-25T13:55:15.449Z",
+  "source": "verified official conference calls",
+  "items": [
+    {
+      "id": "icc-12-2027-workshop-proposals",
+      "conference": "12th Indian Control Conference (ICC-12)",
+      "name": "Call for Workshop Proposals",
+      "domain": "Control Systems / AI",
+      "deadline": "2026-08-31T23:59:00+05:30",
+      "deadlineTimezone": "IST",
+      "eventDates": "January 11–13, 2027",
+      "location": "IIT Kharagpur, India",
+      "cfpUrl": "https://controlsociety.org/icc/workshops/",
+      "submissionUrl": "http://controls.papercept.net/",
+      "submissionPlatform": "PaperCept",
+      "requirements": "Theme, presenter bios and contacts, speakers, schedule, and expected outcomes.",
+      "verifiedAt": "2026-07-14T00:00:00Z"
+    },
+    {
+      "id": "gamifin-2027-workshop-proposals",
+      "conference": "GamiFIN 2027",
+      "name": "Special-Themed Workshop Proposals",
+      "domain": "Gamification / HCI",
+      "deadline": "2026-10-26T23:59:00.000Z",
+      "deadlineTimezone": "AoE",
+      "eventDates": "March 15–19, 2027",
+      "location": "Pyhä, Finland",
+      "cfpUrl": "https://gamifinconference.com/call-for-papers-2027/",
+      "submissionUrl": null,
+      "submissionPlatform": "EasyChair",
+      "requirements": "Extended abstract in ACM single-column review format; two participant-proposed workshops will be selected.",
+      "verifiedAt": "2026-07-25T13:55:15.449Z",
+      "deadlineEvidence": "Workshop proposals by October 26, 2026"
+    },
+    {
+      "id": "chi-2027-workshop-proposals",
+      "conference": "ACM CHI 2027",
+      "name": "Call for Workshop Organizers",
+      "domain": "Human-Computer Interaction",
+      "deadline": "2026-11-19T23:59:00.000Z",
+      "deadlineTimezone": "AoE",
+      "eventDates": "May 10–14, 2027",
+      "location": "Pittsburgh, USA",
+      "cfpUrl": "https://chi2027.acm.org/authors/workshops/",
+      "submissionUrl": "https://new.precisionconference.com/",
+      "submissionPlatform": "PCS",
+      "requirements": "Up to 6 pages; organizers describe motivation, activities, audience, team, and participation plan.",
+      "verifiedAt": "2026-07-25T13:55:15.449Z",
+      "deadlineEvidence": "Organizer submission deadline Thursday, November 19, 2026"
+    },
+    {
+      "id": "acmse-2027-workshop-proposals",
+      "conference": "ACMSE 2027",
+      "name": "Call for Tutorials/Workshops",
+      "domain": "Computer Science",
+      "deadline": "2027-01-15T23:59:00.000Z",
+      "deadlineTimezone": "ET",
+      "eventDates": "April 15–17, 2027",
+      "location": null,
+      "cfpUrl": "https://acmse.net/2027/tutorials-call/",
+      "submissionUrl": null,
+      "submissionPlatform": "EasyChair",
+      "requirements": "Up to 3 pages with title, organizers, abstract, topics, audience, duration, resources, and presenter bio.",
+      "verifiedAt": "2026-07-25T13:55:15.449Z",
+      "deadlineEvidence": "Deadline for Submission of Tutorials/Workshops January 15, 2027"
+    }
+  ],
+  "checkedSources": 6
+}

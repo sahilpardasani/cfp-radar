@@ -1,0 +1,1896 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-02T21:45:10.192Z",
+  "venues": [
+    {
+      "id": "aamas",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 939,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "acm-csur",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "ai-and-ethics",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 533,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "ai-and-society",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 831,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "arabicnlp",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 375,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "babylm",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 102,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "blackboxnlp",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 96,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "bnaic-benelearn",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 163,
+        "editionCount": 4,
+        "startYear": 2018,
+        "endYear": 2021,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "chi",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 3874,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "dai",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 42,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "dasip",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 28,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "eacl",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 960,
+        "editionCount": 2,
+        "startYear": 2023,
+        "endYear": 2024,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "eswa-elsevier",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "facct",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 526,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "finnlp",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 157,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "gebnlp",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 61,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "icaif",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 289,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "icassp",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 6265,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "icwsm",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 439,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "ieee-bsn",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 213,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "ihci",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 280,
+        "editionCount": 4,
+        "startYear": 2022,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "ijcv-springer",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "inlg",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 191,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "iui",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 516,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "j-acm-tist",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-acm-tkdd",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-acm-tois",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 236,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-acm-trs",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 137,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-ai-open",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 46,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-artificial-intelligence",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 216,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-artificial-intelligence-in-agriculture",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 92,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-artificial-intelligence-in-geosciences",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 84,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-artificial-intelligence-in-medicine",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-artificial-intelligence-in-the-life-sciences",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 42,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-asoc",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-biomimetic-intelligence-and-robotics",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 90,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-computer-science-review",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 147,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-computers-and-education-artificial-intelligence",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-electronic-commerce-research-and-applications",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 191,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-engineering-applications-of-artificial-intelligence",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-future-generation-computer-systems",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-high-confidence-computing",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 114,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-infofusion",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-information-sciences",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-information-systems",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 174,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-intelligent-medicine",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 81,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-intelligent-systems-with-applications",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-international-journal-of-artificial-intelligence-in-education",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 188,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-international-journal-of-cognitive-computing-in-engineering",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 87,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-international-journal-of-critical-infrastructure-protection",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 102,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-international-journal-of-intelligent-networks",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 61,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-computational-mathematics-and-data-science",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 36,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-computational-science",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-information-security-and-applications",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-parallel-and-distributed-computing",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 225,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-systems-and-software",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-journal-of-systems-architecture",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-knowledge-based-systems",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-neural-networks",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-patternrecognition",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-pervasive-and-mobile-computing",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 132,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-systems-and-soft-computing",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 229,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-elsevier-telematics-and-informatics-reports",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 160,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-access",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-jbhi",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-taffc",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-tai",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-tbd",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 209,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-tcss",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-tcyb",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-tip",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-tkde",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-tnnls",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-tsc",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-ieee-tse",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-applsci",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-asi",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-bdcc",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-biomedinformatics",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 191,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-computers",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-electronics",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-forecasting",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 136,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-futureinternet",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-ijgi",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-informatics",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 217,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-iot",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 126,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-jcp",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 166,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-jimaging",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-jsan",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 211,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-jtaer",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-make",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-mathematics",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-mti",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 234,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-network",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 87,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-robotics",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-sensors",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-smartcities",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-systems",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-technologies",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-mdpi-virtualworlds",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 88,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-nature-machine-intelligence",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-springer-air",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 14,
+        "editionCount": 1,
+        "startYear": 2024,
+        "endYear": 2024,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-springer-applied-intelligence",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-springer-dmkd",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 182,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-springer-ijmlc",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-springer-mlj",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-tf-connection-science",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 86,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-tf-ijcm",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 212,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-tf-ijgs",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 158,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-tf-ijss",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-wiley-ai-magazine",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 112,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-wiley-aisy",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-wiley-cgf",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-wiley-computational-intelligence",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 205,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-wiley-ima",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-wiley-isj",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 129,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-wiley-jcal",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-wiley-nem",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 95,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-wiley-spe",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 157,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "j-wiley-stvr",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 46,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "kdd",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 1486,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "mrl",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 95,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "nca-springer",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "neurips",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 9067,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "nldl",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 92,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "nllp",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 91,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "philosophy-and-technology",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 322,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "sigmod",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 282,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "taai",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 97,
+        "editionCount": 2,
+        "startYear": 2023,
+        "endYear": 2024,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "tpami",
+      "venueType": "journal",
+      "coverage": {
+        "status": "verified",
+        "mode": "representative",
+        "maxPapersPerYear": 120,
+        "paperCount": 240,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "Crossref exact journal ISSN"
+      }
+    },
+    {
+      "id": "uncertainlp",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 40,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "wacv",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 2063,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "wmt",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 345,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "woah",
+      "venueType": "workshop",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 81,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "ACL Anthology exact venue volumes"
+      }
+    },
+    {
+      "id": "wsdm",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 512,
+        "editionCount": 3,
+        "startYear": 2023,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    }
+  ]
+}

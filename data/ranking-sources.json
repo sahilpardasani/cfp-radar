@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "key": "ICORE2026",
+      "label": "ICORE Conference Rankings 2026",
+      "venueType": "conference",
+      "dataset": "data/icore-2026-conferences.json",
+      "officialUrl": "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=arank&page=1",
+      "rankGroups": {
+        "A*": "A*",
+        "A": "A",
+        "Australasian B": "B",
+        "B": "B",
+        "Australasian C": "C",
+        "C": "C"
+      },
+      "fieldMappings": {
+        "4601": "Other",
+        "4602": "Machine Learning & AI",
+        "4603": "Computer Vision",
+        "4604": "Security & Privacy",
+        "4605": "Data, Web & IR",
+        "4606": "Systems & Architecture",
+        "4607": "Computer Vision",
+        "4608": "HCI",
+        "4611": "Machine Learning & AI",
+        "4612": "Systems & Architecture",
+        "4613": "Theory & Statistics"
+      },
+      "defaultField": "Other"
+    }
+  ]
+}
