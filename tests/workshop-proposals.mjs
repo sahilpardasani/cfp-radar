@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import { extractWorkshopProposalDeadline, isWorkshopOrganizerCall } from "../lib/workshopProposalDiscovery.js";
+import { __test as discoveryTest } from "../scripts/discover-workshop-proposals.mjs";
 
 const config = JSON.parse(fs.readFileSync("data/workshop-proposal-sources.json", "utf8"));
 const store = JSON.parse(fs.readFileSync("data/workshop-proposals.json", "utf8"));
@@ -17,5 +18,14 @@ for (const item of store.items) {
   assert.ok(item.deadline);
   assert.ok(item.conference);
 }
+
+const abortedSearch = Object.assign(new Error("The operation was aborted"), { code: "ABORT_ERR" });
+const transientResult = await discoveryTest.resolveSource(
+  { id: "future-venue", conference: "Future Venue 2027", searchQuery: "future venue workshops" },
+  { search: async () => { throw abortedSearch; } },
+);
+assert.equal(transientResult.status, "error");
+assert.equal(transientResult.code, "ABORT_ERR");
+assert.match(transientResult.error, /operation was aborted/i);
 
 console.log(`Workshop proposals OK: ${config.sources.length} configured sources; ${store.items.length} verified calls.`);

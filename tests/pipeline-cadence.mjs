@@ -46,6 +46,9 @@ for (const workflowName of fs.readdirSync(".github/workflows").filter((name) => 
   if (/\bgit push\b/.test(source)) {
     assert.match(source, /group:\s*cfp-data-pipeline/, `${workflowName} must serialize writes to shared CFP data`);
   }
+  assert.match(source, /node-version:\s*24\b/, `${workflowName} must run the project on Node.js 24`);
+  assert.match(source, /actions\/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd/, `${workflowName} must use the reviewed checkout v6 pin`);
+  assert.match(source, /actions\/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903/, `${workflowName} must use the reviewed setup-node v6 pin`);
 }
 
 const baselinePath = path.join(os.tmpdir(), `cfp-radar-baseline-${process.pid}.json`);
