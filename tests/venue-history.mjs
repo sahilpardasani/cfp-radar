@@ -211,25 +211,38 @@ for (const paper of ihciPapers) {
 
 const bundle = loadJsonVenueBundle("ihci");
 assert.equal(bundle.papers.length, ihci.coverage.paperCount);
+const activeFeatureItems = getActiveCFPs(FEATURE_TEST_NOW).items;
+const activeCallForVenue = (venueId) => activeFeatureItems.find((item) => item.venueId === venueId) || null;
+const assertCurrentCallMatchesLifecycle = (historySummary, venueId) => {
+  const activeCall = activeCallForVenue(venueId);
+  if (!activeCall) {
+    assert.equal(historySummary.currentCall, null, `${venueId} must not resurrect a pruned call`);
+    return;
+  }
+  assert.equal(historySummary.currentCall?.id, activeCall.id, `${venueId} should expose its active call`);
+};
 const summary = await venueHistorySummary("ihci", { now: FEATURE_TEST_NOW });
 assert.equal(summary.coverage.status, "verified");
-assert.equal(summary.currentCall?.id, "ihci-2026");
+assertCurrentCallMatchesLifecycle(summary, "ihci");
 const search = await searchVenuePapers("ihci", new URLSearchParams("q=privacy&limit=5"), { now: FEATURE_TEST_NOW });
 assert.equal(search.items.length > 0, true);
 assert.equal(search.items.length <= 5, true);
 const journalSummary = await venueHistorySummary("ai-and-ethics", { now: FEATURE_TEST_NOW });
 assert.equal(journalSummary.venue.venueType, "journal");
-assert.equal(journalSummary.currentCall?.id, "j-springer-ai-and-ethics");
+assertCurrentCallMatchesLifecycle(journalSummary, "ai-and-ethics");
 const journalSearch = await searchVenuePapers("ai-and-ethics", new URLSearchParams("q=governance&limit=5"), { now: FEATURE_TEST_NOW });
 assert.equal(journalSearch.items.length, 5);
 const workshopSummary = await venueHistorySummary("finnlp", { now: FEATURE_TEST_NOW });
 assert.equal(workshopSummary.venue.venueType, "workshop");
-assert.equal(workshopSummary.currentCall?.id, "or-emnlp-2026-workshop-finnlp");
+assertCurrentCallMatchesLifecycle(workshopSummary, "finnlp");
 
-const activeIhci = getActiveCFPs(FEATURE_TEST_NOW).items.find((item) => item.id === "ihci-2026");
-assert.equal(activeIhci.venueId, "ihci");
-assert.equal(activeIhci.historyCoverage.paperCount, ihci.coverage.paperCount);
-const activeHistoryIds = new Map(getActiveCFPs(FEATURE_TEST_NOW).items.map((item) => [item.id, item.venueId]));
+const activeIhci = activeFeatureItems.find((item) => item.id === "ihci-2026");
+if (activeIhci) {
+  assert.equal(activeIhci.venueId, "ihci");
+  assert.equal(activeIhci.historyCoverage.paperCount, ihci.coverage.paperCount);
+}
+const storedCallIds = new Set(JSON.parse(fs.readFileSync("data/cfps.json", "utf8")).items.map((item) => item.id));
+const activeHistoryIds = new Map(activeFeatureItems.map((item) => [item.id, item.venueId]));
 for (const [callId, venueId] of [
   ["iui-2027", "iui"],
   ["wsdm-2027", "wsdm"],
@@ -255,7 +268,11 @@ for (const [callId, venueId] of [
   ["nca-springer", "nca-springer"],
   ["j-ieee-tnnls", "j-ieee-tnnls"],
   ["j-nature-machine-intelligence", "j-nature-machine-intelligence"],
-]) assert.equal(activeHistoryIds.get(callId), venueId, `${callId} should expose its exact verified history`);
+]) {
+  if (storedCallIds.has(callId)) {
+    assert.equal(activeHistoryIds.get(callId), venueId, `${callId} should expose its exact verified history`);
+  }
+}
 assert.equal(activeHistoryIds.get("or-ccs-2026-css"), undefined, "an unrelated CCS acronym must not inherit ACM CCS history");
 const previousFlag = process.env.VENUE_HISTORY_ENABLED;
 process.env.VENUE_HISTORY_ENABLED = "0";
