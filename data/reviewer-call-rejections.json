@@ -1,4 +1,14 @@
 {
-  "updatedAt": "2026-07-25T14:23:17.436Z",
-  "items": []
+  "updatedAt": "2026-08-29T14:17:05.651Z",
+  "items": [
+    {
+      "id": "neurips-2026-ethics-reviewers",
+      "venue": "NeurIPS 2026",
+      "officialUrl": "https://blog.neurips.cc/2026/05/12/neurips-2026-call-for-ethics-reviewers/",
+      "checkedAt": "2026-08-29T14:17:05.651Z",
+      "reasons": [
+        "review-service-window-ended"
+      ]
+    }
+  ]
 }

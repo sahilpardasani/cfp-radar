@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-07-25T14:15:45.723Z",
+  "updatedAt": "2026-08-29T14:07:25.047Z",
   "items": [
+    {
+      "publisher": "MIT Press",
+      "url": "https://mitpress.mit.edu/prospective-authors/",
+      "reasons": [
+        "seed-verification-failed:Fetch failed for https://mitpress.mit.edu/prospective-authors/: HTTP 403"
+      ],
+      "checkedAt": "2026-08-29T14:07:25.047Z"
+    },
     {
       "publisher": "Amsterdam University Press",
       "url": "https://www.aup.nl/en/publish",
@@ -8,7 +16,7 @@
         "no-explicit-book-proposal-route",
         "outside-cs-ai-data-scope"
       ],
-      "checkedAt": "2026-07-25T14:15:45.723Z"
+      "checkedAt": "2026-08-29T14:07:25.047Z"
     }
   ]
 }

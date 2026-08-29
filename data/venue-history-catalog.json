@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T22:11:05.221Z",
+  "updatedAt": "2026-08-29T14:38:11.784Z",
   "source": "exact-authority-history-catalog",
   "policy": {
     "journalTiers": [
@@ -12,9 +12,9 @@
   },
   "counts": {
     "curated": 19,
-    "verifiedGeneratedConferences": 0,
+    "verifiedGeneratedConferences": 1,
     "retainedGeneratedConferences": 0,
-    "rejectedConferenceCandidates": 1,
+    "rejectedConferenceCandidates": 9,
     "journalCandidates": 118,
     "verifiedJournals": 101,
     "rejectedJournals": 17
@@ -300,6 +300,35 @@
       },
       "historyStartYear": 2023,
       "historyEndYear": 2024
+    },
+    {
+      "id": "watch-acm-org-cikm",
+      "canonicalName": "ACM International Conference on Information and Knowledge Management",
+      "acronym": "CIKM",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://openreview.net/group?id=ACM.org/CIKM/2026/Workshop/LASS",
+      "match": {
+        "callIds": [
+          "watch-acm-org-cikm-2026-workshop-lass"
+        ],
+        "names": [
+          "ACM International Conference on Information and Knowledge Management",
+          "ACM International Conference on Information and Knowledge Management"
+        ]
+      },
+      "externalIds": {
+        "dblpStream": "conf/cikm",
+        "rankingId": "25"
+      },
+      "historyStartYear": 2024,
+      "historyEndYear": 2025,
+      "registryVerification": {
+        "source": "Exact ranked name plus configured DBLP stream",
+        "rankingUrl": "https://portal.core.edu.au/conf-ranks/25/",
+        "dblpUrl": "https://dblp.uni-trier.de/db/conf/cikm",
+        "nameTokenScore": 1
+      }
     },
     {
       "id": "acm-csur",
@@ -3954,8 +3983,48 @@
   ],
   "rejections": [
     {
-      "callId": "or-ccs-2026-css",
-      "name": "CCS 2026 CSS",
+      "callId": "or-eacl-2027",
+      "name": "EACL 2027",
+      "reason": "no-unique-exact-ranked-dblp-match"
+    },
+    {
+      "callId": "or-alta-2026",
+      "name": "ALTA 2026",
+      "reason": "no-unique-exact-ranked-dblp-match"
+    },
+    {
+      "callId": "or-iclr-2027",
+      "name": "ICLR 2027 Conference",
+      "reason": "no-unique-exact-ranked-dblp-match"
+    },
+    {
+      "callId": "or-eacl-2027-demo",
+      "name": "EACL 2027 Demo",
+      "reason": "no-unique-exact-ranked-dblp-match"
+    },
+    {
+      "callId": "or-neurips-2026-affinity-support-pilot-program",
+      "name": "NeurIPS 2026 Affinity Support Pilot Program",
+      "reason": "no-unique-exact-ranked-dblp-match"
+    },
+    {
+      "callId": "or-aamas-2027",
+      "name": "AAMAS 2027 Conference",
+      "reason": "no-unique-exact-ranked-dblp-match"
+    },
+    {
+      "callId": "or-alta-2026-non-archival-and-industry",
+      "name": "ALTA 2026 Non-Archival and Industry",
+      "reason": "no-unique-exact-ranked-dblp-match"
+    },
+    {
+      "callId": "or-eacl-2027-srw-pre-submission-mentorship",
+      "name": "EACL 2027 SRW Pre-submission Mentorship",
+      "reason": "no-unique-exact-ranked-dblp-match"
+    },
+    {
+      "callId": "or-eacl-2027-srw",
+      "name": "EACL 2027 SRW",
       "reason": "no-unique-exact-ranked-dblp-match"
     },
     {

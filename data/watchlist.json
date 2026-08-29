@@ -1,6 +1,6 @@
 {
   "description": "BACKEND-ONLY watchlist of venues to track. The pipeline (scripts/watchlist.mjs) matches these against OpenReview active venues + Crossref on every run; when one opens a CFP with a future deadline it is injected into data/cfps.json automatically and then vetted by the legitimacy agent. This file is NOT read by the frontend. Mined from user-supplied publication lists; workshops excluded.",
-  "updatedAt": "2026-07-25T15:01:32.015Z",
+  "updatedAt": "2026-08-29T13:36:25.349Z",
   "conferences": [
     {
       "acronym": "AAAI",
@@ -13812,7 +13812,7 @@
     }
   ],
   "rankingSync": {
-    "checkedAt": "2026-07-25T15:01:32.015Z",
+    "checkedAt": "2026-08-29T13:36:25.349Z",
     "sources": [
       "ICORE2026"
     ],

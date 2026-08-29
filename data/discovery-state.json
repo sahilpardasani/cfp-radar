@@ -1,12 +1,12 @@
 {
   "watchCursor": 0,
   "deferredExternal": [],
-  "lastRunAt": "2026-07-25T15:32:57.092Z",
+  "lastRunAt": "2026-08-29T14:07:24.854Z",
   "lastSummary": {
-    "watchAdded": 1,
+    "watchAdded": 0,
     "externalAdded": 0,
     "externalRejected": 0,
     "deferred": 0,
-    "watchBatch": 1
+    "watchBatch": 1084
   }
 }

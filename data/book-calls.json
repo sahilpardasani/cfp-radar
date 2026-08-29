@@ -1,58 +1,8 @@
 {
   "source": "verified official scholarly publishers",
-  "updatedAt": "2026-07-25T14:15:45.723Z",
+  "updatedAt": "2026-08-29T14:07:25.047Z",
   "checkedPublishers": 53,
   "items": [
-    {
-      "id": "exeter-book-proposal-artificial-humanities",
-      "name": "Artificial Humanities",
-      "acronym": "exeter",
-      "type": "book-proposal",
-      "publisher": "University of Exeter Press",
-      "domain": "AI & Digital Humanities",
-      "topics": [
-        "Artificial Humanities",
-        "artificial intelligence",
-        "digital futures"
-      ],
-      "deadline": null,
-      "rolling": true,
-      "callUrl": "https://www.exeterpress.co.uk/pages/author-information",
-      "cfpUrl": "https://www.exeterpress.co.uk/pages/author-information",
-      "url": "https://www.exeterpress.co.uk/pages/author-information",
-      "seriesUrl": "https://www.exeterpress.co.uk/collections/artificial-humanities",
-      "description": "A new interdisciplinary series applying humanistic methods to understand and shape artificial intelligence.",
-      "source": "official-publisher",
-      "sourceConfigId": "exeter",
-      "verifiedAt": "2026-07-25T14:16:08.077Z",
-      "deadlineEvidence": null,
-      "integrity": {
-        "status": "trusted",
-        "officialDomain": "www.exeterpress.co.uk",
-        "memberships": [
-          "AUPresses"
-        ],
-        "peerReview": true,
-        "relevance": {
-          "relevant": true,
-          "groups": [
-            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
-            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy",
-            "digital humanities|artificial humanities|critical ai|algorithmic|digital media|platform studies"
-          ],
-          "configured": [
-            "Artificial Humanities",
-            "artificial intelligence",
-            "digital futures"
-          ]
-        },
-        "checkedAt": "2026-07-25T14:16:08.077Z"
-      },
-      "legitimacy": {
-        "level": "trusted",
-        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
-      }
-    },
     {
       "id": "mit-book-proposal-mit-press-computing-ai-book-proposals",
       "name": "MIT Press Computing & AI Book Proposals",
@@ -106,6 +56,56 @@
       }
     },
     {
+      "id": "exeter-book-proposal-artificial-humanities",
+      "name": "Artificial Humanities",
+      "acronym": "exeter",
+      "type": "book-proposal",
+      "publisher": "University of Exeter Press",
+      "domain": "AI & Digital Humanities",
+      "topics": [
+        "Artificial Humanities",
+        "artificial intelligence",
+        "digital futures"
+      ],
+      "deadline": null,
+      "rolling": true,
+      "callUrl": "https://www.exeterpress.co.uk/pages/author-information",
+      "cfpUrl": "https://www.exeterpress.co.uk/pages/author-information",
+      "url": "https://www.exeterpress.co.uk/pages/author-information",
+      "seriesUrl": "https://www.exeterpress.co.uk/collections/artificial-humanities",
+      "description": "A new interdisciplinary series applying humanistic methods to understand and shape artificial intelligence.",
+      "source": "official-publisher",
+      "sourceConfigId": "exeter",
+      "verifiedAt": "2026-08-29T14:07:55.849Z",
+      "deadlineEvidence": null,
+      "integrity": {
+        "status": "trusted",
+        "officialDomain": "www.exeterpress.co.uk",
+        "memberships": [
+          "AUPresses"
+        ],
+        "peerReview": true,
+        "relevance": {
+          "relevant": true,
+          "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy",
+            "digital humanities|artificial humanities|critical ai|algorithmic|digital media|platform studies"
+          ],
+          "configured": [
+            "Artificial Humanities",
+            "artificial intelligence",
+            "digital futures"
+          ]
+        },
+        "checkedAt": "2026-08-29T14:07:55.849Z"
+      },
+      "legitimacy": {
+        "level": "trusted",
+        "basis": "Official allowlisted scholarly publisher domain with peer-review and subject-fit evidence."
+      }
+    },
+    {
       "id": "cambridge-book-proposal-cambridge-computer-science-book-proposals",
       "name": "Cambridge Computer Science Book Proposals",
       "acronym": "cambridge",
@@ -127,7 +127,7 @@
       "description": "Rolling academic book proposals in computer science, statistics, engineering, and related fields.",
       "source": "official-publisher",
       "sourceConfigId": "cambridge",
-      "verifiedAt": "2026-07-25T14:19:16.417Z",
+      "verifiedAt": "2026-08-29T14:12:28.861Z",
       "deadlineEvidence": null,
       "integrity": {
         "status": "trusted",
@@ -147,7 +147,7 @@
           ],
           "verifiedFromConfiguredOfficialEvidence": true
         },
-        "checkedAt": "2026-07-25T14:19:16.417Z",
+        "checkedAt": "2026-08-29T14:12:28.861Z",
         "verificationMode": "operator-reviewed-official-evidence-fallback",
         "transientFetchFailure": "Fetch failed for https://www.cambridge.org/authorhub/publish-with-cambridge/academic-books/find-an-editor: HTTP 403"
       },
@@ -174,11 +174,11 @@
       "callUrl": "https://uclpress.co.uk/publish-with-us/submitting-your-book-proposal/",
       "cfpUrl": "https://uclpress.co.uk/publish-with-us/submitting-your-book-proposal/",
       "url": "https://uclpress.co.uk/publish-with-us/submitting-your-book-proposal/",
-      "seriesUrl": "https://uclpress.co.uk/keyword/digital-humanities/",
+      "seriesUrl": "https://uclpress.co.uk/",
       "description": "Rolling proposals for rigorously peer-reviewed UCL Press monographs, edited collections, short monographs, and textbooks, including AI and digital-humanities work.",
       "source": "official-publisher",
       "sourceConfigId": "ucl",
-      "verifiedAt": "2026-07-25T14:19:38.524Z",
+      "verifiedAt": "2026-08-29T14:13:00.281Z",
       "deadlineEvidence": null,
       "integrity": {
         "status": "trusted",
@@ -189,7 +189,9 @@
         "peerReview": true,
         "relevance": {
           "relevant": true,
-          "groups": [],
+          "groups": [
+            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
+          ],
           "configured": [
             "computer science",
             "digital humanities",
@@ -198,9 +200,7 @@
           ],
           "verifiedFromConfiguredOfficialEvidence": true
         },
-        "checkedAt": "2026-07-25T14:19:38.524Z",
-        "verificationMode": "operator-reviewed-official-evidence-fallback",
-        "transientFetchFailure": "Fetch failed for https://uclpress.co.uk/publish-with-us/submitting-your-book-proposal/: HTTP 403"
+        "checkedAt": "2026-08-29T14:13:00.281Z"
       },
       "legitimacy": {
         "level": "trusted",
@@ -229,7 +229,7 @@
       "description": "Rolling proposals for peer-reviewed University of London Press books in digital humanities and related interdisciplinary areas, including critical and cultural AI.",
       "source": "official-publisher",
       "sourceConfigId": "london",
-      "verifiedAt": "2026-07-25T14:20:20.799Z",
+      "verifiedAt": "2026-08-29T14:14:02.137Z",
       "deadlineEvidence": null,
       "integrity": {
         "status": "trusted",
@@ -241,15 +241,17 @@
         "relevance": {
           "relevant": true,
           "groups": [
+            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
             "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy",
             "digital humanities|artificial humanities|critical ai|algorithmic|digital media|platform studies"
           ],
           "configured": [
             "digital humanities",
+            "artificial intelligence",
             "digital cultural heritage"
           ]
         },
-        "checkedAt": "2026-07-25T14:20:20.799Z"
+        "checkedAt": "2026-08-29T14:14:02.137Z"
       },
       "legitimacy": {
         "level": "trusted",
@@ -279,7 +281,7 @@
       "description": "Rolling book ideas and proposals for Springer Nature computer-science series, including artificial intelligence, data, software, and interdisciplinary computing.",
       "source": "official-publisher",
       "sourceConfigId": "springer",
-      "verifiedAt": "2026-07-25T14:21:45.936Z",
+      "verifiedAt": "2026-08-29T14:16:03.760Z",
       "deadlineEvidence": null,
       "integrity": {
         "status": "trusted",
@@ -301,7 +303,7 @@
             "technology"
           ]
         },
-        "checkedAt": "2026-07-25T14:21:45.936Z"
+        "checkedAt": "2026-08-29T14:16:03.760Z"
       },
       "legitimacy": {
         "level": "trusted",
@@ -331,7 +333,7 @@
       "description": "Chapter proposals on AI tools, literacy, ethics, governance, and teacher preparation.",
       "source": "official-publisher",
       "sourceConfigId": "emerald",
-      "verifiedAt": "2026-07-25T14:21:45.541Z",
+      "verifiedAt": "2026-08-29T14:16:04.583Z",
       "deadlineEvidence": "Chapters: July 6, 2026 Chapter Proposals Due: September 30, 2026",
       "integrity": {
         "status": "trusted",
@@ -351,7 +353,7 @@
             "data"
           ]
         },
-        "checkedAt": "2026-07-25T14:21:45.541Z"
+        "checkedAt": "2026-08-29T14:16:04.583Z"
       },
       "legitimacy": {
         "level": "trusted",
@@ -381,7 +383,7 @@
       "description": "Chapters on digitalisation, AI, technological infrastructures, and data-driven environmental accountability.",
       "source": "official-publisher",
       "sourceConfigId": "emerald",
-      "verifiedAt": "2026-07-25T14:21:45.622Z",
+      "verifiedAt": "2026-08-29T14:16:03.922Z",
       "deadlineEvidence": "Closes: 30 Nov 2026",
       "integrity": {
         "status": "trusted",
@@ -400,7 +402,7 @@
             "data"
           ]
         },
-        "checkedAt": "2026-07-25T14:21:45.622Z"
+        "checkedAt": "2026-08-29T14:16:03.922Z"
       },
       "legitimacy": {
         "level": "trusted",
@@ -430,7 +432,7 @@
       "description": "Chapters connecting AI, IoT, blockchain, smart infrastructure, and sustainable digital transformation.",
       "source": "official-publisher",
       "sourceConfigId": "emerald",
-      "verifiedAt": "2026-07-25T14:21:46.817Z",
+      "verifiedAt": "2026-08-29T14:16:04.874Z",
       "deadlineEvidence": "Chapter Submission Deadline: 30th September 2026",
       "integrity": {
         "status": "trusted",
@@ -450,7 +452,7 @@
             "digital transformation"
           ]
         },
-        "checkedAt": "2026-07-25T14:21:46.817Z"
+        "checkedAt": "2026-08-29T14:16:04.874Z"
       },
       "legitimacy": {
         "level": "trusted",
@@ -480,7 +482,7 @@
       "description": "Research chapters on emerging technologies, generative AI, mobile systems, and science learning.",
       "source": "official-publisher",
       "sourceConfigId": "emerald",
-      "verifiedAt": "2026-07-25T14:21:46.262Z",
+      "verifiedAt": "2026-08-29T14:16:04.924Z",
       "deadlineEvidence": "Abstract Submission Deadline: August 30, 2026",
       "integrity": {
         "status": "trusted",
@@ -500,7 +502,7 @@
             "generative AI"
           ]
         },
-        "checkedAt": "2026-07-25T14:21:46.262Z"
+        "checkedAt": "2026-08-29T14:16:04.924Z"
       },
       "legitimacy": {
         "level": "trusted",
@@ -530,7 +532,7 @@
       "description": "Rolling proposals for authored and edited research books across scientific, technical, computing, data, business, education, and interdisciplinary fields.",
       "source": "official-publisher",
       "sourceConfigId": "igi-global",
-      "verifiedAt": "2026-07-25T14:21:44.769Z",
+      "verifiedAt": "2026-08-29T14:16:00.645Z",
       "deadlineEvidence": null,
       "integrity": {
         "status": "trusted",
@@ -553,7 +555,7 @@
           ],
           "verifiedFromConfiguredOfficialEvidence": true
         },
-        "checkedAt": "2026-07-25T14:21:44.769Z"
+        "checkedAt": "2026-08-29T14:16:00.645Z"
       },
       "legitimacy": {
         "level": "trusted",
@@ -583,7 +585,7 @@
       "description": "Rolling open-access book proposals across STEM and interdisciplinary subjects, including engineering, computer science, data, and artificial intelligence.",
       "source": "official-publisher",
       "sourceConfigId": "mdpi-books",
-      "verifiedAt": "2026-07-25T14:21:45.171Z",
+      "verifiedAt": "2026-08-29T14:16:01.080Z",
       "deadlineEvidence": null,
       "integrity": {
         "status": "trusted",
@@ -592,19 +594,19 @@
         "peerReview": true,
         "relevance": {
           "relevant": true,
-          "groups": [
-            "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
-            "computer science|computing|software engineering|programming language|information systems?",
-            "data science|data mining|database|big data|knowledge graph|information retrieval",
-            "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
-          ],
+          "groups": [],
           "configured": [
+            "artificial intelligence",
             "computer science",
+            "data science",
             "engineering",
             "technology"
-          ]
+          ],
+          "verifiedFromConfiguredOfficialEvidence": true
         },
-        "checkedAt": "2026-07-25T14:21:45.171Z"
+        "checkedAt": "2026-08-29T14:16:01.080Z",
+        "verificationMode": "operator-reviewed-official-evidence-fallback",
+        "transientFetchFailure": "Fetch failed for https://www.mdpi.com/books/publish-with-us: HTTP 403"
       },
       "legitimacy": {
         "level": "trusted",
@@ -634,7 +636,7 @@
       "description": "Rolling Science & Technology book proposals in computing and related fields, including AI, data science, software, and interdisciplinary applications.",
       "source": "official-publisher",
       "sourceConfigId": "elsevier",
-      "verifiedAt": "2026-07-25T14:22:26.982Z",
+      "verifiedAt": "2026-08-29T14:17:02.417Z",
       "deadlineEvidence": null,
       "integrity": {
         "status": "trusted",
@@ -645,16 +647,12 @@
           "relevant": true,
           "groups": [
             "artificial intelligence|machine learning|deep learning|neural network|large language model|generative ai",
-            "computer science|computing|software engineering|programming language|information systems?",
             "data science|data mining|database|big data|knowledge graph|information retrieval",
             "robotics|computer vision|natural language processing|human[- ]computer interaction|cybersecurity|privacy"
           ],
-          "configured": [
-            "computing",
-            "technology"
-          ]
+          "configured": []
         },
-        "checkedAt": "2026-07-25T14:22:26.982Z"
+        "checkedAt": "2026-08-29T14:17:02.417Z"
       },
       "legitimacy": {
         "level": "trusted",

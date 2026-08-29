@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T21:45:10.192Z",
+  "updatedAt": "2026-08-29T14:38:51.512Z",
   "venues": [
     {
       "id": "aamas",
@@ -1731,7 +1731,7 @@
         "status": "verified",
         "mode": "source-indexed",
         "maxPapersPerYear": null,
-        "paperCount": 9067,
+        "paperCount": 10317,
         "editionCount": 2,
         "startYear": 2024,
         "endYear": 2025,
@@ -1844,6 +1844,20 @@
         "mode": "source-indexed",
         "maxPapersPerYear": null,
         "paperCount": 2063,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "watch-acm-org-cikm",
+      "venueType": "conference",
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 1549,
         "editionCount": 2,
         "startYear": 2024,
         "endYear": 2025,

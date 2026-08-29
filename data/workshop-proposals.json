@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T13:55:15.449Z",
+  "updatedAt": "2026-08-29T13:44:43.641Z",
   "source": "verified official conference calls",
   "items": [
     {
@@ -30,7 +30,7 @@
       "submissionUrl": null,
       "submissionPlatform": "EasyChair",
       "requirements": "Extended abstract in ACM single-column review format; two participant-proposed workshops will be selected.",
-      "verifiedAt": "2026-07-25T13:55:15.449Z",
+      "verifiedAt": "2026-08-29T13:44:43.641Z",
       "deadlineEvidence": "Workshop proposals by October 26, 2026"
     },
     {
@@ -46,7 +46,7 @@
       "submissionUrl": "https://new.precisionconference.com/",
       "submissionPlatform": "PCS",
       "requirements": "Up to 6 pages; organizers describe motivation, activities, audience, team, and participation plan.",
-      "verifiedAt": "2026-07-25T13:55:15.449Z",
+      "verifiedAt": "2026-08-29T13:44:43.641Z",
       "deadlineEvidence": "Organizer submission deadline Thursday, November 19, 2026"
     },
     {
@@ -62,9 +62,19 @@
       "submissionUrl": null,
       "submissionPlatform": "EasyChair",
       "requirements": "Up to 3 pages with title, organizers, abstract, topics, audience, duration, resources, and presenter bio.",
-      "verifiedAt": "2026-07-25T13:55:15.449Z",
+      "verifiedAt": "2026-08-29T13:44:43.641Z",
       "deadlineEvidence": "Deadline for Submission of Tutorials/Workshops January 15, 2027"
     }
   ],
-  "checkedSources": 6
+  "checkedSources": 6,
+  "successfulSourceChecks": 5,
+  "sourceErrors": [
+    {
+      "id": "neurips-2027",
+      "conference": "NeurIPS 2027",
+      "code": "ABORT_ERR",
+      "detail": "Fetch failed for https://html.duckduckgo.com/html/?q=NeurIPS%202027%20official%20call%20for%20workshop%20proposals: The operation was aborted",
+      "checkedAt": "2026-08-29T13:44:43.641Z"
+    }
+  ]
 }

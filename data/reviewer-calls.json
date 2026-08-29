@@ -1,30 +1,7 @@
 {
-  "updatedAt": "2026-07-25T14:23:17.436Z",
+  "updatedAt": "2026-08-29T14:17:05.651Z",
   "source": "verified official venue reviewer calls",
   "items": [
-    {
-      "id": "neurips-2026-ethics-reviewers",
-      "type": "reviewer-call",
-      "venue": "NeurIPS 2026",
-      "acronym": "NeurIPS",
-      "venueType": "Conference",
-      "role": "Ethics Reviewer",
-      "name": "NeurIPS 2026 Call for Ethics Reviewers",
-      "domain": "Machine Learning / Responsible AI",
-      "callUrl": "https://blog.neurips.cc/2026/05/12/neurips-2026-call-for-ethics-reviewers/",
-      "applicationUrl": "https://forms.office.com/r/iXbzJ7dtx6",
-      "rolling": true,
-      "expiresAt": "2026-07-31T14:23:17.436Z",
-      "reviewEndsAt": "2026-08-14T11:59:00Z",
-      "reviewPeriod": "Main period July 6–20; emergency period July 22–August 13, 2026",
-      "eligibility": "Applicants should be able to evaluate potential risks, harms, and broader ethical implications in ML research.",
-      "verifiedAt": "2026-07-25T14:23:17.436Z",
-      "integrity": {
-        "level": "trusted",
-        "officialPage": true,
-        "explicitRecruitment": true
-      }
-    },
     {
       "id": "sigcse-ts-2027-reviewers",
       "type": "reviewer-call",
@@ -37,11 +14,11 @@
       "callUrl": "https://2027.sigcse-ts.acm.org/",
       "applicationUrl": "https://tinyurl.com/sigcse2027review",
       "rolling": true,
-      "expiresAt": "2026-07-31T14:23:17.436Z",
+      "expiresAt": "2026-09-04T14:17:05.651Z",
       "eventDates": "February 17–20, 2027",
       "location": "Sacramento, California, USA",
       "eligibility": "The official call invites volunteers interested in serving as reviewers.",
-      "verifiedAt": "2026-07-25T14:23:17.436Z",
+      "verifiedAt": "2026-08-29T14:17:05.651Z",
       "integrity": {
         "level": "trusted",
         "officialPage": true,
@@ -60,11 +37,11 @@
       "callUrl": "https://sigcsevirtual.acm.org/",
       "applicationUrl": "https://forms.gle/5zdTrNoq9cDdAGSh9",
       "rolling": true,
-      "expiresAt": "2026-07-31T14:23:17.436Z",
+      "expiresAt": "2026-09-04T14:17:05.651Z",
       "eventDates": "November 12–15, 2026",
       "location": "Online",
       "eligibility": "Volunteers provide their reviewing preferences through the linked reviewer form.",
-      "verifiedAt": "2026-07-25T14:23:17.436Z",
+      "verifiedAt": "2026-08-29T14:17:05.651Z",
       "integrity": {
         "level": "trusted",
         "officialPage": true,

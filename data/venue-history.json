@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T21:45:10.192Z",
+  "updatedAt": "2026-08-29T14:38:51.512Z",
   "source": "verified-provider-snapshot",
   "sharded": true,
   "recordDirectory": "data/venue-history-records",
-  "paperCount": 51304,
+  "paperCount": 54103,
   "venues": [
     {
       "id": "aamas",
@@ -21,7 +21,7 @@
         "externalId": "conf/ifaamas",
         "url": "https://dblp.org/db/conf/ifaamas/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:16.042Z"
+        "verifiedAt": "2026-08-29T14:38:26.719Z"
       },
       "aliases": [
         "AAMAS",
@@ -372,7 +372,7 @@
         "externalId": "conf/eacl",
         "url": "https://dblp.org/db/conf/eacl/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:24.818Z"
+        "verifiedAt": "2026-08-29T14:38:51.474Z"
       },
       "aliases": [
         "EACL",
@@ -4106,7 +4106,7 @@
         "externalId": "conf/nips",
         "url": "https://dblp.org/db/conf/nips/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:48.662Z"
+        "verifiedAt": "2026-08-29T14:38:30.987Z"
       },
       "aliases": [
         "NeurIPS",
@@ -4116,7 +4116,7 @@
         "status": "verified",
         "mode": "source-indexed",
         "maxPapersPerYear": null,
-        "paperCount": 9067,
+        "paperCount": 10317,
         "editionCount": 2,
         "startYear": 2024,
         "endYear": 2025,
@@ -4138,7 +4138,7 @@
         "externalId": "conf/nldl",
         "url": "https://dblp.org/db/conf/nldl/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T21:39:24.771Z"
+        "verifiedAt": "2026-08-29T14:38:38.054Z"
       },
       "aliases": [
         "NLDL",
@@ -4374,6 +4374,38 @@
         "mode": "source-indexed",
         "maxPapersPerYear": null,
         "paperCount": 2063,
+        "editionCount": 2,
+        "startYear": 2024,
+        "endYear": 2025,
+        "membershipSource": "DBLP exact proceedings tables of contents"
+      }
+    },
+    {
+      "id": "watch-acm-org-cikm",
+      "canonicalName": "ACM International Conference on Information and Knowledge Management",
+      "acronym": "CIKM",
+      "venueType": "conference",
+      "status": "active",
+      "officialUrl": "https://openreview.net/group?id=ACM.org/CIKM/2026/Workshop/LASS",
+      "externalIds": {
+        "dblpStream": "conf/cikm",
+        "rankingId": "25"
+      },
+      "identityEvidence": {
+        "source": "DBLP exact stream",
+        "externalId": "conf/cikm",
+        "url": "https://dblp.org/db/conf/cikm/index.html",
+        "confidence": 1,
+        "verifiedAt": "2026-08-29T14:38:44.332Z"
+      },
+      "aliases": [
+        "ACM International Conference on Information and Knowledge Management"
+      ],
+      "coverage": {
+        "status": "verified",
+        "mode": "source-indexed",
+        "maxPapersPerYear": null,
+        "paperCount": 1549,
         "editionCount": 2,
         "startYear": 2024,
         "endYear": 2025,
@@ -11533,6 +11565,56 @@
       ]
     },
     {
+      "id": "watch-acm-org-cikm-2025",
+      "venueId": "watch-acm-org-cikm",
+      "eventYear": 2025,
+      "title": "34th CIKM 2025: Seoul, Korea",
+      "location": "Seoul, Korea",
+      "verificationStatus": "verified",
+      "membershipSource": "dblp-exact-stream",
+      "volumes": [
+        {
+          "proceedingsKey": "conf/cikm/2025",
+          "title": "Proceedings of the 34th ACM International Conference on Information and Knowledge Management, CIKM 2025, Seoul, Republic of Korea, November 10-14, 2025",
+          "publisher": "ACM",
+          "publicationYear": 2025,
+          "series": null,
+          "volume": null,
+          "isbn": [
+            "979-8-4007-2040-6"
+          ],
+          "publisherUrl": "https://doi.org/10.1145/3746252",
+          "dblpUrl": "https://dblp.org/db/conf/cikm/cikm2025.html",
+          "tocXmlUrl": "https://dblp.org/db/conf/cikm/cikm2025.xml"
+        }
+      ]
+    },
+    {
+      "id": "watch-acm-org-cikm-2024",
+      "venueId": "watch-acm-org-cikm",
+      "eventYear": 2024,
+      "title": "33rd CIKM 2024: Boise, ID, USA",
+      "location": "Boise, ID, USA",
+      "verificationStatus": "verified",
+      "membershipSource": "dblp-exact-stream",
+      "volumes": [
+        {
+          "proceedingsKey": "conf/cikm/2024",
+          "title": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management, CIKM 2024, Boise, ID, USA, October 21-25, 2024",
+          "publisher": "ACM",
+          "publicationYear": 2024,
+          "series": null,
+          "volume": null,
+          "isbn": [
+            "979-8-4007-0436-9"
+          ],
+          "publisherUrl": "https://doi.org/10.1145/3627673",
+          "dblpUrl": "https://dblp.org/db/conf/cikm/cikm2024.html",
+          "tocXmlUrl": "https://dblp.org/db/conf/cikm/cikm2024.xml"
+        }
+      ]
+    },
+    {
       "id": "wmt-2025",
       "venueId": "wmt",
       "eventYear": 2025,
@@ -11839,7 +11921,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:16.049Z"
+      "generatedAt": "2026-08-29T14:38:26.729Z"
     },
     {
       "venueId": "acm-csur",
@@ -12723,7 +12805,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:24.824Z"
+      "generatedAt": "2026-08-29T14:38:51.481Z"
     },
     {
       "venueId": "eswa-elsevier",
@@ -22513,85 +22595,85 @@
       "venueId": "neurips",
       "startYear": 2024,
       "endYear": 2025,
-      "paperCount": 9067,
+      "paperCount": 10317,
       "themes": [
         {
           "label": "AI & machine learning",
-          "count": 1909
+          "count": 2154
         },
         {
           "label": "language & conversational systems",
-          "count": 1433
+          "count": 1625
         },
         {
           "label": "computer vision",
-          "count": 1395
+          "count": 1614
         },
         {
           "label": "privacy, trust & security",
-          "count": 284
+          "count": 326
         },
         {
           "label": "XR & multimodal interaction",
-          "count": 245
+          "count": 288
         },
         {
           "label": "health & assistive technology",
-          "count": 114
+          "count": 129
         },
         {
           "label": "human–AI interaction",
-          "count": 92
+          "count": 102
         },
         {
           "label": "robotics",
-          "count": 89
+          "count": 101
         },
         {
           "label": "sustainability & society",
-          "count": 46
+          "count": 53
         },
         {
           "label": "education & learning",
-          "count": 29
+          "count": 31
         },
         {
           "label": "affective computing",
-          "count": 24
+          "count": 26
         }
       ],
       "methods": [
         {
           "label": "LLM or generative AI",
-          "count": 1235
+          "count": 1413
         },
         {
           "label": "dataset or benchmark",
-          "count": 618
+          "count": 705
         },
         {
           "label": "deep learning",
-          "count": 591
+          "count": 658
         },
         {
           "label": "prototype or system",
-          "count": 462
+          "count": 520
         },
         {
           "label": "multimodal modeling",
-          "count": 258
+          "count": 302
         },
         {
           "label": "privacy-preserving ML",
-          "count": 165
+          "count": 186
         },
         {
           "label": "controlled experiment",
-          "count": 147
+          "count": 169
         },
         {
           "label": "case study",
-          "count": 82
+          "count": 95
         },
         {
           "label": "survey or review",
@@ -22607,7 +22689,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:48.702Z"
+      "generatedAt": "2026-08-29T14:38:31.066Z"
     },
     {
       "venueId": "nldl",
@@ -22675,7 +22757,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T21:39:24.777Z"
+      "generatedAt": "2026-08-29T14:38:38.055Z"
     },
     {
       "venueId": "nllp",
@@ -23210,6 +23292,98 @@
       "generatedAt": "2026-08-02T19:14:28.315Z"
     },
     {
+      "venueId": "watch-acm-org-cikm",
+      "startYear": 2024,
+      "endYear": 2025,
+      "paperCount": 1549,
+      "themes": [
+        {
+          "label": "AI & machine learning",
+          "count": 312
+        },
+        {
+          "label": "language & conversational systems",
+          "count": 277
+        },
+        {
+          "label": "privacy, trust & security",
+          "count": 104
+        },
+        {
+          "label": "computer vision",
+          "count": 87
+        },
+        {
+          "label": "XR & multimodal interaction",
+          "count": 65
+        },
+        {
+          "label": "sustainability & society",
+          "count": 42
+        },
+        {
+          "label": "health & assistive technology",
+          "count": 32
+        },
+        {
+          "label": "human–AI interaction",
+          "count": 24
+        },
+        {
+          "label": "affective computing",
+          "count": 20
+        },
+        {
+          "label": "education & learning",
+          "count": 15
+        },
+        {
+          "label": "robotics",
+          "count": 5
+        }
+      ],
+      "methods": [
+        {
+          "label": "LLM or generative AI",
+          "count": 268
+        },
+        {
+          "label": "prototype or system",
+          "count": 243
+        },
+        {
+          "label": "deep learning",
+          "count": 81
+        },
+        {
+          "label": "dataset or benchmark",
+          "count": 73
+        },
+        {
+          "label": "multimodal modeling",
+          "count": 68
+        },
+        {
+          "label": "privacy-preserving ML",
+          "count": 54
+        },
+        {
+          "label": "controlled experiment",
+          "count": 31
+        },
+        {
+          "label": "case study",
+          "count": 9
+        },
+        {
+          "label": "user study",
+          "count": 2
+        }
+      ],
+      "extractionEvidence": "title-only",
+      "generatedAt": "2026-08-29T14:38:44.344Z"
+    },
+    {
       "venueId": "wmt",
       "startYear": 2023,
       "endYear": 2025,
@@ -23448,1042 +23622,52 @@
   ],
   "runs": [
     {
-      "venueId": "acm-csur",
+      "venueId": "aamas",
       "state": "complete",
-      "startedAt": "2026-08-02T21:43:11.683Z",
-      "finishedAt": "2026-08-02T21:43:21.006Z",
+      "startedAt": "2026-08-29T14:38:13.294Z",
+      "finishedAt": "2026-08-29T14:38:26.729Z",
       "providerStatus": {
-        "crossref-journal": "complete",
+        "dblp": "complete",
         "openalex": "OPENALEX_API_KEY is not configured"
       }
     },
     {
-      "venueId": "eswa-elsevier",
+      "venueId": "neurips",
       "state": "complete",
-      "startedAt": "2026-08-02T21:43:11.684Z",
-      "finishedAt": "2026-08-02T21:43:24.659Z",
+      "startedAt": "2026-08-29T14:38:26.729Z",
+      "finishedAt": "2026-08-29T14:38:31.066Z",
       "providerStatus": {
-        "crossref-journal": "complete",
+        "dblp": "complete",
         "openalex": "OPENALEX_API_KEY is not configured"
       }
     },
     {
-      "venueId": "ijcv-springer",
+      "venueId": "nldl",
       "state": "complete",
-      "startedAt": "2026-08-02T21:43:21.006Z",
-      "finishedAt": "2026-08-02T21:43:22.081Z",
+      "startedAt": "2026-08-29T14:38:31.066Z",
+      "finishedAt": "2026-08-29T14:38:38.055Z",
       "providerStatus": {
-        "crossref-journal": "complete",
+        "dblp": "complete",
         "openalex": "OPENALEX_API_KEY is not configured"
       }
     },
     {
-      "venueId": "j-acm-tist",
+      "venueId": "watch-acm-org-cikm",
       "state": "complete",
-      "startedAt": "2026-08-02T21:43:22.081Z",
-      "finishedAt": "2026-08-02T21:43:23.145Z",
+      "startedAt": "2026-08-29T14:38:38.055Z",
+      "finishedAt": "2026-08-29T14:38:44.344Z",
       "providerStatus": {
-        "crossref-journal": "complete",
+        "dblp": "complete",
         "openalex": "OPENALEX_API_KEY is not configured"
       }
     },
     {
-      "venueId": "j-acm-tkdd",
+      "venueId": "eacl",
       "state": "complete",
-      "startedAt": "2026-08-02T21:43:23.145Z",
-      "finishedAt": "2026-08-02T21:43:24.410Z",
+      "startedAt": "2026-08-29T14:38:44.344Z",
+      "finishedAt": "2026-08-29T14:38:51.481Z",
       "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-acm-tois",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:24.410Z",
-      "finishedAt": "2026-08-02T21:43:26.411Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-acm-trs",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:24.659Z",
-      "finishedAt": "2026-08-02T21:43:27.221Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-ai-open",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:26.411Z",
-      "finishedAt": "2026-08-02T21:43:27.665Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-artificial-intelligence",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:27.221Z",
-      "finishedAt": "2026-08-02T21:43:29.125Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-artificial-intelligence-in-agriculture",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:27.665Z",
-      "finishedAt": "2026-08-02T21:43:29.826Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-artificial-intelligence-in-geosciences",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:29.125Z",
-      "finishedAt": "2026-08-02T21:43:31.187Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-artificial-intelligence-in-medicine",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:29.826Z",
-      "finishedAt": "2026-08-02T21:43:32.100Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-artificial-intelligence-in-the-life-sciences",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:31.187Z",
-      "finishedAt": "2026-08-02T21:43:33.277Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-asoc",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:32.100Z",
-      "finishedAt": "2026-08-02T21:43:34.165Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-biomimetic-intelligence-and-robotics",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:33.277Z",
-      "finishedAt": "2026-08-02T21:43:35.401Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-computer-science-review",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:34.165Z",
-      "finishedAt": "2026-08-02T21:43:36.220Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-computers-and-education-artificial-intelligence",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:35.401Z",
-      "finishedAt": "2026-08-02T21:43:37.687Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-electronic-commerce-research-and-applications",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:36.220Z",
-      "finishedAt": "2026-08-02T21:43:38.316Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-engineering-applications-of-artificial-intelligence",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:37.687Z",
-      "finishedAt": "2026-08-02T21:43:39.908Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-future-generation-computer-systems",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:38.316Z",
-      "finishedAt": "2026-08-02T21:43:40.844Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-high-confidence-computing",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:39.908Z",
-      "finishedAt": "2026-08-02T21:43:41.478Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-infofusion",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:40.844Z",
-      "finishedAt": "2026-08-02T21:43:43.087Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-information-sciences",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:41.478Z",
-      "finishedAt": "2026-08-02T21:43:43.804Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-information-systems",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:43.087Z",
-      "finishedAt": "2026-08-02T21:43:44.686Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-intelligent-medicine",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:43.804Z",
-      "finishedAt": "2026-08-02T21:43:46.073Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-intelligent-systems-with-applications",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:44.686Z",
-      "finishedAt": "2026-08-02T21:43:46.851Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-international-journal-of-artificial-intelligence-in-education",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:46.073Z",
-      "finishedAt": "2026-08-02T21:43:48.260Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-international-journal-of-cognitive-computing-in-engineering",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:46.851Z",
-      "finishedAt": "2026-08-02T21:43:48.837Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-international-journal-of-critical-infrastructure-protection",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:48.260Z",
-      "finishedAt": "2026-08-02T21:43:50.213Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-international-journal-of-intelligent-networks",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:48.837Z",
-      "finishedAt": "2026-08-02T21:43:50.879Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-journal-of-computational-mathematics-and-data-science",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:50.213Z",
-      "finishedAt": "2026-08-02T21:43:52.308Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-journal-of-computational-science",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:50.879Z",
-      "finishedAt": "2026-08-02T21:43:53.218Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-journal-of-information-security-and-applications",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:52.308Z",
-      "finishedAt": "2026-08-02T21:43:54.253Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-journal-of-parallel-and-distributed-computing",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:53.218Z",
-      "finishedAt": "2026-08-02T21:43:55.589Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-journal-of-systems-and-software",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:54.253Z",
-      "finishedAt": "2026-08-02T21:43:56.501Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-journal-of-systems-architecture",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:55.589Z",
-      "finishedAt": "2026-08-02T21:43:57.413Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-knowledge-based-systems",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:56.501Z",
-      "finishedAt": "2026-08-02T21:43:58.820Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-neural-networks",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:57.413Z",
-      "finishedAt": "2026-08-02T21:43:59.631Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-patternrecognition",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:58.820Z",
-      "finishedAt": "2026-08-02T21:44:00.567Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-pervasive-and-mobile-computing",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:43:59.631Z",
-      "finishedAt": "2026-08-02T21:44:01.816Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-systems-and-soft-computing",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:00.567Z",
-      "finishedAt": "2026-08-02T21:44:02.845Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-elsevier-telematics-and-informatics-reports",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:01.816Z",
-      "finishedAt": "2026-08-02T21:44:03.540Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-access",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:02.845Z",
-      "finishedAt": "2026-08-02T21:44:05.422Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-jbhi",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:03.540Z",
-      "finishedAt": "2026-08-02T21:44:06.013Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-taffc",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:05.422Z",
-      "finishedAt": "2026-08-02T21:44:07.085Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-tai",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:06.013Z",
-      "finishedAt": "2026-08-02T21:44:08.054Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-tbd",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:07.085Z",
-      "finishedAt": "2026-08-02T21:44:09.135Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-tcss",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:08.054Z",
-      "finishedAt": "2026-08-02T21:44:10.205Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-tcyb",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:09.135Z",
-      "finishedAt": "2026-08-02T21:44:11.195Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-tip",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:10.205Z",
-      "finishedAt": "2026-08-02T21:44:12.299Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-tkde",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:11.195Z",
-      "finishedAt": "2026-08-02T21:44:13.415Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-tnnls",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:12.299Z",
-      "finishedAt": "2026-08-02T21:44:14.359Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-tsc",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:13.415Z",
-      "finishedAt": "2026-08-02T21:44:15.641Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-ieee-tse",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:14.359Z",
-      "finishedAt": "2026-08-02T21:44:16.552Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-applsci",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:15.641Z",
-      "finishedAt": "2026-08-02T21:44:18.022Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-asi",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:16.552Z",
-      "finishedAt": "2026-08-02T21:44:18.879Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-bdcc",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:18.022Z",
-      "finishedAt": "2026-08-02T21:44:20.004Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-biomedinformatics",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:18.879Z",
-      "finishedAt": "2026-08-02T21:44:20.661Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-computers",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:20.004Z",
-      "finishedAt": "2026-08-02T21:44:22.013Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-electronics",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:20.661Z",
-      "finishedAt": "2026-08-02T21:44:23.416Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-forecasting",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:22.013Z",
-      "finishedAt": "2026-08-02T21:44:23.820Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-futureinternet",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:23.416Z",
-      "finishedAt": "2026-08-02T21:44:25.408Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-ijgi",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:23.820Z",
-      "finishedAt": "2026-08-02T21:44:26.040Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-informatics",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:25.408Z",
-      "finishedAt": "2026-08-02T21:44:26.722Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-iot",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:26.040Z",
-      "finishedAt": "2026-08-02T21:44:28.486Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-jcp",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:26.722Z",
-      "finishedAt": "2026-08-02T21:44:29.274Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-jimaging",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:28.486Z",
-      "finishedAt": "2026-08-02T21:44:30.667Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-jsan",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:29.274Z",
-      "finishedAt": "2026-08-02T21:44:31.434Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-jtaer",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:30.667Z",
-      "finishedAt": "2026-08-02T21:44:32.397Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-make",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:31.434Z",
-      "finishedAt": "2026-08-02T21:44:33.801Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-mathematics",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:32.397Z",
-      "finishedAt": "2026-08-02T21:44:34.660Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-mti",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:33.801Z",
-      "finishedAt": "2026-08-02T21:44:35.492Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-network",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:34.660Z",
-      "finishedAt": "2026-08-02T21:44:36.335Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-robotics",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:35.492Z",
-      "finishedAt": "2026-08-02T21:44:38.096Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-sensors",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:36.335Z",
-      "finishedAt": "2026-08-02T21:44:38.894Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-smartcities",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:38.096Z",
-      "finishedAt": "2026-08-02T21:44:39.854Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-systems",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:38.894Z",
-      "finishedAt": "2026-08-02T21:44:40.738Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-technologies",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:39.854Z",
-      "finishedAt": "2026-08-02T21:44:41.985Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-mdpi-virtualworlds",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:40.738Z",
-      "finishedAt": "2026-08-02T21:44:42.627Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-nature-machine-intelligence",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:41.985Z",
-      "finishedAt": "2026-08-02T21:44:44.422Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-springer-air",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:42.627Z",
-      "finishedAt": "2026-08-02T21:44:44.463Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-springer-applied-intelligence",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:44.422Z",
-      "finishedAt": "2026-08-02T21:44:46.348Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-springer-dmkd",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:44.463Z",
-      "finishedAt": "2026-08-02T21:44:46.862Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-springer-ijmlc",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:46.348Z",
-      "finishedAt": "2026-08-02T21:44:48.421Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-springer-mlj",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:46.862Z",
-      "finishedAt": "2026-08-02T21:44:49.240Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-tf-connection-science",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:48.421Z",
-      "finishedAt": "2026-08-02T21:44:49.795Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-tf-ijcm",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:49.240Z",
-      "finishedAt": "2026-08-02T21:44:51.331Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-tf-ijgs",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:49.795Z",
-      "finishedAt": "2026-08-02T21:44:52.177Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-tf-ijss",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:51.331Z",
-      "finishedAt": "2026-08-02T21:44:53.651Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-wiley-ai-magazine",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:52.177Z",
-      "finishedAt": "2026-08-02T21:44:54.242Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-wiley-aisy",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:53.651Z",
-      "finishedAt": "2026-08-02T21:44:55.957Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-wiley-cgf",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:54.242Z",
-      "finishedAt": "2026-08-02T21:44:56.579Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-wiley-computational-intelligence",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:55.957Z",
-      "finishedAt": "2026-08-02T21:44:57.732Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-wiley-ima",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:56.579Z",
-      "finishedAt": "2026-08-02T21:44:58.800Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-wiley-isj",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:57.732Z",
-      "finishedAt": "2026-08-02T21:44:59.428Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-wiley-jcal",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:58.800Z",
-      "finishedAt": "2026-08-02T21:45:01.182Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-wiley-nem",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:44:59.428Z",
-      "finishedAt": "2026-08-02T21:45:01.521Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-wiley-spe",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:45:01.182Z",
-      "finishedAt": "2026-08-02T21:45:03.417Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "j-wiley-stvr",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:45:01.521Z",
-      "finishedAt": "2026-08-02T21:45:03.521Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "nca-springer",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:45:03.417Z",
-      "finishedAt": "2026-08-02T21:45:05.276Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "tpami",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:45:03.521Z",
-      "finishedAt": "2026-08-02T21:45:05.901Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "ai-and-ethics",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:45:05.276Z",
-      "finishedAt": "2026-08-02T21:45:08.083Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "ai-and-society",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:45:05.901Z",
-      "finishedAt": "2026-08-02T21:45:09.110Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
-        "openalex": "OPENALEX_API_KEY is not configured"
-      }
-    },
-    {
-      "venueId": "philosophy-and-technology",
-      "state": "complete",
-      "startedAt": "2026-08-02T21:45:08.083Z",
-      "finishedAt": "2026-08-02T21:45:10.060Z",
-      "providerStatus": {
-        "crossref-journal": "complete",
+        "dblp": "complete",
         "openalex": "OPENALEX_API_KEY is not configured"
       }
     }
