@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-29T14:38:11.784Z",
+  "updatedAt": "2026-08-31T11:49:44.319Z",
   "source": "exact-authority-history-catalog",
   "policy": {
     "journalTiers": [
@@ -13,7 +13,7 @@
   "counts": {
     "curated": 19,
     "verifiedGeneratedConferences": 1,
-    "retainedGeneratedConferences": 0,
+    "retainedGeneratedConferences": 1,
     "rejectedConferenceCandidates": 9,
     "journalCandidates": 118,
     "verifiedJournals": 101,
@@ -313,7 +313,6 @@
           "watch-acm-org-cikm-2026-workshop-lass"
         ],
         "names": [
-          "ACM International Conference on Information and Knowledge Management",
           "ACM International Conference on Information and Knowledge Management"
         ]
       },
@@ -361,7 +360,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Association for Computing Machinery",
-        "registeredDois": 3765,
+        "registeredDois": 3796,
         "url": "https://api.crossref.org/journals/0360-0300"
       }
     },
@@ -396,7 +395,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 31676,
+        "registeredDois": 32024,
         "url": "https://api.crossref.org/journals/0957-4174"
       }
     },
@@ -431,7 +430,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Springer-Verlag",
-        "registeredDois": 3940,
+        "registeredDois": 3974,
         "url": "https://api.crossref.org/journals/0920-5691"
       }
     },
@@ -466,7 +465,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Association for Computing Machinery",
-        "registeredDois": 1515,
+        "registeredDois": 1529,
         "url": "https://api.crossref.org/journals/2157-6904"
       }
     },
@@ -501,7 +500,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Association for Computing Machinery",
-        "registeredDois": 1477,
+        "registeredDois": 1485,
         "url": "https://api.crossref.org/journals/1556-4681"
       }
     },
@@ -536,7 +535,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Association for Computing Machinery",
-        "registeredDois": 1631,
+        "registeredDois": 1645,
         "url": "https://api.crossref.org/journals/1046-8188"
       }
     },
@@ -570,7 +569,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Association for Computing Machinery",
-        "registeredDois": 212,
+        "registeredDois": 220,
         "url": "https://api.crossref.org/journals/2770-6699"
       }
     },
@@ -604,7 +603,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 125,
+        "registeredDois": 129,
         "url": "https://api.crossref.org/journals/2666-6510"
       }
     },
@@ -638,7 +637,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 4831,
+        "registeredDois": 4840,
         "url": "https://api.crossref.org/journals/0004-3702"
       }
     },
@@ -672,7 +671,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 329,
+        "registeredDois": 347,
         "url": "https://api.crossref.org/journals/2589-7217"
       }
     },
@@ -706,7 +705,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 215,
+        "registeredDois": 218,
         "url": "https://api.crossref.org/journals/2666-5441"
       }
     },
@@ -740,7 +739,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 3169,
+        "registeredDois": 3186,
         "url": "https://api.crossref.org/journals/0933-3657"
       }
     },
@@ -774,7 +773,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 159,
+        "registeredDois": 161,
         "url": "https://api.crossref.org/journals/2667-3185"
       }
     },
@@ -808,7 +807,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 14386,
+        "registeredDois": 14541,
         "url": "https://api.crossref.org/journals/1568-4946"
       }
     },
@@ -842,7 +841,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 230,
+        "registeredDois": 236,
         "url": "https://api.crossref.org/journals/2667-3797"
       }
     },
@@ -876,7 +875,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 791,
+        "registeredDois": 803,
         "url": "https://api.crossref.org/journals/1574-0137"
       }
     },
@@ -910,7 +909,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 648,
+        "registeredDois": 666,
         "url": "https://api.crossref.org/journals/2666-920X"
       }
     },
@@ -944,7 +943,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 1672,
+        "registeredDois": 1677,
         "url": "https://api.crossref.org/journals/1567-4223"
       }
     },
@@ -978,7 +977,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 14302,
+        "registeredDois": 14504,
         "url": "https://api.crossref.org/journals/0952-1976"
       }
     },
@@ -1012,7 +1011,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 8936,
+        "registeredDois": 8967,
         "url": "https://api.crossref.org/journals/0167-739X"
       }
     },
@@ -1046,7 +1045,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 248,
+        "registeredDois": 249,
         "url": "https://api.crossref.org/journals/2667-2952"
       }
     },
@@ -1080,7 +1079,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 4462,
+        "registeredDois": 4529,
         "url": "https://api.crossref.org/journals/1566-2535"
       }
     },
@@ -1114,7 +1113,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 19589,
+        "registeredDois": 19686,
         "url": "https://api.crossref.org/journals/0020-0255"
       }
     },
@@ -1149,7 +1148,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 3096,
+        "registeredDois": 3104,
         "url": "https://api.crossref.org/journals/0306-4379"
       }
     },
@@ -1183,7 +1182,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 216,
+        "registeredDois": 217,
         "url": "https://api.crossref.org/journals/2667-1026"
       }
     },
@@ -1217,7 +1216,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 649,
+        "registeredDois": 660,
         "url": "https://api.crossref.org/journals/2667-3053"
       }
     },
@@ -1286,7 +1285,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 230,
+        "registeredDois": 232,
         "url": "https://api.crossref.org/journals/2666-3074"
       }
     },
@@ -1320,7 +1319,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 674,
+        "registeredDois": 683,
         "url": "https://api.crossref.org/journals/1874-5482"
       }
     },
@@ -1354,7 +1353,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 181,
+        "registeredDois": 183,
         "url": "https://api.crossref.org/journals/2666-6030"
       }
     },
@@ -1422,7 +1421,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 2414,
+        "registeredDois": 2429,
         "url": "https://api.crossref.org/journals/1877-7503"
       }
     },
@@ -1456,7 +1455,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 2063,
+        "registeredDois": 2086,
         "url": "https://api.crossref.org/journals/2214-2126"
       }
     },
@@ -1491,7 +1490,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 5416,
+        "registeredDois": 5423,
         "url": "https://api.crossref.org/journals/0743-7315"
       }
     },
@@ -1525,7 +1524,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 6900,
+        "registeredDois": 6922,
         "url": "https://api.crossref.org/journals/0164-1212"
       }
     },
@@ -1559,7 +1558,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 3285,
+        "registeredDois": 3305,
         "url": "https://api.crossref.org/journals/1383-7621"
       }
     },
@@ -1593,7 +1592,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 13582,
+        "registeredDois": 13764,
         "url": "https://api.crossref.org/journals/0950-7051"
       }
     },
@@ -1627,7 +1626,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 10152,
+        "registeredDois": 10263,
         "url": "https://api.crossref.org/journals/0893-6080"
       }
     },
@@ -1661,7 +1660,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 15693,
+        "registeredDois": 15890,
         "url": "https://api.crossref.org/journals/0031-3203"
       }
     },
@@ -1695,7 +1694,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 1656,
+        "registeredDois": 1659,
         "url": "https://api.crossref.org/journals/1574-1192"
       }
     },
@@ -1729,7 +1728,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 543,
+        "registeredDois": 569,
         "url": "https://api.crossref.org/journals/2772-9419"
       }
     },
@@ -1763,7 +1762,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Elsevier",
-        "registeredDois": 338,
+        "registeredDois": 347,
         "url": "https://api.crossref.org/journals/2772-5030"
       }
     },
@@ -1797,7 +1796,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 110697,
+        "registeredDois": 111630,
         "url": "https://api.crossref.org/journals/2169-3536"
       }
     },
@@ -1832,7 +1831,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 6549,
+        "registeredDois": 6626,
         "url": "https://api.crossref.org/journals/2168-2194"
       }
     },
@@ -1867,7 +1866,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 1697,
+        "registeredDois": 1718,
         "url": "https://api.crossref.org/journals/1949-3045"
       }
     },
@@ -1901,7 +1900,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 1757,
+        "registeredDois": 1769,
         "url": "https://api.crossref.org/journals/2691-4581"
       }
     },
@@ -1935,7 +1934,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 1110,
+        "registeredDois": 1124,
         "url": "https://api.crossref.org/journals/2332-7790"
       }
     },
@@ -1969,7 +1968,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 2943,
+        "registeredDois": 2973,
         "url": "https://api.crossref.org/journals/2329-924X"
       }
     },
@@ -2004,7 +2003,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 7221,
+        "registeredDois": 7264,
         "url": "https://api.crossref.org/journals/2168-2267"
       }
     },
@@ -2039,7 +2038,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 13168,
+        "registeredDois": 13236,
         "url": "https://api.crossref.org/journals/1057-7149"
       }
     },
@@ -2075,7 +2074,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 7954,
+        "registeredDois": 7997,
         "url": "https://api.crossref.org/journals/1041-4347"
       }
     },
@@ -2110,7 +2109,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 8948,
+        "registeredDois": 8991,
         "url": "https://api.crossref.org/journals/2162-237X"
       }
     },
@@ -2145,7 +2144,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 2426,
+        "registeredDois": 2436,
         "url": "https://api.crossref.org/journals/1939-1374"
       }
     },
@@ -2181,7 +2180,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 5953,
+        "registeredDois": 5973,
         "url": "https://api.crossref.org/journals/0098-5589"
       }
     },
@@ -2215,7 +2214,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 91016,
+        "registeredDois": 91949,
         "url": "https://api.crossref.org/journals/2076-3417"
       }
     },
@@ -2249,7 +2248,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 973,
+        "registeredDois": 991,
         "url": "https://api.crossref.org/journals/2571-5577"
       }
     },
@@ -2283,7 +2282,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 1340,
+        "registeredDois": 1380,
         "url": "https://api.crossref.org/journals/2504-2289"
       }
     },
@@ -2317,7 +2316,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 386,
+        "registeredDois": 399,
         "url": "https://api.crossref.org/journals/2673-7426"
       }
     },
@@ -2351,7 +2350,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 2388,
+        "registeredDois": 2459,
         "url": "https://api.crossref.org/journals/2073-431X"
       }
     },
@@ -2385,7 +2384,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 30437,
+        "registeredDois": 30940,
         "url": "https://api.crossref.org/journals/2079-9292"
       }
     },
@@ -2419,7 +2418,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 394,
+        "registeredDois": 404,
         "url": "https://api.crossref.org/journals/2571-9394"
       }
     },
@@ -2453,7 +2452,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 3580,
+        "registeredDois": 3631,
         "url": "https://api.crossref.org/journals/1999-5903"
       }
     },
@@ -2487,7 +2486,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 6076,
+        "registeredDois": 6124,
         "url": "https://api.crossref.org/journals/2220-9964"
       }
     },
@@ -2521,7 +2520,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 880,
+        "registeredDois": 894,
         "url": "https://api.crossref.org/journals/2227-9709"
       }
     },
@@ -2555,7 +2554,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 304,
+        "registeredDois": 312,
         "url": "https://api.crossref.org/journals/2624-831X"
       }
     },
@@ -2589,7 +2588,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 415,
+        "registeredDois": 433,
         "url": "https://api.crossref.org/journals/2624-800X"
       }
     },
@@ -2623,7 +2622,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 2525,
+        "registeredDois": 2586,
         "url": "https://api.crossref.org/journals/2313-433X"
       }
     },
@@ -2657,7 +2656,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 809,
+        "registeredDois": 819,
         "url": "https://api.crossref.org/journals/2224-2708"
       }
     },
@@ -2691,7 +2690,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 1526,
+        "registeredDois": 1573,
         "url": "https://api.crossref.org/journals/0718-1876"
       }
     },
@@ -2725,7 +2724,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 832,
+        "registeredDois": 873,
         "url": "https://api.crossref.org/journals/2504-4990"
       }
     },
@@ -2759,7 +2758,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 28056,
+        "registeredDois": 28431,
         "url": "https://api.crossref.org/journals/2227-7390"
       }
     },
@@ -2793,7 +2792,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 908,
+        "registeredDois": 914,
         "url": "https://api.crossref.org/journals/2414-4088"
       }
     },
@@ -2827,7 +2826,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 224,
+        "registeredDois": 235,
         "url": "https://api.crossref.org/journals/2673-8732"
       }
     },
@@ -2861,7 +2860,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 1396,
+        "registeredDois": 1418,
         "url": "https://api.crossref.org/journals/2218-6581"
       }
     },
@@ -2895,7 +2894,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 79592,
+        "registeredDois": 80194,
         "url": "https://api.crossref.org/journals/1424-8220"
       }
     },
@@ -2929,7 +2928,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 930,
+        "registeredDois": 946,
         "url": "https://api.crossref.org/journals/2624-6511"
       }
     },
@@ -2963,7 +2962,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 3856,
+        "registeredDois": 4011,
         "url": "https://api.crossref.org/journals/2079-8954"
       }
     },
@@ -2997,7 +2996,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 2198,
+        "registeredDois": 2258,
         "url": "https://api.crossref.org/journals/2227-7080"
       }
     },
@@ -3031,7 +3030,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "MDPI AG",
-        "registeredDois": 157,
+        "registeredDois": 163,
         "url": "https://api.crossref.org/journals/2813-2084"
       }
     },
@@ -3065,7 +3064,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Springer Science and Business Media LLC",
-        "registeredDois": 1273,
+        "registeredDois": 1292,
         "url": "https://api.crossref.org/journals/2522-5839"
       }
     },
@@ -3100,7 +3099,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Springer-Verlag",
-        "registeredDois": 3144,
+        "registeredDois": 3171,
         "url": "https://api.crossref.org/journals/0269-2821"
       }
     },
@@ -3135,7 +3134,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Springer-Verlag",
-        "registeredDois": 7820,
+        "registeredDois": 7847,
         "url": "https://api.crossref.org/journals/0924-669X"
       }
     },
@@ -3170,7 +3169,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Springer-Verlag",
-        "registeredDois": 1384,
+        "registeredDois": 1394,
         "url": "https://api.crossref.org/journals/1384-5810"
       }
     },
@@ -3205,7 +3204,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Springer-Verlag",
-        "registeredDois": 3208,
+        "registeredDois": 3238,
         "url": "https://api.crossref.org/journals/1868-8071"
       }
     },
@@ -3240,7 +3239,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Springer-Verlag",
-        "registeredDois": 3307,
+        "registeredDois": 3320,
         "url": "https://api.crossref.org/journals/0885-6125"
       }
     },
@@ -3275,7 +3274,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Informa UK (Taylor & Francis)",
-        "registeredDois": 1115,
+        "registeredDois": 1120,
         "url": "https://api.crossref.org/journals/0954-0091"
       }
     },
@@ -3310,7 +3309,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Informa UK (Taylor & Francis)",
-        "registeredDois": 5935,
+        "registeredDois": 5943,
         "url": "https://api.crossref.org/journals/0020-7160"
       }
     },
@@ -3345,7 +3344,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Informa UK (Taylor & Francis)",
-        "registeredDois": 2275,
+        "registeredDois": 2280,
         "url": "https://api.crossref.org/journals/0308-1079"
       }
     },
@@ -3380,7 +3379,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Informa UK (Taylor & Francis)",
-        "registeredDois": 9404,
+        "registeredDois": 9451,
         "url": "https://api.crossref.org/journals/0020-7721"
       }
     },
@@ -3415,7 +3414,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Wiley (John Wiley & Sons)",
-        "registeredDois": 1157,
+        "registeredDois": 1178,
         "url": "https://api.crossref.org/journals/0738-4602"
       }
     },
@@ -3449,7 +3448,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Wiley (John Wiley & Sons)",
-        "registeredDois": 2529,
+        "registeredDois": 2561,
         "url": "https://api.crossref.org/journals/2640-4567"
       }
     },
@@ -3484,7 +3483,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Wiley (Blackwell Publishing)",
-        "registeredDois": 7292,
+        "registeredDois": 7349,
         "url": "https://api.crossref.org/journals/0167-7055"
       }
     },
@@ -3519,7 +3518,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Wiley (Blackwell Publishing)",
-        "registeredDois": 1975,
+        "registeredDois": 1984,
         "url": "https://api.crossref.org/journals/0824-7935"
       }
     },
@@ -3554,7 +3553,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Wiley (John Wiley & Sons)",
-        "registeredDois": 2760,
+        "registeredDois": 2770,
         "url": "https://api.crossref.org/journals/0899-9457"
       }
     },
@@ -3589,7 +3588,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Wiley (Blackwell Publishing)",
-        "registeredDois": 1381,
+        "registeredDois": 1385,
         "url": "https://api.crossref.org/journals/1350-1917"
       }
     },
@@ -3624,7 +3623,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Wiley (Blackwell Publishing)",
-        "registeredDois": 2805,
+        "registeredDois": 2813,
         "url": "https://api.crossref.org/journals/0266-4909"
       }
     },
@@ -3694,7 +3693,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Wiley (John Wiley & Sons)",
-        "registeredDois": 5535,
+        "registeredDois": 5543,
         "url": "https://api.crossref.org/journals/0038-0644"
       }
     },
@@ -3729,7 +3728,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Wiley (John Wiley & Sons)",
-        "registeredDois": 1142,
+        "registeredDois": 1145,
         "url": "https://api.crossref.org/journals/0960-0833"
       }
     },
@@ -3764,7 +3763,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Springer-Verlag",
-        "registeredDois": 12511,
+        "registeredDois": 12612,
         "url": "https://api.crossref.org/journals/0941-0643"
       }
     },
@@ -3800,7 +3799,7 @@
       "registryVerification": {
         "source": "Crossref exact title, publisher, and ISSN",
         "registryPublisher": "Institute of Electrical and Electronics Engineers",
-        "registeredDois": 12254,
+        "registeredDois": 12360,
         "url": "https://api.crossref.org/journals/0162-8828"
       }
     },

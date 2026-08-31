@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-29T14:38:51.512Z",
+  "updatedAt": "2026-08-31T11:52:18.486Z",
   "source": "verified-provider-snapshot",
   "sharded": true,
   "recordDirectory": "data/venue-history-records",
-  "paperCount": 54103,
+  "paperCount": 54367,
   "venues": [
     {
       "id": "aamas",
@@ -21,7 +21,7 @@
         "externalId": "conf/ifaamas",
         "url": "https://dblp.org/db/conf/ifaamas/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-29T14:38:26.719Z"
+        "verifiedAt": "2026-08-31T11:49:51.835Z"
       },
       "aliases": [
         "AAMAS",
@@ -90,7 +90,7 @@
         "externalId": "2730-5953,2730-5961",
         "url": "https://api.crossref.org/journals/2730-5953",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T21:45:08.067Z"
+        "verifiedAt": "2026-08-31T11:51:34.618Z"
       },
       "aliases": [
         "AI and Ethics"
@@ -124,7 +124,7 @@
         "externalId": "0951-5666,1435-5655",
         "url": "https://api.crossref.org/journals/0951-5666",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T21:45:09.081Z"
+        "verifiedAt": "2026-08-31T11:51:36.146Z"
       },
       "aliases": [
         "AI & SOCIETY",
@@ -134,7 +134,7 @@
         "status": "verified",
         "mode": "source-indexed",
         "maxPapersPerYear": null,
-        "paperCount": 831,
+        "paperCount": 977,
         "editionCount": 2,
         "startYear": 2024,
         "endYear": 2025,
@@ -156,7 +156,7 @@
         "externalId": "arabicnlp",
         "url": "https://aclanthology.org/venues/arabicnlp/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:50.845Z"
+        "verifiedAt": "2026-08-31T11:50:56.390Z"
       },
       "aliases": [
         "ArabicNLP — Fourth Arabic Natural Language Processing Conference (@ EMNLP)"
@@ -187,7 +187,7 @@
         "externalId": "babylm",
         "url": "https://aclanthology.org/venues/babylm/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:23:09.453Z"
+        "verifiedAt": "2026-08-31T11:50:56.671Z"
       },
       "aliases": [],
       "coverage": {
@@ -216,7 +216,7 @@
         "externalId": "blackboxnlp",
         "url": "https://aclanthology.org/venues/blackboxnlp/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:51.791Z"
+        "verifiedAt": "2026-08-31T11:50:58.971Z"
       },
       "aliases": [],
       "coverage": {
@@ -245,7 +245,7 @@
         "externalId": "conf/bnaic",
         "url": "https://dblp.org/db/conf/bnaic/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T21:40:15.548Z"
+        "verifiedAt": "2026-08-31T11:50:00.475Z"
       },
       "aliases": [
         "BNAIC-BeNeLearn",
@@ -278,7 +278,7 @@
         "externalId": "conf/chi",
         "url": "https://dblp.org/db/conf/chi/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:23:04.057Z"
+        "verifiedAt": "2026-08-31T11:50:08.121Z"
       },
       "aliases": [
         "CHI",
@@ -311,7 +311,7 @@
         "externalId": "conf/dai2",
         "url": "https://dblp.org/db/conf/dai2/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:21.122Z"
+        "verifiedAt": "2026-08-31T11:50:16.098Z"
       },
       "aliases": [
         "DAI",
@@ -343,7 +343,7 @@
         "externalId": "conf/dasip",
         "url": "https://dblp.org/db/conf/dasip/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:37.252Z"
+        "verifiedAt": "2026-08-31T11:52:18.345Z"
       },
       "aliases": [],
       "coverage": {
@@ -372,7 +372,7 @@
         "externalId": "conf/eacl",
         "url": "https://dblp.org/db/conf/eacl/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-29T14:38:51.474Z"
+        "verifiedAt": "2026-08-31T11:52:06.427Z"
       },
       "aliases": [
         "EACL",
@@ -438,7 +438,7 @@
         "externalId": "conf/fat",
         "url": "https://dblp.org/db/conf/fat/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:16.877Z"
+        "verifiedAt": "2026-08-31T11:51:42.454Z"
       },
       "aliases": [
         "FAccT",
@@ -470,7 +470,7 @@
         "externalId": "finnlp",
         "url": "https://aclanthology.org/venues/finnlp/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:32.939Z"
+        "verifiedAt": "2026-08-31T11:52:14.272Z"
       },
       "aliases": [],
       "coverage": {
@@ -499,7 +499,7 @@
         "externalId": "gebnlp",
         "url": "https://aclanthology.org/venues/gebnlp/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:52.206Z"
+        "verifiedAt": "2026-08-31T11:50:59.102Z"
       },
       "aliases": [],
       "coverage": {
@@ -528,7 +528,7 @@
         "externalId": "conf/icaif",
         "url": "https://dblp.org/db/conf/icaif/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:21.170Z"
+        "verifiedAt": "2026-08-31T11:52:02.831Z"
       },
       "aliases": [
         "ICAIF",
@@ -560,7 +560,7 @@
         "externalId": "conf/icassp",
         "url": "https://dblp.org/db/conf/icassp/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:34.419Z"
+        "verifiedAt": "2026-08-31T11:50:27.741Z"
       },
       "aliases": [
         "ICASSP",
@@ -592,7 +592,7 @@
         "externalId": "conf/icwsm",
         "url": "https://dblp.org/db/conf/icwsm/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:32.206Z"
+        "verifiedAt": "2026-08-31T11:52:14.002Z"
       },
       "aliases": [
         "ICWSM",
@@ -624,7 +624,7 @@
         "externalId": "conf/bsn",
         "url": "https://dblp.org/db/conf/bsn/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T21:40:41.330Z"
+        "verifiedAt": "2026-08-31T11:50:30.635Z"
       },
       "aliases": [
         "BSN",
@@ -658,7 +658,7 @@
         "externalId": "conf/ihci",
         "url": "https://dblp.org/db/conf/ihci/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:25:09.873Z"
+        "verifiedAt": "2026-08-31T11:51:08.467Z"
       },
       "aliases": [
         "IHCI",
@@ -726,7 +726,7 @@
         "externalId": "inlg",
         "url": "https://aclanthology.org/venues/inlg/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:35.820Z"
+        "verifiedAt": "2026-08-31T11:50:31.710Z"
       },
       "aliases": [
         "International Natural Language Generation Conference",
@@ -736,7 +736,7 @@
         "status": "verified",
         "mode": "source-indexed",
         "maxPapersPerYear": null,
-        "paperCount": 191,
+        "paperCount": 309,
         "editionCount": 3,
         "startYear": 2023,
         "endYear": 2025,
@@ -758,7 +758,7 @@
         "externalId": "conf/iui",
         "url": "https://dblp.org/db/conf/iui/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:08.065Z"
+        "verifiedAt": "2026-08-31T11:51:24.887Z"
       },
       "aliases": [
         "IUI",
@@ -4011,7 +4011,7 @@
         "externalId": "conf/kdd",
         "url": "https://dblp.org/db/conf/kdd/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:03.857Z"
+        "verifiedAt": "2026-08-31T11:51:17.696Z"
       },
       "aliases": [
         "KDD",
@@ -4043,7 +4043,7 @@
         "externalId": "mrl",
         "url": "https://aclanthology.org/venues/mrl/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:33.516Z"
+        "verifiedAt": "2026-08-31T11:52:14.655Z"
       },
       "aliases": [],
       "coverage": {
@@ -4106,7 +4106,7 @@
         "externalId": "conf/nips",
         "url": "https://dblp.org/db/conf/nips/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-29T14:38:30.987Z"
+        "verifiedAt": "2026-08-31T11:50:35.767Z"
       },
       "aliases": [
         "NeurIPS",
@@ -4138,7 +4138,7 @@
         "externalId": "conf/nldl",
         "url": "https://dblp.org/db/conf/nldl/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-29T14:38:38.054Z"
+        "verifiedAt": "2026-08-31T11:50:40.073Z"
       },
       "aliases": [
         "NLDL",
@@ -4171,7 +4171,7 @@
         "externalId": "nllp",
         "url": "https://aclanthology.org/venues/nllp/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:52.869Z"
+        "verifiedAt": "2026-08-31T11:50:59.382Z"
       },
       "aliases": [],
       "coverage": {
@@ -4203,7 +4203,7 @@
         "externalId": "2210-5433,2210-5441",
         "url": "https://api.crossref.org/journals/2210-5433",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T21:45:10.049Z"
+        "verifiedAt": "2026-08-31T11:51:38.887Z"
       },
       "aliases": [
         "Philosophy & Technology"
@@ -4234,7 +4234,7 @@
         "externalId": "conf/sigmod",
         "url": "https://dblp.org/db/conf/sigmod/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:23:07.911Z"
+        "verifiedAt": "2026-08-31T11:50:43.590Z"
       },
       "aliases": [
         "SIGMOD",
@@ -4266,7 +4266,7 @@
         "externalId": "conf/taai",
         "url": "https://dblp.org/db/conf/taai/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T21:39:41.962Z"
+        "verifiedAt": "2026-08-31T11:50:49.835Z"
       },
       "aliases": [
         "TAAI",
@@ -4334,7 +4334,7 @@
         "externalId": "uncertainlp",
         "url": "https://aclanthology.org/venues/uncertainlp/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:53.269Z"
+        "verifiedAt": "2026-08-31T11:50:59.512Z"
       },
       "aliases": [],
       "coverage": {
@@ -4363,7 +4363,7 @@
         "externalId": "conf/wacv",
         "url": "https://dblp.org/db/conf/wacv/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:28.302Z"
+        "verifiedAt": "2026-08-31T11:52:09.837Z"
       },
       "aliases": [
         "WACV",
@@ -4396,7 +4396,7 @@
         "externalId": "conf/cikm",
         "url": "https://dblp.org/db/conf/cikm/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-29T14:38:44.332Z"
+        "verifiedAt": "2026-08-31T11:50:55.929Z"
       },
       "aliases": [
         "ACM International Conference on Information and Knowledge Management"
@@ -4427,7 +4427,7 @@
         "externalId": "wmt",
         "url": "https://aclanthology.org/venues/wmt/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:54.648Z"
+        "verifiedAt": "2026-08-31T11:50:59.877Z"
       },
       "aliases": [
         "Eleventh Conference on Machine Translation"
@@ -4458,7 +4458,7 @@
         "externalId": "woah",
         "url": "https://aclanthology.org/venues/woah/",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:13:55.296Z"
+        "verifiedAt": "2026-08-31T11:51:00.178Z"
       },
       "aliases": [
         "WOAH — 10th Workshop on Online Abuse and Harms (@ EMNLP)"
@@ -4489,7 +4489,7 @@
         "externalId": "conf/wsdm",
         "url": "https://dblp.org/db/conf/wsdm/index.html",
         "confidence": 1,
-        "verifiedAt": "2026-08-02T19:14:12.454Z"
+        "verifiedAt": "2026-08-31T11:51:32.947Z"
       },
       "aliases": [
         "WSDM",
@@ -6180,6 +6180,42 @@
           "publisherUrl": "https://aclanthology.org/volumes/2025.inlg-demos/",
           "dblpUrl": null,
           "tocXmlUrl": null
+        },
+        {
+          "proceedingsKey": "2025.aiwolfdial-1",
+          "title": "2025.aiwolfdial-1",
+          "publisher": "Association for Computational Linguistics",
+          "publicationYear": 2025,
+          "series": "International Natural Language Generation Conference",
+          "volume": null,
+          "isbn": [],
+          "publisherUrl": "https://aclanthology.org/volumes/2025.aiwolfdial-1/",
+          "dblpUrl": null,
+          "tocXmlUrl": null
+        },
+        {
+          "proceedingsKey": "2025.llm4medr-1",
+          "title": "2025.llm4medr-1",
+          "publisher": "Association for Computational Linguistics",
+          "publicationYear": 2025,
+          "series": "International Natural Language Generation Conference",
+          "volume": null,
+          "isbn": [],
+          "publisherUrl": "https://aclanthology.org/volumes/2025.llm4medr-1/",
+          "dblpUrl": null,
+          "tocXmlUrl": null
+        },
+        {
+          "proceedingsKey": "2025.vlsp-1",
+          "title": "2025.vlsp-1",
+          "publisher": "Association for Computational Linguistics",
+          "publicationYear": 2025,
+          "series": "International Natural Language Generation Conference",
+          "volume": null,
+          "isbn": [],
+          "publisherUrl": "https://aclanthology.org/volumes/2025.vlsp-1/",
+          "dblpUrl": null,
+          "tocXmlUrl": null
         }
       ]
     },
@@ -6239,6 +6275,30 @@
           "publisherUrl": "https://aclanthology.org/volumes/2024.inlg-genchal/",
           "dblpUrl": null,
           "tocXmlUrl": null
+        },
+        {
+          "proceedingsKey": "2024.aiwolfdial-1",
+          "title": "2024.aiwolfdial-1",
+          "publisher": "Association for Computational Linguistics",
+          "publicationYear": 2024,
+          "series": "International Natural Language Generation Conference",
+          "volume": null,
+          "isbn": [],
+          "publisherUrl": "https://aclanthology.org/volumes/2024.aiwolfdial-1/",
+          "dblpUrl": null,
+          "tocXmlUrl": null
+        },
+        {
+          "proceedingsKey": "2024.practicald2t-1",
+          "title": "2024.practicald2t-1",
+          "publisher": "Association for Computational Linguistics",
+          "publicationYear": 2024,
+          "series": "International Natural Language Generation Conference",
+          "volume": null,
+          "isbn": [],
+          "publisherUrl": "https://aclanthology.org/volumes/2024.practicald2t-1/",
+          "dblpUrl": null,
+          "tocXmlUrl": null
         }
       ]
     },
@@ -6284,6 +6344,54 @@
           "volume": null,
           "isbn": [],
           "publisherUrl": "https://aclanthology.org/volumes/2023.inlg-genchal/",
+          "dblpUrl": null,
+          "tocXmlUrl": null
+        },
+        {
+          "proceedingsKey": "2023.cs4oa-1",
+          "title": "2023.cs4oa-1",
+          "publisher": "Association for Computational Linguistics",
+          "publicationYear": 2023,
+          "series": "International Natural Language Generation Conference",
+          "volume": null,
+          "isbn": [],
+          "publisherUrl": "https://aclanthology.org/volumes/2023.cs4oa-1/",
+          "dblpUrl": null,
+          "tocXmlUrl": null
+        },
+        {
+          "proceedingsKey": "2023.dstc-1",
+          "title": "2023.dstc-1",
+          "publisher": "Association for Computational Linguistics",
+          "publicationYear": 2023,
+          "series": "International Natural Language Generation Conference",
+          "volume": null,
+          "isbn": [],
+          "publisherUrl": "https://aclanthology.org/volumes/2023.dstc-1/",
+          "dblpUrl": null,
+          "tocXmlUrl": null
+        },
+        {
+          "proceedingsKey": "2023.icard-1",
+          "title": "2023.icard-1",
+          "publisher": "Association for Computational Linguistics",
+          "publicationYear": 2023,
+          "series": "International Natural Language Generation Conference",
+          "volume": null,
+          "isbn": [],
+          "publisherUrl": "https://aclanthology.org/volumes/2023.icard-1/",
+          "dblpUrl": null,
+          "tocXmlUrl": null
+        },
+        {
+          "proceedingsKey": "2023.mmnlg-1",
+          "title": "2023.mmnlg-1",
+          "publisher": "Association for Computational Linguistics",
+          "publicationYear": 2023,
+          "series": "International Natural Language Generation Conference",
+          "volume": null,
+          "isbn": [],
+          "publisherUrl": "https://aclanthology.org/volumes/2023.mmnlg-1/",
           "dblpUrl": null,
           "tocXmlUrl": null
         }
@@ -11921,7 +12029,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-29T14:38:26.729Z"
+      "generatedAt": "2026-08-31T11:49:51.852Z"
     },
     {
       "venueId": "acm-csur",
@@ -12121,53 +12229,53 @@
         }
       ],
       "extractionEvidence": "title-and-abstract",
-      "generatedAt": "2026-08-02T21:45:08.083Z"
+      "generatedAt": "2026-08-31T11:51:34.643Z"
     },
     {
       "venueId": "ai-and-society",
       "startYear": 2024,
       "endYear": 2025,
-      "paperCount": 831,
+      "paperCount": 977,
       "themes": [
         {
           "label": "AI & machine learning",
-          "count": 278
+          "count": 323
         },
         {
           "label": "privacy, trust & security",
-          "count": 202
+          "count": 242
         },
         {
           "label": "language & conversational systems",
-          "count": 186
+          "count": 220
         },
         {
           "label": "sustainability & society",
-          "count": 168
+          "count": 197
         },
         {
           "label": "human–AI interaction",
-          "count": 73
+          "count": 85
         },
         {
           "label": "computer vision",
-          "count": 71
+          "count": 82
         },
         {
           "label": "health & assistive technology",
-          "count": 62
+          "count": 73
         },
         {
           "label": "education & learning",
-          "count": 54
-        },
-        {
-          "label": "robotics",
-          "count": 54
+          "count": 63
         },
         {
           "label": "affective computing",
-          "count": 46
+          "count": 61
+        },
+        {
+          "label": "robotics",
+          "count": 59
         },
         {
           "label": "XR & multimodal interaction",
@@ -12177,35 +12285,35 @@
       "methods": [
         {
           "label": "prototype or system",
-          "count": 276
+          "count": 325
         },
         {
           "label": "LLM or generative AI",
-          "count": 113
+          "count": 132
         },
         {
           "label": "controlled experiment",
-          "count": 74
+          "count": 93
         },
         {
           "label": "user study",
-          "count": 49
+          "count": 58
         },
         {
           "label": "case study",
-          "count": 46
+          "count": 56
         },
         {
           "label": "qualitative study",
-          "count": 45
+          "count": 55
         },
         {
           "label": "survey or review",
-          "count": 42
+          "count": 46
         },
         {
           "label": "dataset or benchmark",
-          "count": 21
+          "count": 25
         },
         {
           "label": "deep learning",
@@ -12214,10 +12322,14 @@
         {
           "label": "multimodal modeling",
           "count": 3
+        },
+        {
+          "label": "privacy-preserving ML",
+          "count": 1
         }
       ],
       "extractionEvidence": "title-and-abstract",
-      "generatedAt": "2026-08-02T21:45:09.110Z"
+      "generatedAt": "2026-08-31T11:51:36.187Z"
     },
     {
       "venueId": "arabicnlp",
@@ -12293,7 +12405,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:50.848Z"
+      "generatedAt": "2026-08-31T11:50:56.393Z"
     },
     {
       "venueId": "babylm",
@@ -12353,7 +12465,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:23:09.462Z"
+      "generatedAt": "2026-08-31T11:50:56.673Z"
     },
     {
       "venueId": "blackboxnlp",
@@ -12417,7 +12529,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:51.792Z"
+      "generatedAt": "2026-08-31T11:50:58.972Z"
     },
     {
       "venueId": "bnaic-benelearn",
@@ -12509,7 +12621,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T21:40:15.560Z"
+      "generatedAt": "2026-08-31T11:50:00.477Z"
     },
     {
       "venueId": "chi",
@@ -12609,7 +12721,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:23:04.085Z"
+      "generatedAt": "2026-08-31T11:50:08.153Z"
     },
     {
       "venueId": "dai",
@@ -12669,7 +12781,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:21.122Z"
+      "generatedAt": "2026-08-31T11:50:16.098Z"
     },
     {
       "venueId": "dasip",
@@ -12705,7 +12817,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:37.252Z"
+      "generatedAt": "2026-08-31T11:52:18.345Z"
     },
     {
       "venueId": "eacl",
@@ -12805,7 +12917,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-29T14:38:51.481Z"
+      "generatedAt": "2026-08-31T11:52:06.434Z"
     },
     {
       "venueId": "eswa-elsevier",
@@ -12997,7 +13109,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:16.883Z"
+      "generatedAt": "2026-08-31T11:51:42.459Z"
     },
     {
       "venueId": "finnlp",
@@ -13073,7 +13185,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:32.940Z"
+      "generatedAt": "2026-08-31T11:52:14.274Z"
     },
     {
       "venueId": "gebnlp",
@@ -13149,7 +13261,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:52.207Z"
+      "generatedAt": "2026-08-31T11:50:59.103Z"
     },
     {
       "venueId": "icaif",
@@ -13233,7 +13345,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:21.172Z"
+      "generatedAt": "2026-08-31T11:52:02.833Z"
     },
     {
       "venueId": "icassp",
@@ -13333,7 +13445,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:34.450Z"
+      "generatedAt": "2026-08-31T11:50:27.788Z"
     },
     {
       "venueId": "icwsm",
@@ -13421,7 +13533,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:32.210Z"
+      "generatedAt": "2026-08-31T11:52:14.006Z"
     },
     {
       "venueId": "ieee-bsn",
@@ -13505,7 +13617,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T21:40:41.334Z"
+      "generatedAt": "2026-08-31T11:50:30.637Z"
     },
     {
       "venueId": "ihci",
@@ -13605,7 +13717,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:25:09.888Z"
+      "generatedAt": "2026-08-31T11:51:08.470Z"
     },
     {
       "venueId": "ijcv-springer",
@@ -13703,42 +13815,46 @@
       "venueId": "inlg",
       "startYear": 2023,
       "endYear": 2025,
-      "paperCount": 191,
+      "paperCount": 309,
       "themes": [
         {
           "label": "language & conversational systems",
-          "count": 100
+          "count": 153
         },
         {
           "label": "AI & machine learning",
-          "count": 48
+          "count": 68
         },
         {
           "label": "computer vision",
-          "count": 17
+          "count": 22
         },
         {
-          "label": "privacy, trust & security",
-          "count": 6
+          "label": "XR & multimodal interaction",
+          "count": 10
         },
         {
           "label": "affective computing",
-          "count": 4
+          "count": 8
+        },
+        {
+          "label": "privacy, trust & security",
+          "count": 7
+        },
+        {
+          "label": "health & assistive technology",
+          "count": 6
+        },
+        {
+          "label": "human–AI interaction",
+          "count": 5
         },
         {
           "label": "education & learning",
           "count": 2
         },
         {
-          "label": "human–AI interaction",
-          "count": 2
-        },
-        {
-          "label": "XR & multimodal interaction",
-          "count": 2
-        },
-        {
-          "label": "health & assistive technology",
+          "label": "robotics",
           "count": 1
         },
         {
@@ -13749,19 +13865,27 @@
       "methods": [
         {
           "label": "LLM or generative AI",
-          "count": 45
-        },
-        {
-          "label": "controlled experiment",
-          "count": 25
+          "count": 64
         },
         {
           "label": "prototype or system",
-          "count": 20
+          "count": 39
+        },
+        {
+          "label": "controlled experiment",
+          "count": 34
         },
         {
           "label": "dataset or benchmark",
           "count": 13
+        },
+        {
+          "label": "multimodal modeling",
+          "count": 11
+        },
+        {
+          "label": "case study",
+          "count": 5
         },
         {
           "label": "survey or review",
@@ -13772,11 +13896,7 @@
           "count": 5
         },
         {
-          "label": "case study",
-          "count": 4
-        },
-        {
-          "label": "multimodal modeling",
+          "label": "deep learning",
           "count": 3
         },
         {
@@ -13785,7 +13905,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:35.822Z"
+      "generatedAt": "2026-08-31T11:50:31.713Z"
     },
     {
       "venueId": "iui",
@@ -13881,7 +14001,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:08.069Z"
+      "generatedAt": "2026-08-31T11:51:24.891Z"
     },
     {
       "venueId": "j-acm-tist",
@@ -22409,7 +22529,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:03.868Z"
+      "generatedAt": "2026-08-31T11:51:17.707Z"
     },
     {
       "venueId": "mrl",
@@ -22493,7 +22613,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:33.517Z"
+      "generatedAt": "2026-08-31T11:52:14.656Z"
     },
     {
       "venueId": "nca-springer",
@@ -22689,7 +22809,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-29T14:38:31.066Z"
+      "generatedAt": "2026-08-31T11:50:35.844Z"
     },
     {
       "venueId": "nldl",
@@ -22757,7 +22877,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-29T14:38:38.055Z"
+      "generatedAt": "2026-08-31T11:50:40.075Z"
     },
     {
       "venueId": "nllp",
@@ -22809,7 +22929,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:52.870Z"
+      "generatedAt": "2026-08-31T11:50:59.383Z"
     },
     {
       "venueId": "philosophy-and-technology",
@@ -22901,7 +23021,7 @@
         }
       ],
       "extractionEvidence": "title-and-abstract",
-      "generatedAt": "2026-08-02T21:45:10.060Z"
+      "generatedAt": "2026-08-31T11:51:38.903Z"
     },
     {
       "venueId": "sigmod",
@@ -22973,7 +23093,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:23:07.926Z"
+      "generatedAt": "2026-08-31T11:50:43.592Z"
     },
     {
       "venueId": "taai",
@@ -23057,7 +23177,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T21:39:41.972Z"
+      "generatedAt": "2026-08-31T11:50:49.836Z"
     },
     {
       "venueId": "tpami",
@@ -23189,7 +23309,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:53.270Z"
+      "generatedAt": "2026-08-31T11:50:59.513Z"
     },
     {
       "venueId": "wacv",
@@ -23289,7 +23409,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:28.315Z"
+      "generatedAt": "2026-08-31T11:52:09.852Z"
     },
     {
       "venueId": "watch-acm-org-cikm",
@@ -23381,7 +23501,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-29T14:38:44.344Z"
+      "generatedAt": "2026-08-31T11:50:55.941Z"
     },
     {
       "venueId": "wmt",
@@ -23449,7 +23569,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:54.649Z"
+      "generatedAt": "2026-08-31T11:50:59.879Z"
     },
     {
       "venueId": "woah",
@@ -23517,7 +23637,7 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:13:55.297Z"
+      "generatedAt": "2026-08-31T11:51:00.179Z"
     },
     {
       "venueId": "wsdm",
@@ -23617,25 +23737,85 @@
         }
       ],
       "extractionEvidence": "title-only",
-      "generatedAt": "2026-08-02T19:14:12.458Z"
+      "generatedAt": "2026-08-31T11:51:32.951Z"
     }
   ],
   "runs": [
     {
       "venueId": "aamas",
       "state": "complete",
-      "startedAt": "2026-08-29T14:38:13.294Z",
-      "finishedAt": "2026-08-29T14:38:26.729Z",
+      "startedAt": "2026-08-31T11:49:45.109Z",
+      "finishedAt": "2026-08-31T11:49:51.852Z",
       "providerStatus": {
         "dblp": "complete",
         "openalex": "OPENALEX_API_KEY is not configured"
       }
     },
     {
+      "venueId": "bnaic-benelearn",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:49:51.852Z",
+      "finishedAt": "2026-08-31T11:50:00.477Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "chi",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:00.477Z",
+      "finishedAt": "2026-08-31T11:50:08.153Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "dai",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:08.153Z",
+      "finishedAt": "2026-08-31T11:50:16.098Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "icassp",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:16.098Z",
+      "finishedAt": "2026-08-31T11:50:27.788Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "ieee-bsn",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:27.788Z",
+      "finishedAt": "2026-08-31T11:50:30.637Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "inlg",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:30.637Z",
+      "finishedAt": "2026-08-31T11:50:31.713Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
       "venueId": "neurips",
       "state": "complete",
-      "startedAt": "2026-08-29T14:38:26.729Z",
-      "finishedAt": "2026-08-29T14:38:31.066Z",
+      "startedAt": "2026-08-31T11:50:31.713Z",
+      "finishedAt": "2026-08-31T11:50:35.844Z",
       "providerStatus": {
         "dblp": "complete",
         "openalex": "OPENALEX_API_KEY is not configured"
@@ -23644,8 +23824,28 @@
     {
       "venueId": "nldl",
       "state": "complete",
-      "startedAt": "2026-08-29T14:38:31.066Z",
-      "finishedAt": "2026-08-29T14:38:38.055Z",
+      "startedAt": "2026-08-31T11:50:35.844Z",
+      "finishedAt": "2026-08-31T11:50:40.075Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "sigmod",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:40.075Z",
+      "finishedAt": "2026-08-31T11:50:43.592Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "taai",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:43.592Z",
+      "finishedAt": "2026-08-31T11:50:49.836Z",
       "providerStatus": {
         "dblp": "complete",
         "openalex": "OPENALEX_API_KEY is not configured"
@@ -23654,8 +23854,855 @@
     {
       "venueId": "watch-acm-org-cikm",
       "state": "complete",
-      "startedAt": "2026-08-29T14:38:38.055Z",
-      "finishedAt": "2026-08-29T14:38:44.344Z",
+      "startedAt": "2026-08-31T11:50:49.836Z",
+      "finishedAt": "2026-08-31T11:50:55.941Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "acm-csur",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:45.110Z",
+      "finishedAt": "2026-08-31T11:49:45.851Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "eswa-elsevier",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:45.110Z",
+      "finishedAt": "2026-08-31T11:49:46.545Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "ijcv-springer",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:45.851Z",
+      "finishedAt": "2026-08-31T11:49:47.946Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-acm-tist",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:46.545Z",
+      "finishedAt": "2026-08-31T11:49:48.649Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-acm-tkdd",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:47.946Z",
+      "finishedAt": "2026-08-31T11:49:50.048Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-acm-tois",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:48.649Z",
+      "finishedAt": "2026-08-31T11:49:50.749Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-acm-trs",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:50.048Z",
+      "finishedAt": "2026-08-31T11:49:52.151Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-ai-open",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:50.750Z",
+      "finishedAt": "2026-08-31T11:49:52.854Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-artificial-intelligence",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:52.151Z",
+      "finishedAt": "2026-08-31T11:49:54.255Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-artificial-intelligence-in-agriculture",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:52.854Z",
+      "finishedAt": "2026-08-31T11:49:54.953Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-artificial-intelligence-in-geosciences",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:54.255Z",
+      "finishedAt": "2026-08-31T11:49:56.354Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-artificial-intelligence-in-medicine",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:54.953Z",
+      "finishedAt": "2026-08-31T11:49:57.054Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-artificial-intelligence-in-the-life-sciences",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:56.355Z",
+      "finishedAt": "2026-08-31T11:49:58.459Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-asoc",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:57.054Z",
+      "finishedAt": "2026-08-31T11:49:59.164Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-biomimetic-intelligence-and-robotics",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:58.459Z",
+      "finishedAt": "2026-08-31T11:50:00.561Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-computer-science-review",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:49:59.164Z",
+      "finishedAt": "2026-08-31T11:50:01.261Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-computers-and-education-artificial-intelligence",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:00.561Z",
+      "finishedAt": "2026-08-31T11:50:02.663Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-electronic-commerce-research-and-applications",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:01.261Z",
+      "finishedAt": "2026-08-31T11:50:05.820Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-engineering-applications-of-artificial-intelligence",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:02.663Z",
+      "finishedAt": "2026-08-31T11:50:03.710Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-future-generation-computer-systems",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:03.710Z",
+      "finishedAt": "2026-08-31T11:50:05.114Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-high-confidence-computing",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:05.114Z",
+      "finishedAt": "2026-08-31T11:50:07.218Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-infofusion",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:05.820Z",
+      "finishedAt": "2026-08-31T11:50:07.921Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-information-sciences",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:07.218Z",
+      "finishedAt": "2026-08-31T11:50:09.323Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-information-systems",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:07.921Z",
+      "finishedAt": "2026-08-31T11:50:10.022Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-intelligent-medicine",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:09.323Z",
+      "finishedAt": "2026-08-31T11:50:11.423Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-intelligent-systems-with-applications",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:10.022Z",
+      "finishedAt": "2026-08-31T11:50:12.122Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-international-journal-of-artificial-intelligence-in-education",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:11.423Z",
+      "finishedAt": "2026-08-31T11:50:13.523Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-international-journal-of-cognitive-computing-in-engineering",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:12.122Z",
+      "finishedAt": "2026-08-31T11:50:14.231Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-international-journal-of-critical-infrastructure-protection",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:13.523Z",
+      "finishedAt": "2026-08-31T11:50:15.629Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-international-journal-of-intelligent-networks",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:14.231Z",
+      "finishedAt": "2026-08-31T11:50:16.689Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-journal-of-computational-mathematics-and-data-science",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:15.629Z",
+      "finishedAt": "2026-08-31T11:50:17.380Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-journal-of-computational-science",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:16.689Z",
+      "finishedAt": "2026-08-31T11:50:18.778Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-journal-of-information-security-and-applications",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:17.380Z",
+      "finishedAt": "2026-08-31T11:50:19.479Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-journal-of-parallel-and-distributed-computing",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:18.778Z",
+      "finishedAt": "2026-08-31T11:50:20.881Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-journal-of-systems-and-software",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:19.479Z",
+      "finishedAt": "2026-08-31T11:50:21.585Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-journal-of-systems-architecture",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:20.881Z",
+      "finishedAt": "2026-08-31T11:50:22.984Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-knowledge-based-systems",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:21.585Z",
+      "finishedAt": "2026-08-31T11:50:23.684Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-neural-networks",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:22.984Z",
+      "finishedAt": "2026-08-31T11:50:25.788Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-patternrecognition",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:23.684Z",
+      "finishedAt": "2026-08-31T11:50:25.089Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-pervasive-and-mobile-computing",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:25.089Z",
+      "finishedAt": "2026-08-31T11:50:27.187Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-systems-and-soft-computing",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:25.788Z",
+      "finishedAt": "2026-08-31T11:50:27.887Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-elsevier-telematics-and-informatics-reports",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:27.187Z",
+      "finishedAt": "2026-08-31T11:50:29.286Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-access",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:27.887Z",
+      "finishedAt": "2026-08-31T11:50:29.987Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-jbhi",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:29.287Z",
+      "finishedAt": "2026-08-31T11:50:31.414Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-taffc",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:29.987Z",
+      "finishedAt": "2026-08-31T11:50:32.094Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-tai",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:31.414Z",
+      "finishedAt": "2026-08-31T11:50:33.494Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-tbd",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:32.094Z",
+      "finishedAt": "2026-08-31T11:50:34.191Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-tcss",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:33.494Z",
+      "finishedAt": "2026-08-31T11:50:35.592Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-tcyb",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:34.191Z",
+      "finishedAt": "2026-08-31T11:50:36.296Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-tip",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:35.592Z",
+      "finishedAt": "2026-08-31T11:50:37.697Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-tkde",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:36.296Z",
+      "finishedAt": "2026-08-31T11:50:38.401Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-tnnls",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:37.697Z",
+      "finishedAt": "2026-08-31T11:50:39.798Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-tsc",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:38.401Z",
+      "finishedAt": "2026-08-31T11:50:40.498Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-ieee-tse",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:39.798Z",
+      "finishedAt": "2026-08-31T11:50:41.903Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-applsci",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:40.498Z",
+      "finishedAt": "2026-08-31T11:50:42.600Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-asi",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:41.903Z",
+      "finishedAt": "2026-08-31T11:50:44.000Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-bdcc",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:42.600Z",
+      "finishedAt": "2026-08-31T11:50:44.698Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-biomedinformatics",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:44.000Z",
+      "finishedAt": "2026-08-31T11:50:46.103Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-computers",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:44.698Z",
+      "finishedAt": "2026-08-31T11:50:46.811Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-electronics",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:46.103Z",
+      "finishedAt": "2026-08-31T11:50:48.205Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-forecasting",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:46.811Z",
+      "finishedAt": "2026-08-31T11:50:48.903Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-futureinternet",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:48.205Z",
+      "finishedAt": "2026-08-31T11:50:50.307Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-ijgi",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:48.903Z",
+      "finishedAt": "2026-08-31T11:50:51.010Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-informatics",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:50.307Z",
+      "finishedAt": "2026-08-31T11:50:52.412Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-iot",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:51.010Z",
+      "finishedAt": "2026-08-31T11:50:53.110Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-jcp",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:52.412Z",
+      "finishedAt": "2026-08-31T11:50:54.511Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-jimaging",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:53.110Z",
+      "finishedAt": "2026-08-31T11:50:55.210Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-jsan",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:54.511Z",
+      "finishedAt": "2026-08-31T11:50:56.612Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-jtaer",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:55.210Z",
+      "finishedAt": "2026-08-31T11:50:58.876Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-make",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:56.612Z",
+      "finishedAt": "2026-08-31T11:50:59.956Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-mathematics",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:58.876Z",
+      "finishedAt": "2026-08-31T11:50:59.255Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-mti",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:59.255Z",
+      "finishedAt": "2026-08-31T11:51:01.358Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-network",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:50:59.956Z",
+      "finishedAt": "2026-08-31T11:51:02.059Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-robotics",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:01.358Z",
+      "finishedAt": "2026-08-31T11:51:03.461Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-sensors",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:02.059Z",
+      "finishedAt": "2026-08-31T11:51:04.513Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-smartcities",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:03.461Z",
+      "finishedAt": "2026-08-31T11:51:05.214Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-systems",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:04.513Z",
+      "finishedAt": "2026-08-31T11:51:06.615Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-technologies",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:05.214Z",
+      "finishedAt": "2026-08-31T11:51:07.316Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-mdpi-virtualworlds",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:06.615Z",
+      "finishedAt": "2026-08-31T11:51:08.715Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-nature-machine-intelligence",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:07.316Z",
+      "finishedAt": "2026-08-31T11:51:09.419Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-springer-air",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:08.715Z",
+      "finishedAt": "2026-08-31T11:51:10.820Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-springer-applied-intelligence",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:09.419Z",
+      "finishedAt": "2026-08-31T11:51:11.522Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-springer-dmkd",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:10.820Z",
+      "finishedAt": "2026-08-31T11:51:12.919Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-springer-ijmlc",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:11.522Z",
+      "finishedAt": "2026-08-31T11:51:13.622Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-springer-mlj",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:12.919Z",
+      "finishedAt": "2026-08-31T11:51:15.021Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-tf-connection-science",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:13.622Z",
+      "finishedAt": "2026-08-31T11:51:15.720Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-tf-ijcm",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:15.021Z",
+      "finishedAt": "2026-08-31T11:51:17.124Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-tf-ijgs",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:15.720Z",
+      "finishedAt": "2026-08-31T11:51:17.826Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-tf-ijss",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:17.124Z",
+      "finishedAt": "2026-08-31T11:51:19.228Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-wiley-ai-magazine",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:17.826Z",
+      "finishedAt": "2026-08-31T11:51:19.929Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-wiley-aisy",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:19.228Z",
+      "finishedAt": "2026-08-31T11:51:21.330Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-wiley-cgf",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:19.929Z",
+      "finishedAt": "2026-08-31T11:51:22.033Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-wiley-computational-intelligence",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:21.330Z",
+      "finishedAt": "2026-08-31T11:51:23.432Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-wiley-ima",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:22.033Z",
+      "finishedAt": "2026-08-31T11:51:24.134Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-wiley-isj",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:23.432Z",
+      "finishedAt": "2026-08-31T11:51:25.534Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-wiley-jcal",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:24.134Z",
+      "finishedAt": "2026-08-31T11:51:26.237Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-wiley-nem",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:25.534Z",
+      "finishedAt": "2026-08-31T11:51:27.635Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-wiley-spe",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:26.237Z",
+      "finishedAt": "2026-08-31T11:51:28.335Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "j-wiley-stvr",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:27.635Z",
+      "finishedAt": "2026-08-31T11:51:29.736Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "nca-springer",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:28.335Z",
+      "finishedAt": "2026-08-31T11:51:30.439Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "tpami",
+      "state": "failed",
+      "startedAt": "2026-08-31T11:51:29.736Z",
+      "finishedAt": "2026-08-31T11:51:31.840Z",
+      "error": "Crossref request failed (HTTP 400)."
+    },
+    {
+      "venueId": "arabicnlp",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:55.941Z",
+      "finishedAt": "2026-08-31T11:50:56.393Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "babylm",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:56.393Z",
+      "finishedAt": "2026-08-31T11:50:56.673Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "blackboxnlp",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:56.673Z",
+      "finishedAt": "2026-08-31T11:50:58.972Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "gebnlp",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:58.972Z",
+      "finishedAt": "2026-08-31T11:50:59.103Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "nllp",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:59.103Z",
+      "finishedAt": "2026-08-31T11:50:59.383Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "uncertainlp",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:59.383Z",
+      "finishedAt": "2026-08-31T11:50:59.513Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "wmt",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:59.513Z",
+      "finishedAt": "2026-08-31T11:50:59.879Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "woah",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:50:59.879Z",
+      "finishedAt": "2026-08-31T11:51:00.179Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "ihci",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:51:00.179Z",
+      "finishedAt": "2026-08-31T11:51:08.470Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "kdd",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:51:08.470Z",
+      "finishedAt": "2026-08-31T11:51:17.707Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "iui",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:51:17.707Z",
+      "finishedAt": "2026-08-31T11:51:24.891Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "wsdm",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:51:24.891Z",
+      "finishedAt": "2026-08-31T11:51:32.951Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "facct",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:51:32.951Z",
+      "finishedAt": "2026-08-31T11:51:42.459Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "icaif",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:51:42.459Z",
+      "finishedAt": "2026-08-31T11:52:02.833Z",
       "providerStatus": {
         "dblp": "complete",
         "openalex": "OPENALEX_API_KEY is not configured"
@@ -23664,8 +24711,88 @@
     {
       "venueId": "eacl",
       "state": "complete",
-      "startedAt": "2026-08-29T14:38:44.344Z",
-      "finishedAt": "2026-08-29T14:38:51.481Z",
+      "startedAt": "2026-08-31T11:52:02.833Z",
+      "finishedAt": "2026-08-31T11:52:06.434Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "wacv",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:52:06.434Z",
+      "finishedAt": "2026-08-31T11:52:09.852Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "icwsm",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:52:09.852Z",
+      "finishedAt": "2026-08-31T11:52:14.006Z",
+      "providerStatus": {
+        "dblp": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "ai-and-ethics",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:51:30.439Z",
+      "finishedAt": "2026-08-31T11:51:34.643Z",
+      "providerStatus": {
+        "crossref-journal": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "ai-and-society",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:51:31.840Z",
+      "finishedAt": "2026-08-31T11:51:36.187Z",
+      "providerStatus": {
+        "crossref-journal": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "philosophy-and-technology",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:51:34.643Z",
+      "finishedAt": "2026-08-31T11:51:38.903Z",
+      "providerStatus": {
+        "crossref-journal": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "finnlp",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:52:14.006Z",
+      "finishedAt": "2026-08-31T11:52:14.274Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "mrl",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:52:14.274Z",
+      "finishedAt": "2026-08-31T11:52:14.656Z",
+      "providerStatus": {
+        "acl-anthology": "complete",
+        "openalex": "OPENALEX_API_KEY is not configured"
+      }
+    },
+    {
+      "venueId": "dasip",
+      "state": "complete",
+      "startedAt": "2026-08-31T11:52:14.656Z",
+      "finishedAt": "2026-08-31T11:52:18.345Z",
       "providerStatus": {
         "dblp": "complete",
         "openalex": "OPENALEX_API_KEY is not configured"

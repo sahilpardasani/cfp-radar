@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-29T14:38:51.512Z",
+  "updatedAt": "2026-08-31T11:52:18.486Z",
   "venues": [
     {
       "id": "aamas",
@@ -51,7 +51,7 @@
         "status": "verified",
         "mode": "source-indexed",
         "maxPapersPerYear": null,
-        "paperCount": 831,
+        "paperCount": 977,
         "editionCount": 2,
         "startYear": 2024,
         "endYear": 2025,
@@ -317,7 +317,7 @@
         "status": "verified",
         "mode": "source-indexed",
         "maxPapersPerYear": null,
-        "paperCount": 191,
+        "paperCount": 309,
         "editionCount": 3,
         "startYear": 2023,
         "endYear": 2025,
